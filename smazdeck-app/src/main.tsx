@@ -20,6 +20,15 @@ import TechTreePage from './pages/TechTreePage';
 import TraitsPage from './pages/TraitsPage';
 import NotFoundPage from './pages/NotFoundPage';
 
+// Get the base path for GitHub Pages deployment
+const getBasePath = () => {
+  // Check if we're in production and on GitHub Pages
+  if (import.meta.env.PROD && window.location.hostname === 'biocyd3.github.io') {
+    return '/smazdeck-survival-guide';
+  }
+  return '';
+};
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -45,7 +54,9 @@ const router = createBrowserRouter([
       { path: '*', element: <NotFoundPage /> }, // Handles any other path
     ],
   },
-]);
+], {
+  basename: getBasePath()
+});
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
