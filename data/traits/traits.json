@@ -1,0 +1,501 @@
+{
+	"traits": {
+		"note": "S-tier (N/A)*: Not generally available, but on extremely rare occasions can appear on UR-Smazmons from egg hatches or wild catches.",
+		"battle_traits": {
+			"offensive": [
+				{
+					"description": "Attack",
+					"tiers": [
+						{
+							"tier": "S",
+							"name": "Warlike",
+							"value": "10%"
+						}, {
+							"tier": "A",
+							"name": "Belligerent",
+							"value": "7%"
+						}, {
+							"tier": "B",
+							"name": "Combative",
+							"value": "4%"
+						}, {
+							"tier": "C",
+							"name": "Hostile",
+							"value": null
+						}
+					]
+				}, {
+					"description": "Crit Damage",
+					"tiers": [
+						{
+							"tier": "S",
+							"name": "Heartless",
+							"value": "15%"
+						}, {
+							"tier": "A",
+							"name": "Ruthless",
+							"value": "8%"
+						}, {
+							"tier": "B",
+							"name": "Brutal",
+							"value": "4%"
+						}, {
+							"tier": "C",
+							"name": "Mean",
+							"value": "3%"
+						}
+					]
+				}, {
+					"description": "Crit Rate",
+					"tiers": [
+						{
+							"tier": "S",
+							"name": "Blessed",
+							"value": null
+						}, {
+							"tier": "A",
+							"name": "Fortunate",
+							"value": "5%"
+						}, {
+							"tier": "B",
+							"name": "Favored",
+							"value": "2.5%"
+						}, {
+							"tier": "C",
+							"name": "Lucky",
+							"value": "1.5%"
+						}
+					]
+				}, {
+					"description": "Accuracy",
+					"tiers": [
+						{
+							"tier": "S",
+							"name": "Deadeye",
+							"value": null
+						}, {
+							"tier": "A",
+							"name": "Sharpshooter",
+							"value": "5%"
+						}, {
+							"tier": "B",
+							"name": "Crack Shot",
+							"value": "2.5%"
+						}, {
+							"tier": "C",
+							"name": "Gunner",
+							"value": "1.5%"
+						}
+					]
+				}
+			],
+			"defensive": [
+				{
+					"description": "HP",
+					"tiers": [
+						{
+							"tier": "S",
+							"name": "Vigorous",
+							"value": "10%"
+						}, {
+							"tier": "A",
+							"name": "Robust",
+							"value": "7%"
+						}, {
+							"tier": "B",
+							"name": "Energetic",
+							"value": "4%"
+						}, {
+							"tier": "C",
+							"name": "Durable",
+							"value": null
+						}
+					]
+				},
+				{
+					"description": "Defense",
+					"tiers": [
+						{
+							"tier": "S",
+							"name": "Unshakeable",
+							"value": "10%"
+						}, {
+							"tier": "A",
+							"name": "Steadfast",
+							"value": "7%"
+						}, {
+							"tier": "B",
+							"name": "Resolute",
+							"value": "4%"
+						}, {
+							"tier": "C",
+							"name": "Rooted",
+							"value": null
+						}
+					]
+				},
+				{
+					"description": "Crit Defense",
+					"tiers": [
+						{
+							"tier": "S",
+							"name": "Diamond Skull",
+							"value": "15%"
+						}, {
+							"tier": "A",
+							"name": "Steel Skull",
+							"value": "8%"
+						}, {
+							"tier": "B",
+							"name": "Iron Skull",
+							"value": "4%"
+						}, {
+							"tier": "C",
+							"name": "Stone Skull",
+							"value": "3%"
+						}
+					]
+				},
+				{
+					"description": "Tenacity",
+					"tiers": [
+						{
+							"tier": "S",
+							"name": "Iron Will",
+							"value": "8%"
+						}, {
+							"tier": "A",
+							"name": "Unyielding",
+							"value": "5%"
+						}, {
+							"tier": "B",
+							"name": "Hardy",
+							"value": "2.5%"
+						}, {
+							"tier": "C",
+							"name": "Stubborn",
+							"value": "1.5%"
+						}
+					]
+				}, {
+					"description": "Evasion",
+					"tiers": [
+						{
+							"tier": "S",
+							"name": "Shadow",
+							"value": "8%"
+						}, {
+							"tier": "A",
+							"name": "Elusive",
+							"value": "5%"
+						}, {
+							"tier": "B",
+							"name": "Slippery",
+							"value": "2.5%"
+						}, {
+							"tier": "C",
+							"name": "Nimble",
+							"value": "1.5%"
+						}
+					]
+				}, {
+					"description": "Stun Resist",
+					"tiers": [
+						{
+							"tier": "S",
+							"name": "Serene",
+							"value": "12%"
+						}, {
+							"tier": "A",
+							"name": "Clear-Headed",
+							"value": "7%"
+						}, {
+							"tier": "B",
+							"name": "Steady",
+							"value": "5%"
+						}, {
+							"tier": "C",
+							"name": "Calm",
+							"value": null
+						}
+					]
+				}
+			]
+		},
+		"production_traits": [
+			{
+				"description": "Job Efficiency",
+				"tiers": [
+					{
+						"tier": "S",
+						"name": "Workaholic",
+						"value": "25%"
+					}, {
+						"tier": "A",
+						"name": "Industrious",
+						"value": null
+					}, {
+						"tier": "B",
+						"name": "Diligent",
+						"value": "4%"
+					}, {
+						"tier": "C",
+						"name": "Efficient",
+						"value": null
+					}
+				]
+			},
+			{
+				"description": "Move Speed",
+				"tiers": [
+					{
+						"tier": "S",
+						"name": "Lightspeed",
+						"value": "15%"
+					}, {
+						"tier": "A",
+						"name": "Supersonic",
+						"value": "10%"
+					}, {
+						"tier": "B",
+						"name": "Fleet-Footed",
+						"value": "5%"
+					}, {
+						"tier": "C",
+						"name": "Speedy",
+						"value": "3%"
+					}
+				]
+			},
+			{
+				"description": "Charging Output",
+				"tiers": [
+					{
+						"tier": "S",
+						"name": "Electric Frenzy",
+						"value": "30%"
+					}, {
+						"tier": "A",
+						"name": "Lightning Affinity",
+						"value": "10%"
+					}, {
+						"tier": "B",
+						"name": "Battery Pack",
+						"value": "5%"
+					}, {
+						"tier": "C",
+						"name": "E-Conductor",
+						"value": "3%"
+					}
+				]
+			},
+			{
+				"description": "Smelting Output",
+				"tiers": [
+					{
+						"tier": "S",
+						"name": "Metal Maestro",
+						"value": "30%"
+					}, {
+						"tier": "A",
+						"name": "Forge Fanatic",
+						"value": "30%"
+					}, {
+						"tier": "B",
+						"name": "Bellow Fellow",
+						"value": "10%"
+					}, {
+						"tier": "C",
+						"name": "Anvil Adept",
+						"value": "5%"
+					}
+				]
+			}, {
+				"description": "Sawing Output",
+				"tiers": [
+					{
+						"tier": "S",
+						"name": "Timber Tycoon",
+						"value": null
+					}, {
+						"tier": "A",
+						"name": "Wood Whiz",
+						"value": null
+					}, {
+						"tier": "B",
+						"name": "Saw Savant",
+						"value": "10%"
+					}, {
+						"tier": "C",
+						"name": "Workshopper",
+						"value": "5%"
+					}
+				]
+			}, {
+				"description": "Magicking Output",
+				"tiers": [
+					{
+						"tier": "A",
+						"name": "Alchemist",
+						"value": "5%"
+					}, {
+						"tier": "B",
+						"name": "Alchemist",
+						"value": "2%"
+					}
+				]
+			}, {
+				"description": "Dreamium Output",
+				"tiers": [
+					{
+						"tier": "A",
+						"name": "Dreamium Hunter",
+						"value": "5%"
+					}, {
+						"tier": "B",
+						"name": "Dreamium Hunter",
+						"value": "2%"
+					}
+				]
+			}, {
+				"description": "Energy Depletion",
+				"tiers": [
+					{
+						"tier": "A",
+						"name": "Caffeinated",
+						"value": "50%"
+					}, {
+						"tier": "B",
+						"name": "Caffeinated",
+						"value": "25%"
+					}, {
+						"tier": "C",
+						"name": "Caffeinated",
+						"value": "10%"
+					}
+				]
+			}, {
+				"description": "Hunger Depletion",
+				"tiers": [
+					{
+						"tier": "A",
+						"name": "Light Eater",
+						"value": "50%"
+					}, {
+						"tier": "B",
+						"name": "Light Eater",
+						"value": "25%"
+					}, {
+						"tier": "C",
+						"name": "Light Eater",
+						"value": "10%"
+					}
+				]
+			}, {
+				"description": "Food Consumption",
+				"tiers": [
+					{
+						"tier": "A",
+						"name": "Temperate",
+						"value": "50%"
+					}, {
+						"tier": "B",
+						"name": "Temperate",
+						"value": "25%"
+					}, {
+						"tier": "C",
+						"name": "Temperate",
+						"value": "10%"
+					}
+				]
+			}, {
+				"description": "Bed EXP",
+				"tiers": [
+					{
+						"tier": "A",
+						"name": "Sweet Dreams",
+						"value": "15%"
+					}, {
+						"tier": "B",
+						"name": "Sweet Dreams",
+						"value": "10%"
+					}, {
+						"tier": "C",
+						"name": "Sweet Dreams",
+						"value": "5%"
+					}
+				]
+			}, {
+				"description": "Bed EXP per second",
+				"tiers": [
+					{
+						"tier": "A",
+						"name": "Comfy",
+						"value": "+3 exp"
+					}, {
+						"tier": "B",
+						"name": "Comfy",
+						"value": "+2 exp"
+					}, {
+						"tier": "C",
+						"name": "Comfy",
+						"value": "+1 exp"
+					}
+				]
+			}, {
+				"description": "Construction Timer Reduction",
+				"tiers": [
+					{
+						"tier": "A",
+						"name": "Engineer",
+						"value": "120s"
+					}
+				]
+			}, {
+				"description": "Research Timer Reduction",
+				"tiers": [
+					{
+						"tier": "A",
+						"name": "Prodigy",
+						"value": "120s"
+					}
+				]
+			}, {
+				"description": "Training Timer Reduction",
+				"tiers": [
+					{
+						"tier": "A",
+						"name": "Coach",
+						"value": "4%"
+					}, {
+						"tier": "B",
+						"name": "Coach",
+						"value": "2%"
+					}
+				]
+			}, {
+				"description": "Healing Timer Reduction",
+				"tiers": [
+					{
+						"tier": "A",
+						"name": "Healing Touch",
+						"value": "4%"
+					}, {
+						"tier": "B",
+						"name": "Healing Touch",
+						"value": "2%"
+					}
+				]
+			}, {
+				"description": "Dismiss Reward",
+				"tiers": [
+					{
+						"tier": "A",
+						"name": "Generous",
+						"value": null
+					}
+				]
+			}
+		]
+	}
+}

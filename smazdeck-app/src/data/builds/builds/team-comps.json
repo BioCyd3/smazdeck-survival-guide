@@ -1,0 +1,214 @@
+{
+  "team_composition_guide": [
+    {
+      "name": "The Unbreakable Wall",
+      "strategy_simple": "Outlast your opponent by being incredibly hard to kill, then win with chip damage or control.",
+      "strategy_complex": "This composition layers multiple defensive buffs and debuffs to achieve near-invincibility. Statchew's 'Sentinel' and 'Protective Roar' provide team-wide and enemy-specific damage mitigation. Platyputz adds another layer with its personal 'Blunt Sense' damage reduction and the life-saving 'Bubble Shield' for the most vulnerable ally. The goal is to absorb the enemy's initial assault and win a war of attrition as their key threats are neutralized by CC or slowly worn down.",
+      "core_Smazs": [
+        {
+          "name": "Statchew",
+          "reason": "The cornerstone of defense, providing -20% damage taken to the front row and reducing enemy damage output by 13.5%."
+        },
+        {
+          "name": "Platyputz",
+          "reason": "Offers personal damage reduction (-20%) and a crucial shield to save allies, preventing focused fire from succeeding."
+        }
+      ],
+      "flex_slots": [
+        {
+          "name": "Dolphriend",
+          "reason": "Adds a massive HP pool (+30% from 'Tidal Guard') and a powerful stun ('Rush Wave') for offensive pressure and control."
+        },
+        {
+          "name": "Snowkami",
+          "reason": "Provides excellent crowd control with 'Glacial Howl' (Freeze), further reducing incoming damage by disabling a key threat."
+        },
+        {
+          "name": "Fingenue",
+          "reason": "Adds another layer of damage reduction with 'Rejuvenate,' which can protect a backline Smaz or further bolster the frontline."
+        }
+      ],
+      "example_composition": {
+        "frontline_1": "Statchew",
+        "frontline_2": "Dolphriend",
+        "backline_1": "Platyputz",
+        "backline_2": "Snowkami",
+        "backline_3": "Fingenue"
+      },
+      "key_traits": {
+        "tanks": "Robust (HP 7%), Steadfast (Def 7%), Steel Skull (Crit Def 8%), Unyielding (Tenacity 5%). Vigorous (HP 10%) on Platyputz to scale its shield.",
+        "support": "Defensive traits are prioritized to ensure their survival and continued support.",
+        "dps": "N/A for this pure stall build, but if a DPS is flexed in, use Belligerent, Ruthless, Fortunate."
+      },
+      "weaknesses": "Susceptible to teams with heavy debuffs, especially defense reduction (like a Barkplug team), which can bypass some of the mitigation. Also struggles against extreme burst damage that can one-shot a Smaz before shields or buffs can be applied. Can lack the damage to finish off other tanky teams."
+    },
+    {
+      "name": "Alpha Strike Nuke Squad",
+      "strategy_simple": "Delete the enemy's most important Smaz in the first few seconds of the fight.",
+      "strategy_complex": "This is a hyper-offensive 'glass cannon' strategy. The entire team is built around enabling one massive, overwhelming attack. Barkplug applies 'Ion Disruption' (-20% Enemy DEF) to the entire enemy team. Flaries can use 'Heating Up' (+60% ATK) on itself, or Meowdame can provide 'Starlight Blessing' (+20% DMG) to an ally. This setup allows Magmolin's 'Lava Shock' (2775% DMG) or Oneirina's 'Torment' (2590% DMG) to hit for absurd, fight-ending numbers on a single target. The win condition is securing a 5v4 advantage immediately.",
+      "core_Smazs": [
+        {
+          "name": "Barkplug",
+          "reason": "Essential for its team-wide 20% defense reduction ('Ion Disruption'), which is the single largest damage multiplier available."
+        },
+        {
+          "name": "Magmolin",
+          "reason": "The primary finisher with the highest single-target damage skill in the game, 'Lava Shock' (2775%)."
+        }
+      ],
+      "flex_slots": [
+        {
+          "name": "Oneirina",
+          "reason": "An alternative or secondary nuker. 'Torment' deals massive damage and applies a vulnerability debuff, which stacks with Barkplug's shred."
+        },
+        {
+          "name": "Flaries",
+          "reason": "Provides a massive +60% ATK self-buff, turning itself into a powerful nuker."
+        },
+        {
+          "name": "Meowdame",
+          "reason": "Offers a potential +20% damage buff to a random ally. High-risk, high-reward support that can push the nuke's damage even higher if it lands on Magmolin."
+        }
+      ],
+      "example_composition": {
+        "frontline_1": "Barkplug",
+        "frontline_2": "Magmolin",
+        "backline_1": "Oneirina",
+        "backline_2": "Flaries",
+        "backline_3": "A tank like Statchew to buy a few seconds of time."
+      },
+      "key_traits": {
+        "tanks": "If a tank is used, full defensive traits (Robust, Steadfast).",
+        "support": "Belligerent on Barkplug to maximize its own damage contribution.",
+        "dps": "Warlike/Belligerent (Attack), Heartless/Ruthless (Crit Damage). Sharpshooter (Accuracy) is crucial for multi-hit nukers."
+      },
+      "weaknesses": "Extremely vulnerable to crowd control (stuns, freezes) that can interrupt the combo. If the initial nuke fails to kill a key target or is absorbed by a shield (from Platyputz), the team often lacks the survivability to win a prolonged fight."
+    },
+    {
+      "name": "AOE Cleave Crew",
+      "strategy_simple": "Survive the initial engagement, then wipe the entire enemy team at once with multiple area-of-effect ultimates.",
+      "strategy_complex": "This composition is designed to maximize damage across all enemy Smazs. The strategy involves using a strong frontline, led by Statchew, to absorb damage and buy time for the backline's Rage meters to fill. Once ready, the team unleashes a coordinated barrage of AOE skills like Finnabelle's 'Waterspout' (1803% AOE), Blazeal's 'Huuuah!' (1665% Line AOE), and Mantleray's 'Electric Burst' (1406% x3 AOE) to devastate the entire enemy formation.",
+      "core_Smazs": [
+        {
+          "name": "Statchew",
+          "reason": "Absolutely essential. The team needs to survive long enough to use their ultimates, and Statchew's damage mitigation is the best way to ensure this."
+        },
+        {
+          "name": "Finnabelle",
+          "reason": "Possesses one of the largest and most powerful AOE ultimates, 'Waterspout', capable of hitting the entire enemy team."
+        }
+      ],
+      "flex_slots": [
+        {
+          "name": "Blazeal",
+          "reason": "Provides a powerful line AOE that can hit both front and back rows, complementing Finnabelle's circular AOE."
+        },
+        {
+          "name": "Mantleray",
+          "reason": "'Electric Burst' is fantastic for spreading damage or focusing down a weakened group. The high crit rate adds consistency."
+        },
+        {
+          "name": "Surveilynx",
+          "reason": "'Shadow Step' provides a wide, fan-shaped AOE that is excellent for clearing out clumped enemies."
+        }
+      ],
+      "example_composition": {
+        "frontline_1": "Statchew",
+        "frontline_2": "Baboom (for tankiness and CC)",
+        "backline_1": "Finnabelle",
+        "backline_2": "Blazeal",
+        "backline_3": "Mantleray"
+      },
+      "key_traits": {
+        "tanks": "Full defensive traits: Robust, Steadfast, Steel Skull.",
+        "support": "N/A",
+        "dps": "Belligerent (Attack) is the most important trait to boost the base damage of all AOE skills. Sharpshooter for Mantleray."
+      },
+      "weaknesses": "Highly dependent on ultimate abilities. Teams with Paralyze (Barkplug, Abuzzinian) can shut this strategy down. Also vulnerable to single-target nuke teams that can eliminate one of the key AOE damage dealers before they can act."
+    },
+    {
+      "name": "Bruiser Brigade",
+      "strategy_simple": "A balanced, flexible team that controls the frontline with tanky, high-damage fighters.",
+      "strategy_complex": "This composition aims for a dominant frontline presence by using two top-tier bruisers. Baboom brings a +30% DEF buff, high damage, and a stun. Dolphriend brings a +30% HP buff, high damage, and another stun. Together, they create a frontline that is both incredibly durable and a major offensive threat. This solid core allows for a flexible backline, typically a strong ranged DPS, to deal damage safely. This is a well-rounded strategy that can adapt to many situations.",
+      "core_Smazs": [
+        {
+          "name": "Baboom",
+          "reason": "The quintessential hybrid. 'Nature's Gift' (+30% Def) and 'Power Strike' (2220% DMG + Stun) make it a perfect anchor."
+        },
+        {
+          "name": "Dolphriend",
+          "reason": "An offensive tank with a massive HP pool ('Tidal Guard') and a devastating, stunning ultimate ('Rush Wave')."
+        }
+      ],
+      "flex_slots": [
+        {
+          "name": "Mantleray",
+          "reason": "A premier backline DPS whose damage output is protected by the strong frontline."
+        },
+        {
+          "name": "Surveilynx",
+          "reason": "Another excellent backline DPS choice for its AOE capabilities."
+        },
+        {
+          "name": "Statchew",
+          "reason": "Can be subbed in for one of the bruisers to create a more defensive, traditional frontline if needed."
+        }
+      ],
+      "example_composition": {
+        "frontline_1": "Baboom",
+        "frontline_2": "Dolphriend",
+        "backline_1": "Mantleray",
+        "backline_2": "Lucidina (as a well-rounded support DPS)",
+        "backline_3": "Fingenue (for extra defensive support)"
+      },
+      "key_traits": {
+        "tanks": "A mix of offensive and defensive traits. Belligerent, Robust, and Steadfast are all excellent choices.",
+        "support": "Standard defensive traits.",
+        "dps": "Belligerent, Fortunate, Ruthless, Sharpshooter."
+      },
+      "weaknesses": "Can be worn down by teams with superior sustain or control. While balanced, it may lack the specialized power to break through an 'Unbreakable Wall' comp or out-damage a dedicated 'Nuke Squad'."
+    },
+    {
+      "name": "The Lockdown Artists",
+      "strategy_simple": "Win by disabling the enemy team with a constant barrage of crowd control effects like stuns and freezes.",
+      "strategy_complex": "This team's goal is to prevent the enemy from playing the game. It chains multiple crowd control abilities to keep key enemy Smazs disabled. Snowkami's 'Glacial Howl' provides a long freeze. Dolphriend's 'Rush Wave' and Baboom's 'Power Strike' offer reliable stuns. Barkplug's 'Overcharge' can add a crippling Paralyze. By staggering these ultimates, you can lock down an enemy Smaz for an extended period, allowing your damage dealer to eliminate them without retaliation.",
+      "core_Smazs": [
+        {
+          "name": "Snowkami",
+          "reason": "'Glacial Howl' has a 70% chance to Freeze for 2.5s, which is one of the strongest single-target disables."
+        },
+        {
+          "name": "Dolphriend",
+          "reason": "'Rush Wave' combines high damage with a 70% chance for a long 3s stun, making it a perfect follow-up or initiator."
+        }
+      ],
+      "flex_slots": [
+        {
+          "name": "Baboom",
+          "reason": "Adds another powerful stun to the chain, making the lockdown even more reliable."
+        },
+        {
+          "name": "Barkplug",
+          "reason": "The Paralyze from 'Overcharge' is devastating, as it prevents enemies from using their own ultimates to escape the CC chain."
+        },
+        {
+          "name": "Ninjump",
+          "reason": "An excellent DPS to include, as its multi-hit 'Strike Like a Waterfall' can unleash massive damage on a target that is guaranteed to be stationary."
+        }
+      ],
+      "example_composition": {
+        "frontline_1": "Dolphriend",
+        "frontline_2": "Baboom",
+        "backline_1": "Snowkami",
+        "backline_2": "Barkplug",
+        "backline_3": "Ninjump"
+      },
+      "key_traits": {
+        "tanks": "Robust and Steadfast to ensure they survive to use their CC ultimates.",
+        "support": "N/A",
+        "dps": "Belligerent and Sharpshooter are key for the designated finisher (like Ninjump) to maximize damage during the lockdown."
+      },
+      "weaknesses": "Highly reliant on landing CC effects. Smazs with high Tenacity (from the 'Unyielding' or 'Iron Will' traits) can shorten the CC duration and disrupt the chain. If the ultimates are mistimed, the window of opportunity closes quickly."
+    }
+  ]
+}

@@ -1,0 +1,1425 @@
+[
+  {
+    "name": "Fluff Static",
+    "skills": [
+      {
+        "skill_name": "Fluff Static",
+        "description": "Deals 208% damage to a single enemy.",
+        "ascension_effects": [
+          "Damage +15%",
+          "Damage +35%",
+          "Damage +50%",
+          "Damage +75%",
+          "Damage +100%"
+        ]
+      },
+      {
+        "skill_name": "Static Fluff",
+        "description": "Electricity output +35% when working a Charging job.",
+        "ascension_effects": [
+          "Output +3%",
+          "Output +6%",
+          "Output +9%",
+          "Output +12%",
+          "Output +15%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lendanear",
+    "skills": [
+      {
+        "skill_name": "TenderCare",
+        "description": "The kind-hearted Lendanear possesses magical healing powers. Healing speed +27% when working in a Hospital.",
+        "ascension_effects": [
+          "Healing Speed +2%",
+          "Healing Speed +4%",
+          "Healing Speed +6%",
+          "Healing Speed +8%",
+          "Healing Speed +12%"
+        ]
+      },
+      {
+        "skill_name": "Sturdy",
+        "description": "Gains +10% Total Attack, Defense, and HP.",
+        "ascension_effects": []
+      },
+      {
+        "skill_name": "Heart Blitz",
+        "description": "Deals 325% damage to a single enemy.",
+        "ascension_effects": [
+          "Damage +20%",
+          "Damage +45%",
+          "Damage +70%",
+          "Damage +100%",
+          "Damage +150%"
+        ]
+      },
+      {
+        "skill_name": "Nature's Blessing",
+        "description": "Crop output +35% when working a Planting job.",
+        "ascension_effects": [
+          "Output +3%",
+          "Output +6%",
+          "Output +9%",
+          "Output +12%",
+          "Output +15%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Blazeal",
+    "skills": [
+      {
+        "skill_name": "Huuuah!",
+        "description": "Blazeal charges up its energy then releases a wave of fireballs, dealing 1665% damage to all enemies in their path.",
+        "ascension_effects": [
+          "Damage +30%",
+          "Damage +70%",
+          "Damage +120%",
+          "Damage +185%",
+          "Damage +270%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Graffitty",
+    "skills": [
+      {
+        "skill_name": "Splash of Color",
+        "description": "A long-ranged attack that deals 960% damage to a single enemy.",
+        "ascension_effects": [
+          "Damage +15%",
+          "Damage +35%",
+          "Damage +50%",
+          "Damage +75%",
+          "Damage +100%"
+        ]
+      },
+      {
+        "skill_name": "Paintball",
+        "description": "Deals 208% damage to a single enemy.",
+        "ascension_effects": [
+          "Damage +15%",
+          "Damage +35%",
+          "Damage +50%",
+          "Damage +75%",
+          "Damage +100%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hoofrit",
+    "skills": [
+      {
+        "skill_name": "Hard-Horned",
+        "description": "Gains +30% max HP while in combat.",
+        "ascension_effects": ["HP +10%"]
+      },
+      {
+        "skill_name": "Fiery Charge",
+        "description": "Rams a single enemy, dealing 840.64% damage.",
+        "ascension_effects": [
+          "Damage +30%",
+          "Damage +70%",
+          "Damage +120%",
+          "Damage +185%",
+          "Damage +270%"
+        ]
+      },
+      {
+        "skill_name": "Promising",
+        "description": "Gains +20% Total Attack, Defense, and HP.",
+        "ascension_effects": []
+      },
+      {
+        "skill_name": "Blazing Volley",
+        "description": "Deals 2497.5% damage to the enemy's back row, with a 60% chance to stun targets for 2s.",
+        "ascension_effects": [
+          "Damage +30%",
+          "Damage +70%",
+          "Damage +120%",
+          "Damage +185%",
+          "Damage +270%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Thunderclawd",
+    "skills": [
+      {
+        "skill_name": "Claw",
+        "description": "Deals 525.4% damage to a single enemy.",
+        "ascension_effects": [
+          "Damage +30%",
+          "Damage +70%",
+          "Damage +120%",
+          "Damage +185%",
+          "Damage +270%"
+        ]
+      },
+      {
+        "skill_name": "Sturdy",
+        "description": "Gains +10% Total Attack, Defense, and HP.",
+        "ascension_effects": []
+      }
+    ]
+  },
+  {
+    "name": "Maximito",
+    "skills": [
+      {
+        "skill_name": "Elephantine Blessing",
+        "description": "The allied Smazmon with the lowest remaining HP takes -20% damage for the next 5s.",
+        "ascension_effects": [
+          "Damage Reduction +1.5%",
+          "Damage Reduction +3%",
+          "Damage Reduction +4.5%",
+          "Damage Reduction +6%",
+          "Damage Reduction +7.5%"
+        ]
+      },
+      {
+        "skill_name": "Big Little Builder",
+        "description": "When constructing a building, total construction time is reduced by 64 minutes.",
+        "ascension_effects": [
+          "Time Reduction +5m",
+          "Time Reduction +10m",
+          "Time Reduction +15m",
+          "Time Reduction +20m",
+          "Time Reduction +30m"
+        ]
+      },
+      {
+        "skill_name": "Trunk Slam",
+        "description": "Deals 325% damage to a single enemy.",
+        "ascension_effects": [
+          "Damage +20%",
+          "Damage +45%",
+          "Damage +70%",
+          "Damage +100%",
+          "Damage +150%"
+        ]
+      },
+      {
+        "skill_name": "Sturdy",
+        "description": "Gains +10% Total Attack, Defense, and HP.",
+        "ascension_effects": []
+      }
+    ]
+  },
+  {
+    "name": "Ninjump",
+    "skills": [
+      {
+        "skill_name": "Strike Like a Waterfall",
+        "description": "Flings 3 shuriken in a fan. Each shuriken deals 1248.75% damage.",
+        "ascension_effects": [
+          "Damage +30%",
+          "Damage +70%",
+          "Damage +120%",
+          "Damage +185%",
+          "Damage +270%"
+        ]
+      },
+      {
+        "skill_name": "Flow Like a River",
+        "description": "Slashes a single enemy multiple times with a ninjato, dealing a total of 525.4% damage.",
+        "ascension_effects": [
+          "Damage +30%",
+          "Damage +70%",
+          "Damage +120%",
+          "Damage +185%",
+          "Damage +270%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Flaries",
+    "skills": [
+      {
+        "skill_name": "Heating Up",
+        "description": "Gains +60% Attack for 9s.",
+        "ascension_effects": [
+          "Damage +5%",
+          "Duration +1s",
+          "Damage +10%",
+          "Duration +1s",
+          "Damage +20%"
+        ]
+      },
+      {
+        "skill_name": "Flamewing Dive",
+        "description": "Deals 1375% damage to all enemies in a straight line.",
+        "ascension_effects": [
+          "Damage +20%",
+          "Damage +45%",
+          "Damage +70%",
+          "Damage +100%",
+          "Damage +150%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Surveilynx",
+    "skills": [
+      {
+        "skill_name": "Shadow Step",
+        "description": "Surveilynx teleports to 3 nearby spots, dealing 1387.5% damage to all enemies in a fan.",
+        "ascension_effects": [
+          "Damage +30%",
+          "Damage +70%",
+          "Damage +120%",
+          "Damage +185%",
+          "Damage +270%"
+        ]
+      },
+      {
+        "skill_name": "Snap Shot",
+        "description": "A long-ranged attack that deals 341.51% damage to a single enemy.",
+        "ascension_effects": [
+          "Damage +30%",
+          "Damage +70%",
+          "Damage +120%",
+          "Damage +185%",
+          "Damage +270%"
+        ]
+      },
+      {
+        "skill_name": "Elite Drills",
+        "description": "Surveilynx can Quick Train up to 1000 Armigo per day. Your Armigo gain +20% Attack when defending your Camp.",
+        "ascension_effects": [
+          "Armigo Attack +2%",
+          "Armigo Attack +4%",
+          "Armigo Attack +6%",
+          "Armigo Attack +8%",
+          "Armigo Attack +10%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Emboa",
+    "skills": [
+      {
+        "skill_name": "Recycling",
+        "description": "Steel output +35% when working a Smelting job.",
+        "ascension_effects": [
+          "Output +3%",
+          "Output +6%",
+          "Output +9%",
+          "Output +12%",
+          "Output +15%"
+        ]
+      },
+      {
+        "skill_name": "Fireball",
+        "description": "Shoots a fireball at a single enemy target, dealing 325% damage.",
+        "ascension_effects": [
+          "Damage +20%",
+          "Damage +45%",
+          "Damage +70%",
+          "Damage +100%",
+          "Damage +150%"
+        ]
+      },
+      {
+        "skill_name": "Scorching Sweep",
+        "description": "Deals 924% damage to all enemies in a fan and inflicts Burn, dealing 40% damage per second for 7s.",
+        "ascension_effects": [
+          "Damage +20%",
+          "Burn Damage +100%",
+          "Damage +50%",
+          "Burn duration increased to 7s",
+          "Damage +100%"
+        ]
+      },
+      {
+        "skill_name": "Springboard Spike",
+        "description": "Deals 208% damage to a single enemy.",
+        "ascension_effects": [
+          "Damage +15%",
+          "Damage +35%",
+          "Damage +50%",
+          "Damage +75%",
+          "Damage +100%"
+        ]
+      },
+      {
+        "skill_name": "Fiery Alchemy",
+        "description": "Temperite output speed +60% when working in an Alchemy Lab.",
+        "ascension_effects": [
+          "Temperite Output Speed +5%",
+          "Temperite Output Speed +10%",
+          "Temperite Output Speed +15%",
+          "Temperite Output Speed +20%",
+          "Temperite Output Speed +30%"
+        ]
+      },
+      {
+        "skill_name": "Remarkable",
+        "description": "Gains +5% Total Attack, Defense, and HP.",
+        "ascension_effects": []
+      }
+    ]
+  },
+  {
+    "name": "Mantleray",
+    "skills": [
+      {
+        "skill_name": "Electric Burst",
+        "description": "Fires 3 electric bombs randomly targeting enemies, each dealing 1406% damage. (The bombs can target the same enemy).",
+        "ascension_effects": [
+          "Damage +30%",
+          "Damage +70%",
+          "Damage +120%",
+          "Damage +185%",
+          "Damage +270%"
+        ]
+      },
+      {
+        "skill_name": "Stinging Spark",
+        "description": "Gains +30% Crit Rate while in combat.",
+        "ascension_effects": [
+          "Crit Rate +2%",
+          "Crit Rate +4%",
+          "Crit Rate +6%",
+          "Crit Rate +8%",
+          "Crit Rate +10%"
+        ]
+      },
+      {
+        "skill_name": "Lightning Bolt",
+        "description": "Launches lightning bolts from a distance, dealing 525.4% damage to a single enemy.",
+        "ascension_effects": [
+          "Damage +30%",
+          "Damage +70%",
+          "Damage +120%",
+          "Damage +185%",
+          "Damage +270%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Woozard",
+    "skills": [
+      {
+        "skill_name": "Woozy Wallop",
+        "description": "Deals 208% damage to a single enemy.",
+        "ascension_effects": [
+          "Damage +15%",
+          "Damage +35%",
+          "Damage +50%",
+          "Damage +75%",
+          "Damage +100%"
+        ]
+      },
+      {
+        "skill_name": "Phantom Step",
+        "description": "Gains +30% Evasion while in combat.",
+        "ascension_effects": [
+          "Evasion +2%",
+          "Evasion +4%",
+          "Evasion +6%",
+          "Evasion +8%",
+          "Evasion +10%"
+        ]
+      },
+      {
+        "skill_name": "Phantasm",
+        "description": "Launches an orb of dream power, dealing 525.4% damage to a single target.",
+        "ascension_effects": [
+          "Damage +30%",
+          "Damage +70%",
+          "Damage +120%",
+          "Damage +185%",
+          "Damage +270%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lucidina",
+    "skills": [
+      {
+        "skill_name": "Promising",
+        "description": "Gains +20% Total Attack, Defense, and HP.",
+        "ascension_effects": []
+      }
+    ]
+  },
+  {
+    "name": "Barkplug",
+    "skills": [
+      {
+        "skill_name": "Ion Disruption",
+        "description": "All enemy DEF -20%",
+        "ascension_effects": [
+          "Defense Reduction +2%",
+          "Defense Reduction +4%",
+          "Defense Reduction +6%",
+          "Defense Reduction +8%",
+          "Defense Reduction +10%"
+        ]
+      },
+      {
+        "skill_name": "Promising",
+        "description": "Gains +20% Total Attack, Defense, and HP.",
+        "ascension_effects": []
+      },
+      {
+        "skill_name": "Overcharge",
+        "description": "Deals 2331% damage to a single enemy. Has a 20% chance to paralyze the target, preventing them from casting Rage Skills for 10s.",
+        "ascension_effects": [
+          "Damage +30%",
+          "Damage +70%",
+          "Damage +120%",
+          "Damage +185%",
+          "Damage +270%"
+        ]
+      },
+      {
+        "skill_name": "Maelstrom Bolt",
+        "description": "Unleashes a chain of lightning that strikes up to 5 enemy targets, dealing 281.2% damage to each target.",
+        "ascension_effects": [
+          "Damage +30%",
+          "Damage +70%",
+          "Damage +120%",
+          "Damage +185%",
+          "Damage +270%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Servolt",
+    "skills": [
+      {
+        "skill_name": "Promising",
+        "description": "Gains +20% Total Attack, Defense, and HP.",
+        "ascension_effects": []
+      },
+      {
+        "skill_name": "Tempered Steel",
+        "description": "Gains +30% Attack while in combat.",
+        "ascension_effects": [
+          "Attack +2%",
+          "Attack +4%",
+          "Attack +6%",
+          "Attack +8%",
+          "Attack +10%"
+        ]
+      },
+      {
+        "skill_name": "Hyah!",
+        "description": "Deals 525.4% damage to a single enemy.",
+        "ascension_effects": [
+          "Damage +30%",
+          "Damage +70%",
+          "Damage +120%",
+          "Damage +185%",
+          "Damage +270%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Statchew",
+    "skills": [
+      {
+        "skill_name": "Protective Roar",
+        "description": "After a mighty roar, enemy front-row Smazmon are terrified, dealing 13.5% less damage for 5s.",
+        "ascension_effects": [
+          "Duration > 3s",
+          "Reduced enemy damage by an additional 3%",
+          "Duration > 4s",
+          "Reduced enemy damage by an additional 3%",
+          "Duration > 5s"
+        ]
+      },
+      {
+        "skill_name": "Promising",
+        "description": "Gains +20% Total Attack, Defense, and HP.",
+        "ascension_effects": []
+      },
+      {
+        "skill_name": "Gnash",
+        "description": "Bites a nearby enemy, dealing 525.4% damage.",
+        "ascension_effects": [
+          "Damage +30%",
+          "Damage +70%",
+          "Damage +120%",
+          "Damage +185%",
+          "Damage +270%"
+        ]
+      },
+      {
+        "skill_name": "Sentinel",
+        "description": "Front-row Smazmon in this Smazmon's squad take -20% damage.",
+        "ascension_effects": [
+          "Damage Reduction +1.5%",
+          "Damage Reduction +3%",
+          "Damage Reduction +4.5%",
+          "Damage Reduction +6%",
+          "Damage Reduction +7.5%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Kilohopp",
+    "skills": [
+      {
+        "skill_name": "Thunderstrike",
+        "description": "Deals 151.25% damage to the closest enemy target and all enemies near it.",
+        "ascension_effects": [
+          "Damage +20%",
+          "Damage +45%",
+          "Damage +70%",
+          "Damage +100%",
+          "Damage +150%"
+        ]
+      },
+      {
+        "skill_name": "Power Surge",
+        "description": "Deals 720% damage to all nearby enemies.",
+        "ascension_effects": [
+          "Damage +15%",
+          "Damage +35%",
+          "Damage +50%",
+          "Damage +75%",
+          "Damage +100%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rotorlotor",
+    "skills": [
+      {
+        "skill_name": "Thunderstorm",
+        "description": "Calls down a thunderstorm that deals 1200% damage to 2 random targets. Has a 20% chance to paralyze targets for 2s.",
+        "ascension_effects": [
+          "Damage +20%",
+          "Damage +45%",
+          "Damage +70%",
+          "Damage +100%",
+          "Damage +150%"
+        ]
+      },
+      {
+        "skill_name": "Charged Strike",
+        "description": "Launches a lightning bolt, dealing 325% damage to a single enemy.",
+        "ascension_effects": [
+          "Damage +20%",
+          "Damage +45%",
+          "Damage +70%",
+          "Damage +100%",
+          "Damage +150%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cerverdant",
+    "skills": [
+      {
+        "skill_name": "Force of Nature",
+        "description": "Deals 325% damage to a single enemy.",
+        "ascension_effects": [
+          "Damage +20%",
+          "Damage +45%",
+          "Damage +70%",
+          "Damage +100%",
+          "Damage +150%"
+        ]
+      },
+      {
+        "skill_name": "Verdant Grace",
+        "description": "All allied Earth-type Smazmon gain +30% Attack for 5s.",
+        "ascension_effects": [
+          "Earth Smazmon Attack +2%",
+          "Earth Smazmon Attack +4%",
+          "Earth Smazmon Attack +6%",
+          "Earth Smazmon Attack +8%",
+          "Earth Smazmon Attack +10%"
+        ]
+      },
+      {
+        "skill_name": "Entangle",
+        "description": "Deals 208% damage to a single enemy.",
+        "ascension_effects": [
+          "Damage +15%",
+          "Damage +35%",
+          "Damage +50%",
+          "Damage +75%",
+          "Damage +100%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Abuzzinian",
+    "skills": [
+      {
+        "skill_name": "Promising",
+        "description": "Gains +20% Total Attack, Defense, and HP.",
+        "ascension_effects": []
+      },
+      {
+        "skill_name": "Nightstorm",
+        "description": "Deals 1387.5% damage to 3 random enemies, with a 20% chance to Paralyze them for 3.5s. Paralyzed units cannot use Rage Skills.",
+        "ascension_effects": [
+          "Damage +30%",
+          "Damage +70%",
+          "Damage +120%",
+          "Damage +185%",
+          "Damage +270%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bruiseberry",
+    "skills": [
+      {
+        "skill_name": "Fruit Punch-Up",
+        "description": "Deals 1500% damage to a nearby enemy.",
+        "ascension_effects": [
+          "Damage +20%",
+          "Damage +45%",
+          "Damage +70%",
+          "Damage +100%",
+          "Damage +150%"
+        ]
+      },
+      {
+        "skill_name": "Berry Bash",
+        "description": "Deals 325% damage to a single enemy.",
+        "ascension_effects": [
+          "Damage +20%",
+          "Damage +45%",
+          "Damage +70%",
+          "Damage +100%",
+          "Damage +150%"
+        ]
+      },
+      {
+        "skill_name": "Tireless",
+        "description": "Training speed +60% when working in an Armigo Hut.",
+        "ascension_effects": [
+          "Armigo Training Speed +5%",
+          "Armigo Training Speed +10%",
+          "Armigo Training Speed +15%",
+          "Armigo Training Speed +20%",
+          "Armigo Training Speed +30%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Herculeaf",
+    "skills": [
+      {
+        "skill_name": "Urssault",
+        "description": "Deals 208% damage to a single enemy.",
+        "ascension_effects": [
+          "Damage +15%",
+          "Damage +35%",
+          "Damage +50%",
+          "Damage +75%",
+          "Damage +100%"
+        ]
+      },
+      {
+        "skill_name": "Bear-y Strong",
+        "description": "Lumber output +35% when working a Sawing job.",
+        "ascension_effects": [
+          "Output +3%",
+          "Output +6%",
+          "Output +9%",
+          "Output +12%",
+          "Output +15%"
+        ]
+      },
+      {
+        "skill_name": "Powerful Pounce",
+        "description": "Gives a nearby enemy a proper thumping, dealing 960% damage.",
+        "ascension_effects": [
+          "Damage +15%",
+          "Damage +35%",
+          "Damage +50%",
+          "Damage +75%",
+          "Damage +100%"
+        ]
+      },
+      {
+        "skill_name": "Remarkable",
+        "description": "Gains +5% Total Attack, Defense, and HP.",
+        "ascension_effects": []
+      }
+    ]
+  },
+  {
+    "name": "Dolphriend",
+    "skills": [
+      {
+        "skill_name": "Smash",
+        "description": "Delivers a powerful strike on an enemy target, dealing 525.4% damage.",
+        "ascension_effects": [
+          "Damage +30%",
+          "Damage +70%",
+          "Damage +120%",
+          "Damage +185%",
+          "Damage +270%"
+        ]
+      },
+      {
+        "skill_name": "Rush Wave",
+        "description": "Violently smashes into a target, dealing 2109% damage. Has a 70% chance to stun the target for 3s.",
+        "ascension_effects": [
+          "Damage +30%",
+          "Damage +70%",
+          "Damage +120%",
+          "Damage +185%",
+          "Damage +270%"
+        ]
+      },
+      {
+        "skill_name": "Tidal Guard",
+        "description": "Gains +30% max HP while in combat.",
+        "ascension_effects": ["HP +2%", "HP +4%", "HP +6%", "HP +8%", "HP +10%"]
+      }
+    ]
+  },
+  {
+    "name": "Vulcanid",
+    "skills": [
+      {
+        "skill_name": "Blazing Bite",
+        "description": "Deals 325% damage to a single enemy.",
+        "ascension_effects": [
+          "Damage +20%",
+          "Damage +45%",
+          "Damage +70%",
+          "Damage +100%",
+          "Damage +150%"
+        ]
+      },
+      {
+        "skill_name": "Hot Diggity Dog",
+        "description": "Steel output +60% when working a Smelting job.",
+        "ascension_effects": [
+          "Output +5%",
+          "Output +10%",
+          "Output +15%",
+          "Output +20%",
+          "Output +30%"
+        ]
+      },
+      {
+        "skill_name": "Sturdy",
+        "description": "Gains +10% Total Attack, Defense, and HP.",
+        "ascension_effects": []
+      },
+      {
+        "skill_name": "Tempered Steel",
+        "description": "Increases Steel output of all Furnaces in Camp by 100%. Gains +30% HP while in combat.",
+        "ascension_effects": ["HP +8%", "HP +10%"]
+      }
+    ]
+  },
+  {
+    "name": "Baboom",
+    "skills": [
+      {
+        "skill_name": "Stifle",
+        "description": "Swings a stick at a single enemy, dealing 525.4% damage.",
+        "ascension_effects": [
+          "Damage +30%",
+          "Damage +70%",
+          "Damage +120%",
+          "Damage +185%",
+          "Damage +270%"
+        ]
+      },
+      {
+        "skill_name": "Promising",
+        "description": "Gains +20% Total Attack, Defense, and HP.",
+        "ascension_effects": []
+      },
+      {
+        "skill_name": "Power Strike",
+        "description": "Launches a charged strike, dealing 2220% damage to a single enemy in melee range. Has a 70% chance to stun them for 2s.",
+        "ascension_effects": [
+          "Damage +30%",
+          "Damage +70%",
+          "Damage +120%",
+          "Damage +185%",
+          "Damage +270%"
+        ]
+      },
+      {
+        "skill_name": "Nature's Gift",
+        "description": "Increases Lumber output of all Table Saws in Camp by 100%. Gains +30% Defense while in combat.",
+        "ascension_effects": [
+          "Defense +2%",
+          "Defense +4%",
+          "Defense +6%",
+          "Defense +8%",
+          "Defense +10%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Incineraptor",
+    "skills": [
+      {
+        "skill_name": "Heat Wave",
+        "description": "Deals 325% damage to a single enemy.",
+        "ascension_effects": [
+          "Damage +20%",
+          "Damage +45%",
+          "Damage +70%",
+          "Damage +100%",
+          "Damage +150%"
+        ]
+      },
+      {
+        "skill_name": "Eagle Eye",
+        "description": "Incineraptor can always find where the treasure is hidden. Provides extra treasure (up to 42 a day) when completing an Intel Quest. Incineraptor can burn 10 Incineraptor Plumes to generate 3 high-quality intel quests.",
+        "ascension_effects": [
+          "Plume Output Time -10m",
+          "Owl-Eyed Chests +5",
+          "Plume Output Time -20m",
+          "Owl-Eyed Chests +10",
+          "Plume Output Time -30m"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Meowdame",
+    "skills": [
+      {
+        "skill_name": "Miracle Worker",
+        "description": "Meowdame has a penchant for making miracles happen. Increases Gold, Lumber, and Steel rewards by 75% when it defeats a Bullymon or Bullyboss.",
+        "ascension_effects": [
+          "Resource Bonus +5%",
+          "Resource Bonus +10%",
+          "Resource Bonus +15%",
+          "Resource Bonus +20%",
+          "Resource Bonus +25%"
+        ]
+      },
+      {
+        "skill_name": "Starlight Blessing",
+        "description": "Increases a random allied Smazmon's damage by 20% for 5s.",
+        "ascension_effects": [
+          "Damage +2%",
+          "Damage +4%",
+          "Damage +6%",
+          "Damage +8%",
+          "Damage +10%"
+        ]
+      },
+      {
+        "skill_name": "Dream Orb",
+        "description": "Deals 325% damage to a single enemy.",
+        "ascension_effects": [
+          "Damage +20%",
+          "Damage +45%",
+          "Damage +70%",
+          "Damage +100%",
+          "Damage +150%"
+        ]
+      },
+      {
+        "skill_name": "Sturdy",
+        "description": "Gains +10% Total Attack, Defense, and HP.",
+        "ascension_effects": []
+      }
+    ]
+  },
+  {
+    "name": "Snowkami",
+    "skills": [
+      {
+        "skill_name": "Wolfy Will",
+        "description": "Gains +20% Attack while in combat.",
+        "ascension_effects": [
+          "Attack +1.5%",
+          "Attack +3%",
+          "Attack +4.5%",
+          "Attack +6%",
+          "Attack +7.5%"
+        ]
+      },
+      {
+        "skill_name": "Frostclaw",
+        "description": "Bites a single enemy target multiple times, dealing a total of 325% damage.",
+        "ascension_effects": [
+          "Damage +20%",
+          "Damage +45%",
+          "Damage +70%",
+          "Damage +100%",
+          "Damage +150%"
+        ]
+      },
+      {
+        "skill_name": "Sturdy",
+        "description": "Gains +10% Total Attack, Defense, and HP.",
+        "ascension_effects": []
+      },
+      {
+        "skill_name": "Glacial Howl",
+        "description": "Snowkami unleashes the wrath of winter, dealing 1350% damage to a single enemy. Has a 70% chance to Freeze the target for 2.5s.",
+        "ascension_effects": [
+          "Damage +20%",
+          "Damage +45%",
+          "Damage +70%",
+          "Damage +100%",
+          "Damage +150%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Adolphonis",
+    "skills": [
+      {
+        "skill_name": "Water Surge",
+        "description": "Rage Skill Enhancement: Skill damage +75%.",
+        "ascension_effects": [
+          "Damage +20%",
+          "Damage +45%",
+          "Damage +70%",
+          "Damage +100%",
+          "Damage +150%"
+        ]
+      },
+      {
+        "skill_name": "Tidal Strike",
+        "description": "Gains +30% Attack while in combat.",
+        "ascension_effects": [
+          "Attack +2%",
+          "Attack +4%",
+          "Attack +6%",
+          "Attack +8%",
+          "Attack +10%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Squeezel",
+    "skills": [
+      {
+        "skill_name": "Deft Paws",
+        "description": "Ore output +35% when working a Mining job.",
+        "ascension_effects": [
+          "Output +3%",
+          "Output +6%",
+          "Output +9%",
+          "Output +12%",
+          "Output +15%"
+        ]
+      },
+      {
+        "skill_name": "Lucky Hands",
+        "description": "Ore output +35% when working a Mining job.",
+        "ascension_effects": [
+          "Output +3%",
+          "Output +6%",
+          "Output +9%",
+          "Output +12%",
+          "Output +15%"
+        ]
+      },
+      {
+        "skill_name": "Full Tilt",
+        "description": "Gold output +60% when working in a Shop.",
+        "ascension_effects": [
+          "Output +5%",
+          "Output +10%",
+          "Output +15%",
+          "Output +20%",
+          "Output +30%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Axollium",
+    "skills": [
+      {
+        "skill_name": "Aqua Cannon",
+        "description": "Attacks a single enemy target 3 times in a row, dealing 510% damage per attack.",
+        "ascension_effects": [
+          "Damage +20%",
+          "Damage +45%",
+          "Damage +70%",
+          "Damage +100%",
+          "Damage +150%"
+        ]
+      },
+      {
+        "skill_name": "Water Spray",
+        "description": "Deals 325% damage to a single enemy.",
+        "ascension_effects": [
+          "Damage +20%",
+          "Damage +45%",
+          "Damage +70%",
+          "Damage +100%",
+          "Damage +150%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Regalion",
+    "skills": [
+      {
+        "skill_name": "Ocean's Favor",
+        "description": "Deals +30% damage while in battle.",
+        "ascension_effects": [
+          "Final Damage +2%",
+          "Final Damage +4%",
+          "Final Damage +6%",
+          "Final Damage +8%",
+          "Final Damage +10%"
+        ]
+      },
+      {
+        "skill_name": "Princely Peck",
+        "description": "Deals 208% damage to a single enemy.",
+        "ascension_effects": [
+          "Damage +15%",
+          "Damage +35%",
+          "Damage +50%",
+          "Damage +75%",
+          "Damage +100%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Finnabelle",
+    "skills": [
+      {
+        "skill_name": "Waterspout",
+        "description": "Summons a giant column of water around the nearest enemy, dealing 1803.75% damage to all enemies in range.",
+        "ascension_effects": [
+          "Damage +30%",
+          "Damage +70%",
+          "Damage +120%",
+          "Damage +185%",
+          "Damage +270%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Keranosaur",
+    "skills": [
+      {
+        "skill_name": "Ionized",
+        "description": "Electricity output +60% when working a Charging job.",
+        "ascension_effects": [
+          "Output +5%",
+          "Output +10%",
+          "Output +15%",
+          "Output +20%",
+          "Output +30%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Oneirina",
+    "skills": [
+      {
+        "skill_name": "Torment",
+        "description": "Pulls a single target into a dream, increasing its damage received by 10%. When the dream shatters, deals 2590% damage to that target.",
+        "ascension_effects": [
+          "Damage +30%",
+          "Damage +70%",
+          "Damage +120%",
+          "Damage +185%",
+          "Damage +270%"
+        ]
+      },
+      {
+        "skill_name": "Dream Shadow",
+        "description": "Gains +30% Crit Rate while in combat.",
+        "ascension_effects": [
+          "Crit Rate +2%",
+          "Crit Rate +4%",
+          "Crit Rate +6%",
+          "Crit Rate +8%",
+          "Crit Rate +10%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Silvaurus",
+    "skills": [
+      {
+        "skill_name": "Verdant Bounty",
+        "description": "Wood output +60% when working a Logging job.",
+        "ascension_effects": [
+          "Output +5%",
+          "Output +10%",
+          "Output +15%",
+          "Output +20%",
+          "Output +30%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Chefeuillier",
+    "skills": [
+      {
+        "skill_name": "Summon Thorns",
+        "description": "Deals 960% damage to enemies.",
+        "ascension_effects": [
+          "Damage +15%",
+          "Damage +35%",
+          "Damage +50%",
+          "Damage +75%",
+          "Damage +100%"
+        ]
+      },
+      {
+        "skill_name": "Whirling Leaves",
+        "description": "Deals 960% damage to enemies.",
+        "ascension_effects": [
+          "Damage +15%",
+          "Damage +35%",
+          "Damage +50%",
+          "Damage +75%",
+          "Damage +100%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Terrastudo",
+    "skills": [
+      {
+        "skill_name": "Drill Shell",
+        "description": "Ore output +60% when working a Mining job.",
+        "ascension_effects": [
+          "Output +5%",
+          "Output +10%",
+          "Output +15%",
+          "Output +20%",
+          "Output +30%"
+        ]
+      },
+      {
+        "skill_name": "Headbutt",
+        "description": "Deals 325% damage to a single enemy.",
+        "ascension_effects": [
+          "Damage +20%",
+          "Damage +45%",
+          "Damage +70%",
+          "Damage +100%",
+          "Damage +150%"
+        ]
+      },
+      {
+        "skill_name": "Sturdy",
+        "description": "Gains +10% Total Attack, Defense, and HP.",
+        "ascension_effects": []
+      }
+    ]
+  },
+  {
+    "name": "Wildfuror",
+    "skills": [
+      {
+        "skill_name": "Trial By Fire",
+        "description": "Deals 1500% damage to a single enemy.",
+        "ascension_effects": [
+          "Damage +20%",
+          "Damage +45%",
+          "Damage +70%",
+          "Damage +100%",
+          "Damage +150%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Platyputz",
+    "skills": [
+      {
+        "skill_name": "Spurt",
+        "description": "Fires a water projectile, dealing 525.4% damage to a single enemy.",
+        "ascension_effects": [
+          "Damage +30%",
+          "Damage +70%",
+          "Damage +120%",
+          "Damage +185%",
+          "Damage +270%"
+        ]
+      },
+      {
+        "skill_name": "Blunt Sense",
+        "description": "Platyputz’s dull mind dulls the pain. It takes -20% damage.",
+        "ascension_effects": [
+          "Damage Reduction +1.5%",
+          "Damage Reduction +3%",
+          "Damage Reduction +4.5%",
+          "Damage Reduction +6%",
+          "Damage Reduction +7.5%"
+        ]
+      },
+      {
+        "skill_name": "Geyser Jet",
+        "description": "Deals 672% damage to a single enemy.",
+        "ascension_effects": [
+          "Damage +15%",
+          "Damage +35%",
+          "Damage +50%",
+          "Damage +75%",
+          "Damage +100%"
+        ]
+      },
+      {
+        "skill_name": "Got Just the Thing",
+        "description": "Platyputz fishes out an assortment of treasures from its pouch and hucks them at a single enemy, dealing a total of 325% damage.",
+        "ascension_effects": [
+          "Damage +20%",
+          "Damage +45%",
+          "Damage +70%",
+          "Damage +100%",
+          "Damage +150%"
+        ]
+      },
+      {
+        "skill_name": "Bubble Shield",
+        "description": "Grants a shield equal to 30% of its max HP to the ally with the lowest HP for 6s.",
+        "ascension_effects": [
+          "Shield +5%",
+          "Duration > 5s",
+          "Shield +10%",
+          "Duration > 6s",
+          "Shield +15%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Flouffant",
+    "skills": [
+      {
+        "skill_name": "Remarkable",
+        "description": "Gains +5% Total Attack, Defense, and HP.",
+        "ascension_effects": []
+      }
+    ]
+  },
+  {
+    "name": "Magmolin",
+    "skills": [
+      {
+        "skill_name": "Lava Shock",
+        "description": "Slams the ground to summon volcanic rock under a single enemy, dealing 2775% damage.",
+        "ascension_effects": [
+          "Damage +30%",
+          "Damage +70%",
+          "Damage +120%",
+          "Damage +185%",
+          "Damage +270%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Revontulet",
+    "skills": [
+      {
+        "skill_name": "Dark Cloud",
+        "description": "Rises up in the air and unleashes a thunderstorm, striking 4 random enemies for 540% damage.",
+        "ascension_effects": [
+          "Damage +20%",
+          "Damage +45%",
+          "Damage +70%",
+          "Damage +100%",
+          "Damage +150%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wyviemo",
+    "skills": [
+      {
+        "skill_name": "Frost Resist",
+        "description": "Gains +15% max HP while in combat.",
+        "ascension_effects": ["HP +4%"]
+      }
+    ]
+  },
+  {
+    "name": "Anubeast",
+    "skills": [
+      {
+        "skill_name": "Tectonic Spin",
+        "description": "Turns into a rapidly-spinning pinball of death, dealing 1125% damage to all nearby enemy targets.",
+        "ascension_effects": [
+          "Damage +20%",
+          "Damage +45%",
+          "Damage +70%",
+          "Damage +100%",
+          "Damage +150%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fingenue",
+    "skills": [
+      {
+        "skill_name": "Rejuvenate",
+        "description": "Grants bonus to 1 random allied Smazmon, reducing damage it takes by 20%.",
+        "ascension_effects": [
+          "Damage Reduction +1.5%",
+          "Damage Reduction +3%",
+          "Damage Reduction +4.5%",
+          "Damage Reduction +6%",
+          "Damage Reduction +7.5%"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wattweiler",
+    "skills": [
+      {
+        "skill_name": "Electric Surge",
+        "description": "Deals 525.4% damage to a single enemy.",
+        "ascension_effects": [
+          "Damage +30%",
+          "Damage +70%",
+          "Damage +120%",
+          "Damage +185%",
+          "Damage +270%"
+        ]
+      }
+    ]
+  }
+]

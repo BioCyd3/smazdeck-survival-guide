@@ -1,0 +1,126 @@
+{
+    "title": "Defensive Battle Trait Tier List",
+    "description": "A tier list for the best traits to equip on your tank and support Smazs.",
+    "tiers": [
+        {
+            "tier": "S",
+            "tier_name": "Best in Slot",
+            "entries": [
+                {
+                    "name": "Vigorous",
+                    "simple_explanation": "The best trait for boosting maximum HP.",
+                    "complex_explanation": "Provides a 10% bonus to HP. Health is a universally effective defensive stat, making this a top choice for any tank.",
+                    "synergies": "Excellent on Smazs with HP-scaling abilities like Platyputz ('Bubble Shield') or those with innate HP boosts like Dolphriend.",
+                    "relevant_info": "Effect: HP +10%"
+                },
+                {
+                    "name": "Unshakeable",
+                    "simple_explanation": "The best trait for boosting Defense.",
+                    "complex_explanation": "Provides a 10% bonus to Defense. This offers the most damage mitigation against non-critical hits.",
+                    "synergies": "Pairs well with Smazs that have innate Defense boosts like Baboom.",
+                    "relevant_info": "Effect: Defense +10%"
+                },
+                {
+                    "name": "Diamond Skull",
+                    "simple_explanation": "The best trait for reducing damage from critical hits.",
+                    "complex_explanation": "Provides a 15% bonus to Crit Defense. Crucial for surviving against enemy teams built around high critical damage.",
+                    "relevant_info": "Effect: Crit Defense +15%"
+                },
+                {
+                    "name": "Iron Will",
+                    "simple_explanation": "The best trait for reducing the duration of debuffs.",
+                    "complex_explanation": "Provides an 8% bonus to Tenacity. This reduces the duration of crowd control and damage-over-time effects, which can be life-saving.",
+                    "relevant_info": "Effect: Tenacity +8%"
+                }
+            ]
+        },
+        {
+            "tier": "A",
+            "tier_name": "Excellent Choices",
+            "entries": [
+                {
+                    "name": "Robust",
+                    "simple_explanation": "A very strong HP boost.",
+                    "complex_explanation": "Provides a 7% bonus to HP. The standard, top-tier HP trait for any tank or bruiser build.",
+                    "relevant_info": "Effect: HP +7%"
+                },
+                {
+                    "name": "Steadfast",
+                    "simple_explanation": "A very strong Defense boost.",
+                    "complex_explanation": "Provides a 7% bonus to Defense. The A-tier staple for damage mitigation.",
+                    "relevant_info": "Effect: Defense +7%"
+                },
+                {
+                    "name": "Steel Skull",
+                    "simple_explanation": "A great boost to critical hit defense.",
+                    "complex_explanation": "Provides an 8% bonus to Crit Defense. A core defensive trait for any tank.",
+                    "relevant_info": "Effect: Crit Defense +8%"
+                },
+                {
+                    "name": "Unyielding",
+                    "simple_explanation": "A solid boost to debuff resistance.",
+                    "complex_explanation": "Provides a 5% bonus to Tenacity. Good for ensuring your tank isn't locked down by CC.",
+                    "relevant_info": "Effect: Tenacity +5%"
+                },
+                {
+                    "name": "Elusive",
+                    "simple_explanation": "A good boost to evasion chance.",
+                    "complex_explanation": "Provides a 5% bonus to Evasion. Offers a chance to completely negate an attack, which can be very powerful, albeit RNG-dependent.",
+                    "synergies": "Stacks well with Smazs that have innate evasion like Woozard.",
+                    "relevant_info": "Effect: Evasion +5%"
+                }
+            ]
+        },
+        {
+            "tier": "B",
+            "tier_name": "Good Fillers",
+            "entries": [
+                {
+                    "name": "Energetic",
+                    "simple_explanation": "A decent HP boost.",
+                    "complex_explanation": "Provides a 4% bonus to HP.",
+                    "relevant_info": "Effect: HP +4%"
+                },
+                {
+                    "name": "Resolute",
+                    "simple_explanation": "A decent Defense boost.",
+                    "complex_explanation": "Provides a 4% bonus to Defense.",
+                    "relevant_info": "Effect: Defense +4%"
+                },
+                {
+                    "name": "Iron Skull",
+                    "simple_explanation": "A decent boost to crit defense.",
+                    "complex_explanation": "Provides a 4% bonus to Crit Defense.",
+                    "relevant_info": "Effect: Crit Defense +4%"
+                },
+                {
+                    "name": "Hardy",
+                    "simple_explanation": "A small boost to debuff resistance.",
+                    "complex_explanation": "Provides a 2.5% bonus to Tenacity.",
+                    "relevant_info": "Effect: Tenacity +2.5%"
+                }
+            ]
+        },
+        {
+            "tier": "C",
+            "tier_name": "Budget Options",
+            "entries": [
+                {
+                    "name": "Stone Skull",
+                    "simple_explanation": "A very small crit defense boost.",
+                    "relevant_info": "Effect: Crit Defense +3%"
+                },
+                {
+                    "name": "Stubborn",
+                    "simple_explanation": "A very small debuff resistance boost.",
+                    "relevant_info": "Effect: Tenacity +1.5%"
+                },
+                {
+                    "name": "Slippery",
+                    "simple_explanation": "A very small evasion boost.",
+                    "relevant_info": "Effect: Evasion +2.5%"
+                }
+            ]
+        }
+    ]
+}

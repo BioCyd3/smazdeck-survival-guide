@@ -1,0 +1,86 @@
+{
+  "title": "Frontline Hybrid (Tank/DPS) Tier List",
+  "description": "This list ranks Smazs who can both take and deal significant damage on the front lines, excelling as bruisers or offensive tanks.",
+  "tiers": [
+    {
+      "tier": "S",
+      "tier_name": "Elite Bruisers",
+      "entries": [
+        {
+          "name": "Magmolin",
+          "simple_explanation": "A frontline nuker with the game's strongest ultimate.",
+          "complex_explanation": "While fragile, Magmolin is listed as a frontline hybrid because its 'Lava Shock' is a melee-range skill. Its role is to get in, delete one target with its 2775% damage ultimate, and hopefully survive. The sheer offensive power defines its frontline presence.",
+          "synergies": "A hyper-offensive frontliner that needs support from tanks like Statchew or shielders like Platyputz to survive long enough to use its skill.",
+          "relevant_info": "Classified as a Hybrid Tank-DPS. Role is pure offense from a frontline position."
+        },
+        {
+          "name": "Baboom",
+          "simple_explanation": "The perfect bruiser with high defense, high damage, and a stun.",
+          "complex_explanation": "Baboom exemplifies the hybrid role. It gets +30% Defense from a passive, has a 2220% damage ultimate, and that ultimate has a 70% chance to stun. It perfectly balances offense and defense, making it a top-tier frontline threat.",
+          "synergies": "The cornerstone of a balanced frontline. Pairs well with a pure tank like Statchew or a more offensive partner like Dolphriend.",
+          "relevant_info": "Classified as a Hybrid Tank-DPS with a perfect kit for the role."
+        }
+      ]
+    },
+    {
+      "tier": "A",
+      "tier_name": "Top-Tier Frontliners",
+      "entries": [
+        {
+          "name": "Dolphriend",
+          "simple_explanation": "An offensive tank with massive HP and a powerful stun.",
+          "complex_explanation": "Dolphriend leans more towards tank than DPS, but its 2109% damage ultimate is undeniably high. Its massive HP pool (+30%) allows it to stay in the fight and be a constant threat, mixing durability with potent offense and CC.",
+          "synergies": "An excellent aggressive frontliner that can initiate fights and absorb huge amounts of damage.",
+          "relevant_info": "While not in the build list, its kit is the definition of a frontline hybrid."
+        },
+        {
+          "name": "Ghillant",
+          "simple_explanation": "The standard by which other hybrids are measured.",
+          "complex_explanation": "Ghillant is listed as the primary example of a frontline hybrid in the build data. It relies on a balanced set of traits (Belligerent, Robust, Steadfast) to achieve its hybrid status, making it a very customizable and reliable, if less specialized, choice.",
+          "synergies": "A flexible core for a frontline that can be adapted based on the traits you equip.",
+          "relevant_info": "The quintessential 'Hybrid Tank-DPS (Frontline)' as per game data."
+        }
+      ]
+    },
+    {
+      "tier": "B",
+      "tier_name": "Solid Bruiser Options",
+      "entries": [
+        {
+          "name": "Hoofrit",
+          "simple_explanation": "A massive HP sponge with respectable damage.",
+          "complex_explanation": "With a +30% HP passive, Hoofrit is incredibly durable. Its damage, while not S-tier, is still significant, especially its back-row nuke. It's a damage-soaking bruiser that can't be ignored.",
+          "synergies": "A great, simple frontline choice that can absorb damage while applying pressure.",
+          "relevant_info": "Its high HP and decent damage make it a natural fit for this role."
+        },
+        {
+          "name": "Statchew",
+          "simple_explanation": "Primarily a tank, but its frontline presence is so strong it must be included.",
+          "complex_explanation": "Statchew's damage is very low, but it is the definitive frontline anchor. Its value comes from making the *entire* frontline (including itself and its partner) incredibly tanky. It's a hybrid in the sense that it enables offensive plays through supreme defense.",
+          "synergies": "Makes any offensive frontliner, like Baboom or Magmolin, significantly more effective by keeping them alive.",
+          "relevant_info": "Its role is to define the frontline, making it a hybrid enabler."
+        }
+      ]
+    },
+    {
+      "tier": "C",
+      "tier_name": "Niche Frontliners",
+      "entries": [
+        {
+          "name": "Barkplug",
+          "simple_explanation": "A high-damage melee Smaz that can be built to be tankier.",
+          "complex_explanation": "Barkplug is naturally a melee-range Smaz. While it's usually built as a glass cannon, it can be equipped with defensive traits like Robust or Steadfast to function as a frontline hybrid. Its damage and debuff are elite, but it lacks innate survivability.",
+          "synergies": "Requires defensive traits to survive on the frontline, but its contribution is immense if it does.",
+          "relevant_info": "A 'DPS (Backline-Melee)' that can be adapted to a frontline hybrid role."
+        },
+        {
+          "name": "Ninjump",
+          "simple_explanation": "A melee glass cannon that can be built for more survivability.",
+          "complex_explanation": "Like Barkplug, Ninjump is a melee DPS that must be on the front lines to be effective. Without defensive traits, it's very fragile. With them, it can act as a C-tier hybrid, trading some of its insane damage for the ability to survive more than one hit.",
+          "synergies": "Needs a dedicated tank partner like Statchew to draw attention away from it.",
+          "relevant_info": "A 'DPS (Backline-Melee)' that can be adapted to a frontline hybrid role."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "title": "Support & Debuff Tier List",
+  "description": "This list ranks Smazs based on their ability to buff allies or weaken enemies, turning the tide of battle without relying on raw damage.",
+  "tiers": [
+    {
+      "tier": "S",
+      "tier_name": "Crucial Support",
+      "entries": [
+        {
+          "name": "Barkplug",
+          "simple_explanation": "Reduces all enemies' defense, making your whole team hit harder.",
+          "complex_explanation": "'Ion Disruption' provides a rare and incredibly powerful team-wide damage boost by reducing all enemy DEF by 20%. This is one of the strongest debuffs in the game and fundamentally changes how much damage your team can output.",
+          "synergies": "The ultimate force multiplier. Every single DPS Smaz becomes significantly better when Barkplug is on the field.",
+          "relevant_info": "Debuff: Ion Disruption (All Enemy DEF -20%)"
+        },
+        {
+          "name": "Statchew",
+          "simple_explanation": "Makes your team tankier and the enemy team weaker.",
+          "complex_explanation": "The premier defensive support. 'Sentinel' provides a constant 20% damage reduction to the front row, while 'Protective Roar' reduces the enemy front row's damage output. This two-pronged approach to mitigation is unmatched for squad survival.",
+          "synergies": "Core to any defensive team. Allows fragile DPS to survive and thrive.",
+          "relevant_info": "Buff: Sentinel (Front-row allies take -20% DMG). Debuff: Protective Roar (Enemy front-row deals -13.5% DMG)"
+        },
+        {
+          "name": "Platyputz",
+          "simple_explanation": "Can give a life-saving shield to your weakest ally.",
+          "complex_explanation": "'Bubble Shield' is a game-changing reactive support skill. It grants a shield equal to 30% of Platyputz's max HP to the ally with the lowest HP, often preventing a guaranteed death and turning the tide of a fight.",
+          "synergies": "Perfect for protecting a 'glass cannon' DPS or saving a key tank from being focused down.",
+          "relevant_info": "Buff: Bubble Shield (30% Max HP shield for lowest HP ally)"
+        }
+      ]
+    },
+    {
+      "tier": "A",
+      "tier_name": "Powerful Buffs",
+      "entries": [
+        {
+          "name": "Fingenue",
+          "simple_explanation": "Gives a strong damage reduction buff to a random ally.",
+          "complex_explanation": "'Rejuvenate' applies a 20% damage reduction buff. While it's powerful, its random targeting makes it less reliable than Statchew's consistent front-row protection. Still a very strong defensive buff.",
+          "synergies": "Good in teams with one hyper-carry DPS you want to protect, hoping the buff lands on them.",
+          "relevant_info": "Buff: Rejuvenate (One random ally takes -20% DMG)"
+        },
+        {
+          "name": "Meowdame",
+          "simple_explanation": "Gives a random ally a 20% damage boost.",
+          "complex_explanation": "'Starlight Blessing' is the offensive counterpart to Fingenue's skill, granting a +20% damage buff to a random ally. This can significantly boost your team's damage, but the randomness is a drawback.",
+          "synergies": "Best in teams with multiple strong DPS to increase the odds of the buff landing on a relevant target.",
+          "relevant_info": "Buff: Starlight Blessing (One random ally deals +20% DMG)"
+        },
+        {
+          "name": "Cerverdant",
+          "simple_explanation": "Gives all Earth-type Smazs a 30% attack boost.",
+          "complex_explanation": "'Verdant Grace' is an extremely powerful +30% Attack buff, but it is restricted to only Earth-type allies. In a dedicated Earth team, this is an S-tier ability.",
+          "synergies": "The cornerstone of an Earth-type team. Pair with other Earth Smazs like Baboom, Anubeast, or Terrastudo to maximize its effect.",
+          "relevant_info": "Buff: Verdant Grace (+30% ATK for allied Earth Smazs)"
+        }
+      ]
+    },
+    {
+      "tier": "B",
+      "tier_name": "Helpful Effects",
+      "entries": [
+        {
+          "name": "Flaries",
+          "simple_explanation": "Gives itself a massive +60% attack buff.",
+          "complex_explanation": "'Heating Up' is a powerful self-buff that dramatically increases Flaries's own damage potential. While it doesn't help the team, it turns Flaries into a top-tier threat for its duration.",
+          "synergies": "This is a selfish buff; it requires the team to protect Flaries while it sets up.",
+          "relevant_info": "Buff: Heating Up (+60% ATK for self)"
+        },
+        {
+          "name": "Maximito",
+          "simple_explanation": "Gives a small damage reduction buff to the most-injured ally.",
+          "complex_explanation": "'Elephantine Blessing' reduces the damage taken by the allied Smazmon with the lowest remaining HP by 20%. This is a useful, targeted defensive buff, though the effect is less impactful than Platyputz's shield.",
+          "synergies": "Helps to keep your frontline tank alive or save a damaged DPS.",
+          "relevant_info": "Buff: Elephantine Blessing (-20% DMG taken for lowest HP ally)"
+        },
+        {
+          "name": "Oneirina",
+          "simple_explanation": "Makes a single enemy take 10% more damage.",
+          "complex_explanation": "The debuff from 'Torment' increases a single target's damage taken by 10%. While less impactful than Barkplug's AOE defense shred, it's a great tool for focusing down and eliminating a high-priority enemy.",
+          "synergies": "Excellent for setting up a one-shot kill with another high-damage ultimate.",
+          "relevant_info": "Debuff: Torment (+10% DMG taken by target)"
+        }
+      ]
+    },
+    {
+      "tier": "C",
+      "tier_name": "Minor Buffs",
+      "entries": [
+        {
+          "name": "Adolphonis",
+          "simple_explanation": "Gives itself a 30% attack boost.",
+          "complex_explanation": "'Tidal Strike' provides a +30% self-buff to Attack. It's a solid personal steroid, similar to Servolt's, but doesn't provide any team utility.",
+          "synergies": "Makes Adolphonis a better standalone damage dealer.",
+          "relevant_info": "Buff: Tidal Strike (+30% ATK for self)"
+        },
+        {
+          "name": "Mantleray",
+          "simple_explanation": "Gives itself a 30% crit rate boost.",
+          "complex_explanation": "'Stinging Spark' is a passive that grants a constant +30% Crit Rate. This is a very strong personal damage boost, but as it's passive and only affects Mantleray, it's ranked as a minor support/buff in the context of team play.",
+          "synergies": "Boosts its own damage consistency significantly.",
+          "relevant_info": "Buff: Stinging Spark (+30% Crit Rate for self)"
+        },
+        {
+          "name": "Servolt",
+          "simple_explanation": "Gives itself a 30% attack boost.",
+          "complex_explanation": "'Tempered Steel' grants a +30% Attack buff to itself. A decent personal damage increase, but overshadowed by stronger team buffs or debuffs.",
+          "synergies": "Improves its own mediocre damage output.",
+          "relevant_info": "Buff: Tempered Steel (+30% ATK for self)"
+        }
+      ]
+    }
+  ]
+}

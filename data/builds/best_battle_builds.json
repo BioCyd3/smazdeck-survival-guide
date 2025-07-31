@@ -1,0 +1,41 @@
+{
+	"best_battle_builds": [
+		{
+			"role": "DPS (Backline-Ranged)",
+			"examples": [
+				"Lucidina", "Mantleray", "Fingenue", "Surveilynx"
+			],
+			"primary_traits": [
+				"Belligerent (Attack 7%)", "Fortunate (Crit Rate 5%)", "Ruthless (Crit Damage 8%)", "Sharpshooter (Accuracy 5%)"
+			],
+			"substitutes": ["Robust (HP 7%)"]
+		}, {
+			"role": "Pure Tank or Support",
+			"examples": [
+				"Dolphriend", "Fulgairy", "Statchew"
+			],
+			"primary_traits": [
+				"Robust (HP 7%)", "Steadfast (Def 7%)", "Unyielding (Tenacity 5%)", "Steel Skull (Crit Def 8%)"
+			],
+			"substitutes": ["Elusive (Evade 5%)"]
+		}, {
+			"role": "DPS (Backline-Melee)",
+			"examples": [
+				"Ninjump", "Barkplug", "Blazeal"
+			],
+			"primary_traits": [
+				"Belligerent (Attack 7%)", "Fortunate (Crit Rate 5%)", "Ruthless (Crit Damage 8%)", "Robust (HP 7%)"
+			],
+			"substitutes": ["Sharpshooter (Accuracy 5%)"]
+		}, {
+			"role": "Hybrid Tank-DPS (Frontline)",
+			"examples": [
+				"Ghillant", "Magmolin", "Baboom"
+			],
+			"primary_traits": [
+				"Belligerent (Attack 7%)", "Robust (HP 7%)", "Steadfast (Def 7%)", "Steel Skull (Crit Def 8%)"
+			],
+			"substitutes": ["Unyielding (Tenacity 5%)", "Elusive (Evade 5%)", "Fortunate (Crit Rate 5%)"]
+		}
+	]
+}

@@ -1,0 +1,86 @@
+{
+    "title": "Backline DPS Tier List",
+    "description": "This list ranks Smazs who excel at dealing damage from the safety of the back row, based on the 'DPS (Backline-Ranged)' role.",
+    "tiers": [
+        {
+            "tier": "S",
+            "tier_name": "Elite Ranged Threats",
+            "entries": [
+                {
+                    "name": "Mantleray",
+                    "simple_explanation": "Highest potential ranged damage with a self-crit buff.",
+                    "complex_explanation": "Mantleray is the premier backline DPS due to the insane damage potential of 'Electric Burst' (1406% x3) and the consistency provided by its +30% Crit Rate passive. It can obliterate single targets or spread damage effectively from a safe distance.",
+                    "synergies": "Needs a strong frontline (Statchew, Dolphriend) to keep enemies at bay. Benefits from Accuracy traits to land multiple bombs.",
+                    "relevant_info": "Role defined by high-damage, long-range skills."
+                },
+                {
+                    "name": "Surveilynx",
+                    "simple_explanation": "Mobile ranged DPS with a powerful fan-shaped AOE.",
+                    "complex_explanation": "Surveilynx's 'Shadow Step' deals high damage (1387.5%) in a wide arc, making it perfect for hitting multiple backline or mid-line enemies. Its mobility allows it to reposition effectively.",
+                    "synergies": "Pairs well with crowd control that groups enemies, maximizing the value of its AOE.",
+                    "relevant_info": "Role defined by its ranged, multi-target ultimate."
+                }
+            ]
+        },
+        {
+            "tier": "A",
+            "tier_name": "Strong Ranged Options",
+            "entries": [
+                {
+                    "name": "Lucidina",
+                    "simple_explanation": "A well-rounded stat-stick that can be built as a reliable backliner.",
+                    "complex_explanation": "With the 'Promising' passive (+20% all stats), Lucidina can be built with offensive traits like Belligerent and Sharpshooter to be a consistent, if not explosive, backline damage source. Its lack of a powerful ultimate holds it back from S-tier.",
+                    "synergies": "A flexible slot that can provide consistent pressure from the back row.",
+                    "relevant_info": "A default choice for the 'DPS (Backline-Ranged)' build archetype."
+                },
+                {
+                    "name": "Fingenue",
+                    "simple_explanation": "A support-oriented backliner who can still contribute damage.",
+                    "complex_explanation": "While its primary role is providing the 'Rejuvenate' buff, Fingenue is a ranged Smaz that fits naturally in the backline. It can be built with offensive traits to provide supplemental damage while supporting the team.",
+                    "synergies": "Offers a mix of safety and damage, pairing well with aggressive frontlines that need defensive support.",
+                    "relevant_info": "Listed as an example in the 'DPS (Backline-Ranged)' build archetype, suggesting a hybrid support/DPS role."
+                }
+            ]
+        },
+        {
+            "tier": "B",
+            "tier_name": "Situational Ranged DPS",
+            "entries": [
+                {
+                    "name": "Graffitty",
+                    "simple_explanation": "A basic, no-frills ranged damage dealer.",
+                    "complex_explanation": "'Splash of Color' is a long-ranged, single-target nuke (960%). It's a solid, budget backliner that provides consistent damage without any special tricks.",
+                    "synergies": "A good entry-level backline DPS before you acquire A or S-tier options.",
+                    "relevant_info": "Its long-range skill makes it a natural backliner."
+                },
+                {
+                    "name": "Rotorlotor",
+                    "simple_explanation": "Hits two random targets with a chance to paralyze.",
+                    "complex_explanation": "'Thunderstorm' (1200% to 2 targets) is a good ranged skill for spreading pressure and disruption. The randomness makes it less reliable for focusing targets, but it's a solid B-tier option.",
+                    "synergies": "Good for causing chaos and disrupting the enemy's plans from a safe distance.",
+                    "relevant_info": "Its ultimate is a long-range, multi-target spell."
+                }
+            ]
+        },
+        {
+            "tier": "C",
+            "tier_name": "Niche Ranged DPS",
+            "entries": [
+                {
+                    "name": "Axollium",
+                    "simple_explanation": "Fires multiple shots at a single target from range.",
+                    "complex_explanation": "'Aqua Cannon' attacks a single target 3 times for 510% damage each. While the total damage is good, it's spread over three hits, and the base damage of its other skills is low, making it less bursty than its peers.",
+                    "synergies": "Can be used to wear down a single target from the backline.",
+                    "relevant_info": "Its skills are primarily single-target and ranged."
+                },
+                {
+                    "name": "Emboa",
+                    "simple_explanation": "Has a ranged fireball and a fan-shaped AOE.",
+                    "complex_explanation": "Emboa's 'Fireball' and 'Scorching Sweep' are both ranged attacks. However, its overall damage is lower than other options, and it is often better utilized for its production skills.",
+                    "synergies": "Can provide ranged fire support and a burn debuff, but is outclassed in a pure DPS role.",
+                    "relevant_info": "Has a mix of ranged abilities suitable for the backline."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Smazdeck Survival - Redirecting...</title>
+    <script type="text/javascript">
+      // GitHub Pages SPA routing fix
+      // This script handles direct URL access for single-page applications
+      
+      // Get the current path, search, and hash from the URL
+      var path = window.location.pathname;
+      var search = window.location.search;
+      var hash = window.location.hash;
+      
+      // Extract the repository name from the path
+      var pathSegments = path.split('/').filter(Boolean);
+      var repositoryName = pathSegments[0] || '';
+      
+      // Store the full path in sessionStorage to be retrieved by the main app
+      // This preserves the intended route for React Router
+      sessionStorage.redirect = path + search + hash;
+      
+      // Redirect to the root of the application (index.html)
+      // For GitHub Pages, this needs to include the repository name
+      var redirectPath = repositoryName ? '/' + repositoryName + '/' : '/';
+      window.location.replace(redirectPath);
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <p>This page requires JavaScript to redirect properly. Please enable JavaScript and try again.</p>
+      <p><a href="/">Go to homepage</a></p>
+    </noscript>
+  </body>
+</html>

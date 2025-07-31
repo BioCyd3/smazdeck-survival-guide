@@ -1,0 +1,114 @@
+{
+  "title": "Rage Skill (Ultimate) Tier List",
+  "description": "This list ranks the individual ultimate abilities of Smazs based on their impact, considering damage, AOE, and secondary effects like CC or debuffs.",
+  "tiers": [
+    {
+      "tier": "S",
+      "tier_name": "Game-Winning Ultimates",
+      "entries": [
+        {
+          "name": "Lava Shock",
+          "Smaz": "Magmolin",
+          "simple_explanation": "The highest damage skill in the game. Period.",
+          "complex_explanation": "With a 2775% multiplier, this skill is designed to delete a single, high-priority target from the battlefield. Its raw power is unmatched and can single-handedly turn a 5v5 into a 5v4.",
+          "relevant_info": "Damage: 2775% (Single-Target)"
+        },
+        {
+          "name": "Torment",
+          "Smaz": "Oneirina",
+          "simple_explanation": "Massive damage plus a debuff that makes the target take more damage.",
+          "complex_explanation": "Deals 2590% damage and applies a +10% damage taken debuff. This combination makes it incredibly effective at assassination and sets up follow-up damage from the rest of your team.",
+          "relevant_info": "Damage: 2590% (Single-Target) | Effect: Target receives +10% DMG"
+        },
+        {
+          "name": "Overcharge",
+          "Smaz": "Barkplug",
+          "simple_explanation": "Huge damage with a chance to stop the enemy from using their own ultimate.",
+          "complex_explanation": "A 2331% damage nuke with a 20% chance to Paralyze for 10 seconds. Paralyze prevents Rage Skill usage, which can completely neutralize a key enemy threat before they can act. The combination of high damage and powerful CC is elite.",
+          "relevant_info": "Damage: 2331% (Single-Target) | Effect: 20% chance to Paralyze for 10s"
+        }
+      ]
+    },
+    {
+      "tier": "A",
+      "tier_name": "Fight-Defining Ultimates",
+      "entries": [
+        {
+          "name": "Rush Wave",
+          "Smaz": "Dolphriend",
+          "simple_explanation": "Hits like a truck and has a very high chance to stun.",
+          "complex_explanation": "Combines very high damage (2109%) with a 70% chance to stun for a long 3-second duration. This is an incredible initiation tool that can remove a key enemy from the fight while dealing massive damage.",
+          "relevant_info": "Damage: 2109% (Single-Target) | Effect: 70% chance to Stun for 3s"
+        },
+        {
+          "name": "Waterspout",
+          "Smaz": "Finnabelle",
+          "simple_explanation": "A massive AOE that can devastate a clustered enemy team.",
+          "complex_explanation": "Deals 1803.75% damage to all enemies in a large area. This is one of the premier AOE nukes in the game, capable of wiping out multiple squishy targets at once.",
+          "relevant_info": "Damage: 1803.75% (AOE)"
+        },
+        {
+          "name": "Huuuah!",
+          "Smaz": "Blazeal",
+          "simple_explanation": "A powerful AOE that travels in a straight line, hitting front and back rows.",
+          "complex_explanation": "Deals 1665% damage in a wave. Its ability to hit multiple enemies in a line makes it a fantastic tool for applying pressure to the entire enemy formation simultaneously.",
+          "relevant_info": "Damage: 1665% (Line AOE)"
+        }
+      ]
+    },
+    {
+      "tier": "B",
+      "tier_name": "Powerful & Impactful Ultimates",
+      "entries": [
+        {
+          "name": "Glacial Howl",
+          "Smaz": "Snowkami",
+          "simple_explanation": "Good damage with a very high chance to freeze an enemy.",
+          "complex_explanation": "Deals 1350% damage with a 70% chance to Freeze for 2.5s. Freezing is a hard disable, making this an excellent tool for control and setting up kills, even if the raw damage is a step below A-tier.",
+          "relevant_info": "Damage: 1350% (Single-Target) | Effect: 70% chance to Freeze for 2.5s"
+        },
+        {
+          "name": "Electric Burst",
+          "Smaz": "Mantleray",
+          "simple_explanation": "Fires 3 powerful bombs with huge potential damage.",
+          "complex_explanation": "Each of the 3 bombs deals 1406% damage. The potential to hit a single target for over 4000% damage is immense, but the random nature of the targeting adds some inconsistency. Still a top-tier damage ultimate.",
+          "relevant_info": "Damage: 1406% x3 (Random Targets/AOE)"
+        },
+        {
+          "name": "Nightstorm",
+          "Smaz": "Abuzzinian",
+          "simple_explanation": "Hits 3 random enemies and can paralyze them.",
+          "complex_explanation": "Deals 1387.5% damage to 3 random enemies, with a 20% chance to Paralyze each. It's a fantastic disruption tool that spreads damage and CC across the enemy team.",
+          "relevant_info": "Damage: 1387.5% x3 (Random Targets) | Effect: 20% chance to Paralyze for 3.5s"
+        }
+      ]
+    },
+    {
+      "tier": "C",
+      "tier_name": "Solid, Reliable Ultimates",
+      "entries": [
+        {
+          "name": "Tectonic Spin",
+          "Smaz": "Anubeast",
+          "simple_explanation": "A decent AOE damage spin attack.",
+          "complex_explanation": "Deals 1125% damage to all nearby enemies. It's a reliable AOE for a frontline bruiser but lacks the sheer power or added effects of higher-tier ultimates.",
+          "relevant_info": "Damage: 1125% (AOE)"
+        },
+        {
+          "name": "Splash of Color",
+          "Smaz": "Graffitty",
+          "simple_explanation": "A straightforward single-target nuke.",
+          "complex_explanation": "A 960% damage single-target attack. It's reliable and gets the job done, but it's a very basic ultimate with no special properties.",
+          "relevant_info": "Damage: 960% (Single-Target)"
+        },
+        {
+          "name": "Scorching Sweep",
+          "Smaz": "Emboa",
+          "simple_explanation": "Decent AOE damage that also applies a burn.",
+          "complex_explanation": "Deals 924% damage in a fan AOE and applies a Burn DOT. The combination of upfront damage and damage over time makes it a decent sustained damage tool.",
+          "relevant_info": "Damage: 924% (Fan AOE) | Effect: Burn DOT (40% dmg/sec for 7s)"
+        }
+      ]
+    }
+  ]
+}

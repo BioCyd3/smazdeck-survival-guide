@@ -1,0 +1,163 @@
+{
+  "title": "Overall Battle Smaz Tier List",
+  "description": "This list ranks Smazs based on their overall combat effectiveness, considering a balance of damage output, survivability, crowd control, and unique support/debuff abilities.",
+  "tiers": [
+    {
+      "tier": "S",
+      "tier_name": "Game-Changing",
+      "entries": [
+        {
+          "name": "Barkplug",
+          "simple_explanation": "Top-tier damage dealer that also makes the entire team's damage better.",
+          "complex_explanation": "Barkplug possesses an elite combination of high single-target damage with 'Overcharge' (2331% + Paralyze) and one of the best debuffs in the game, 'Ion Disruption,' which reduces all enemy DEF by 20%. This defense reduction is a massive damage multiplier for your entire squad, securing Barkplug's spot as a top-tier offensive force.",
+          "synergies": "Synergizes with every other DPS Smaz by amplifying their damage. Pairs exceptionally well with other high-damage, single-target nukers like Magmolin or Oneirina to delete priority targets.",
+          "relevant_info": "Key Skills: Overcharge (2331% DMG, Paralyze), Ion Disruption (Enemy DEF -20%)"
+        },
+        {
+          "name": "Dolphriend",
+          "simple_explanation": "An incredibly tanky damage dealer that can stun-lock enemies.",
+          "complex_explanation": "Dolphriend is the quintessential bruiser. 'Tidal Guard' provides a massive 30% HP boost, making it inherently durable. Its ultimate, 'Rush Wave,' not only deals immense damage (2109%) but also has a high chance to stun for 3 seconds, providing both damage and crucial crowd control. It can absorb punishment while disabling key threats.",
+          "synergies": "Works well in frontline compositions with a support Smaz like Platyputz for shields or Statchew for further damage reduction, creating an unbreakable front wall.",
+          "relevant_info": "Key Skills: Rush Wave (2109% DMG, 70% Stun), Tidal Guard (+30% Max HP)"
+        },
+        {
+          "name": "Oneirina",
+          "simple_explanation": "Elite damage with a debuff that makes its target take even more damage.",
+          "complex_explanation": "Oneirina's ultimate, 'Torment,' is one of the strongest single-target attacks, dealing 2590% damage. Crucially, it also applies a debuff that increases the target's damage taken by 10%, amplifying its own devastating blow. It also has 'Dream Shadow' for a passive +30% Crit Rate, ensuring its hits are consistently powerful.",
+          "synergies": "Pairs incredibly well with Barkplug. The defense shred from 'Ion Disruption' combined with the vulnerability from 'Torment' can one-shot almost any enemy in the game.",
+          "relevant_info": "Key Skills: Torment (2590% DMG, +10% DMG Taken Debuff), Dream Shadow (+30% Crit Rate)"
+        },
+        {
+          "name": "Magmolin",
+          "simple_explanation": "The highest single-target damage ultimate in the game.",
+          "complex_explanation": "Magmolin's role is simple: delete one enemy. Its 'Lava Shock' skill has the highest damage multiplier at a staggering 2775%. This makes it the ultimate boss killer or priority target eliminator. While it lacks other utility, its raw, unmatched power earns it a top spot.",
+          "synergies": "Best paired with supports that enable its one-shot potential, such as Barkplug (DEF Reduction) or Flaries (ATK Buff), to ensure the target is vaporized.",
+          "relevant_info": "Key Skill: Lava Shock (2775% DMG)"
+        },
+        {
+          "name": "Statchew",
+          "simple_explanation": "The ultimate defensive anchor, making your whole team tougher and enemies weaker.",
+          "complex_explanation": "Statchew is the premier tank and support. It combines two powerful defensive skills: 'Sentinel' reduces damage taken by its front-row allies by 20%, while 'Protective Roar' reduces the enemy front-row's damage output. This dual-sided damage mitigation is invaluable for squad survivability.",
+          "synergies": "The core of any defensive or stall-based team. Allows fragile DPS Smazs to survive longer. Pairs perfectly with other tanks like Dolphriend or bruisers like Baboom.",
+          "relevant_info": "Key Skills: Sentinel (Front-row allies take -20% DMG), Protective Roar (Enemy front-row deals -13.5% DMG)"
+        }
+      ]
+    },
+    {
+      "tier": "A",
+      "tier_name": "Top-Tier Power",
+      "entries": [
+        {
+          "name": "Ninjump",
+          "simple_explanation": "Excellent melee damage dealer who hits multiple times.",
+          "complex_explanation": "Ninjump is a strong melee DPS with 'Strike Like a Waterfall,' which can hit a single target with three 1248.75% damage shurikens, leading to massive total damage if they all connect. It's a high-risk, high-reward Smaz that excels at shredding single targets.",
+          "synergies": "Benefits greatly from Accuracy traits like Sharpshooter to ensure all shurikens hit. Works well in dive compositions that can quickly reach the enemy backline.",
+          "relevant_info": "Key Skill: Strike Like a Waterfall (1248.75% DMG x3)"
+        },
+        {
+          "name": "Baboom",
+          "simple_explanation": "A tanky frontline fighter with a powerful stun and a defense boost.",
+          "complex_explanation": "Baboom is a premier frontline hybrid. It gains +30% Defense from 'Nature's Gift' and its 'Power Strike' ultimate deals 2220% damage with a high chance to stun. It combines excellent damage, crowd control, and durability.",
+          "synergies": "Forms a powerful frontline with Statchew or Dolphriend. Its stun can set up kills for backline DPS like Mantleray.",
+          "relevant_info": "Key Skills: Power Strike (2220% DMG, 70% Stun), Nature's Gift (+30% DEF)"
+        },
+        {
+          "name": "Mantleray",
+          "simple_explanation": "Fires multiple high-damage bombs and has a huge self-buff to crit rate.",
+          "complex_explanation": "Mantleray offers insane damage potential with 'Electric Burst,' firing 3 bombs that each deal 1406% damage, which can potentially all hit the same target. Its passive, 'Stinging Spark,' grants a constant +30% Crit Rate, making its damage output very reliable and spiky.",
+          "synergies": "Pairs well with Barkplug's DEF shred. As a backline DPS, it appreciates a strong frontline of Statchew and Dolphriend to keep enemies away.",
+          "relevant_info": "Key Skills: Electric Burst (1406% DMG x3), Stinging Spark (+30% Crit Rate)"
+        },
+        {
+          "name": "Snowkami",
+          "simple_explanation": "High damage ultimate that can freeze an enemy solid.",
+          "complex_explanation": "Snowkami is a powerful damage dealer with excellent crowd control. 'Glacial Howl' deals 1350% damage and has a 70% chance to Freeze the target for 2.5s, completely disabling them. It also gains a passive 20% Attack boost from 'Wolfy Will.'",
+          "synergies": "Works well in control-oriented teams. Freezing a target sets them up for a guaranteed hit from a high-damage ultimate like Magmolin's 'Lava Shock.'",
+          "relevant_info": "Key Skills: Glacial Howl (1350% DMG, 70% Freeze), Wolfy Will (+20% ATK)"
+        },
+        {
+          "name": "Abuzzinian",
+          "simple_explanation": "Hits multiple random enemies and can paralyze them.",
+          "complex_explanation": "Abuzzinian excels at disrupting the enemy team. 'Nightstorm' hits 3 random enemies for high damage (1387.5%) and has a chance to Paralyze them, preventing them from using their own ultimates. This RNG-based disruption can swing fights.",
+          "synergies": "Best in teams that can capitalize on chaotic fights. The random paralysis can open up opportunities for your other DPS to secure kills.",
+          "relevant_info": "Key Skill: Nightstorm (1387.5% DMG x3, 20% Paralyze)"
+        }
+      ]
+    },
+    {
+      "tier": "B",
+      "tier_name": "Strong & Reliable",
+      "entries": [
+        {
+          "name": "Hoofrit",
+          "simple_explanation": "A very tanky Smaz with a hard-hitting charge attack.",
+          "complex_explanation": "Hoofrit is a solid bruiser, gaining a large +30% max HP from 'Hard-Horned.' Its damage output is respectable with 'Fiery Charge' (840.64%) and 'Blazing Volley' (2497.5% to back row), making it a durable threat to multiple positions.",
+          "synergies": "Good frontline option that doesn't need much support to be effective. Its back-row attack can soften targets for ranged DPS like Surveilynx.",
+          "relevant_info": "Key Skills: Hard-Horned (+30% Max HP), Blazing Volley (2497.5% DMG to back row)"
+        },
+        {
+          "name": "Flaries",
+          "simple_explanation": "Can give itself a massive attack buff before firing a strong linear AOE.",
+          "complex_explanation": "Flaries has a unique self-buff, 'Heating Up,' which grants +60% Attack for 9s. This dramatically increases the power of its ultimate, 'Flamewing Dive' (1375% linear AOE). The setup required makes it less consistent than A-tier Smazs, but the damage ceiling is very high.",
+          "synergies": "Requires a sturdy frontline to give it time to buff itself. Works well with debuffers like Barkplug to maximize its buffed damage window.",
+          "relevant_info": "Key Skills: Heating Up (+60% ATK for 9s), Flamewing Dive (1375% DMG)"
+        },
+        {
+          "name": "Surveilynx",
+          "simple_explanation": "A mobile damage dealer with a strong fan-shaped AOE attack.",
+          "complex_explanation": "Surveilynx is a great backline DPS. 'Shadow Step' allows it to hit multiple enemies in a fan for 1387.5% damage. Its mobility and AOE potential make it effective at clearing out clustered enemies.",
+          "synergies": "Pairs well with Smazs that can group enemies up or hold them in place, allowing 'Shadow Step' to hit its maximum number of targets.",
+          "relevant_info": "Key Skill: Shadow Step (1387.5% AOE DMG)"
+        },
+        {
+          "name": "Platyputz",
+          "simple_explanation": "A quirky tank that takes less damage and can shield its allies.",
+          "complex_explanation": "Platyputz is a unique defensive support. It passively takes -20% damage from 'Blunt Sense' and can grant a significant shield to the lowest HP ally with 'Bubble Shield.' Its utility is high, but its damage is low, making it more specialized than S-tier tanks.",
+          "synergies": "Excellent for protecting a fragile, high-damage Smaz like Magmolin or Ninjump. Creates a very durable team when paired with Statchew.",
+          "relevant_info": "Key Skills: Bubble Shield (Ally Shield), Blunt Sense (-20% DMG Taken)"
+        },
+        {
+          "name": "Lucidina",
+          "simple_explanation": "A solid baseline Smaz with a good all-around stat boost.",
+          "complex_explanation": "Lucidina's main combat contribution is the 'Promising' skill, which grants a passive +20% to all stats. This makes it a very well-rounded and customizable Smaz that can be built for any role, though it lacks a specialized, game-changing ultimate.",
+          "synergies": "A flexible slot in any team. Can be built as a secondary DPS or a sturdy mid-liner depending on trait selection.",
+          "relevant_info": "Key Skill: Promising (+20% Total Attack, Defense, and HP)"
+        }
+      ]
+    },
+    {
+      "tier": "C",
+      "tier_name": "Situational or Niche",
+      "entries": [
+        {
+          "name": "Lendanear",
+          "simple_explanation": "A healer-focused Smaz whose combat skills are secondary.",
+          "complex_explanation": "Lendanear is primarily a production Smaz for the Hospital. In combat, its 'Heart Blitz' (325%) is weak, and its main contribution is the 'Sturdy' passive for a 10% stat boost. It's outclassed by most other options in a pure combat scenario.",
+          "synergies": "Doesn't have strong combat synergies. It's better left in the base.",
+          "relevant_info": "Key Skill: Heart Blitz (325% DMG)"
+        },
+        {
+          "name": "Graffitty",
+          "simple_explanation": "Decent single-target damage but nothing exceptional.",
+          "complex_explanation": "Graffitty has a solid single-target nuke with 'Splash of Color' (960%), but it lacks the secondary effects (stun, debuffs) or the raw power of higher-tier DPS Smazs. It's a reliable but unexciting damage option.",
+          "synergies": "Can be a budget backline DPS in the early-to-mid game.",
+          "relevant_info": "Key Skill: Splash of Color (960% DMG)"
+        },
+        {
+          "name": "Servolt",
+          "simple_explanation": "Gets a decent attack buff but its main attack is weak.",
+          "complex_explanation": "Servolt's 'Tempered Steel' gives it a +30% Attack boost, which is strong. However, its ultimate, 'Hyah!,' has a low multiplier (525.4%), meaning even with the buff, its damage output is lower than its peers.",
+          "synergies": "Can benefit from further attack buffs, but better options exist.",
+          "relevant_info": "Key Skills: Tempered Steel (+30% ATK), Hyah! (525.4% DMG)"
+        },
+        {
+          "name": "Bruiseberry",
+          "simple_explanation": "Decent damage but is mostly a production Smaz.",
+          "complex_explanation": "Bruiseberry has a strong melee attack with 'Fruit Punch-Up' (1500%), but it lacks any other utility or defensive capabilities, making it a glass cannon without the overwhelming power to justify it. Its main strength is 'Tireless' for the Armigo Hut.",
+          "synergies": "Needs significant protection to be able to deal its damage.",
+          "relevant_info": "Key Skill: Fruit Punch-Up (1500% DMG)"
+        }
+      ]
+    }
+  ]
+}

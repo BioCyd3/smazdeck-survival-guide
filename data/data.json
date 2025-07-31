@@ -1,0 +1,1528 @@
+{
+  "best_battle_builds": [
+    {
+      "role": "DPS (Backline-Ranged)",
+      "examples": [
+        "Lucidina",
+        "Mantleray",
+        "Fingenue",
+        "Surveilynx"
+      ],
+      "primary_traits": [
+        "Belligerent (Attack 7%)",
+        "Fortunate (Crit Rate 5%)",
+        "Ruthless (Crit Damage 8%)",
+        "Sharpshooter (Accuracy 5%)"
+      ],
+      "substitutes": [
+        "Robust (HP 7%)"
+      ]
+    },
+    {
+      "role": "Pure Tank or Support",
+      "examples": [
+        "Dolphriend",
+        "Fulgairy",
+        "Statchew"
+      ],
+      "primary_traits": [
+        "Robust (HP 7%)",
+        "Steadfast (Def 7%)",
+        "Unyielding (Tenacity 5%)",
+        "Steel Skull (Crit Def 8%)"
+      ],
+      "substitutes": [
+        "Elusive (Evade 5%)"
+      ]
+    },
+    {
+      "role": "DPS (Backline-Melee)",
+      "examples": [
+        "Ninjump",
+        "Barkplug",
+        "Blazeal"
+      ],
+      "primary_traits": [
+        "Belligerent (Attack 7%)",
+        "Fortunate (Crit Rate 5%)",
+        "Ruthless (Crit Damage 8%)",
+        "Robust (HP 7%)"
+      ],
+      "substitutes": [
+        "Sharpshooter (Accuracy 5%)"
+      ]
+    },
+    {
+      "role": "Hybrid Tank-DPS (Frontline)",
+      "examples": [
+        "Ghillant",
+        "Magmolin",
+        "Baboom"
+      ],
+      "primary_traits": [
+        "Belligerent (Attack 7%)",
+        "Robust (HP 7%)",
+        "Steadfast (Def 7%)",
+        "Steel Skull (Crit Def 8%)"
+      ],
+      "substitutes": [
+        "Unyielding (Tenacity 5%)",
+        "Elusive (Evade 5%)",
+        "Fortunate (Crit Rate 5%)"
+      ]
+    }
+  ],
+  "team_composition_guide": [
+    {
+      "name": "The Unbreakable Wall",
+      "strategy_simple": "Outlast your opponent by being incredibly hard to kill, then win with chip damage or control.",
+      "strategy_complex": "This composition layers multiple defensive buffs and debuffs to achieve near-invincibility. Statchew's 'Sentinel' and 'Protective Roar' provide team-wide and enemy-specific damage mitigation. Platyputz adds another layer with its personal 'Blunt Sense' damage reduction and the life-saving 'Bubble Shield' for the most vulnerable ally. The goal is to absorb the enemy's initial assault and win a war of attrition as their key threats are neutralized by CC or slowly worn down.",
+      "core_Smazs": [
+        {
+          "name": "Statchew",
+          "reason": "The cornerstone of defense, providing -20% damage taken to the front row and reducing enemy damage output by 13.5%."
+        },
+        {
+          "name": "Platyputz",
+          "reason": "Offers personal damage reduction (-20%) and a crucial shield to save allies, preventing focused fire from succeeding."
+        }
+      ],
+      "flex_slots": [
+        {
+          "name": "Dolphriend",
+          "reason": "Adds a massive HP pool (+30% from 'Tidal Guard') and a powerful stun ('Rush Wave') for offensive pressure and control."
+        },
+        {
+          "name": "Snowkami",
+          "reason": "Provides excellent crowd control with 'Glacial Howl' (Freeze), further reducing incoming damage by disabling a key threat."
+        },
+        {
+          "name": "Fingenue",
+          "reason": "Adds another layer of damage reduction with 'Rejuvenate,' which can protect a backline Smaz or further bolster the frontline."
+        }
+      ],
+      "example_composition": {
+        "frontline_1": "Statchew",
+        "frontline_2": "Dolphriend",
+        "backline_1": "Platyputz",
+        "backline_2": "Snowkami",
+        "backline_3": "Fingenue"
+      },
+      "key_traits": {
+        "tanks": "Robust (HP 7%), Steadfast (Def 7%), Steel Skull (Crit Def 8%), Unyielding (Tenacity 5%). Vigorous (HP 10%) on Platyputz to scale its shield.",
+        "support": "Defensive traits are prioritized to ensure their survival and continued support.",
+        "dps": "N/A for this pure stall build, but if a DPS is flexed in, use Belligerent, Ruthless, Fortunate."
+      },
+      "weaknesses": "Susceptible to teams with heavy debuffs, especially defense reduction (like a Barkplug team), which can bypass some of the mitigation. Also struggles against extreme burst damage that can one-shot a Smaz before shields or buffs can be applied. Can lack the damage to finish off other tanky teams."
+    },
+    {
+      "name": "Alpha Strike Nuke Squad",
+      "strategy_simple": "Delete the enemy's most important Smaz in the first few seconds of the fight.",
+      "strategy_complex": "This is a hyper-offensive 'glass cannon' strategy. The entire team is built around enabling one massive, overwhelming attack. Barkplug applies 'Ion Disruption' (-20% Enemy DEF) to the entire enemy team. Flaries can use 'Heating Up' (+60% ATK) on itself, or Meowdame can provide 'Starlight Blessing' (+20% DMG) to an ally. This setup allows Magmolin's 'Lava Shock' (2775% DMG) or Oneirina's 'Torment' (2590% DMG) to hit for absurd, fight-ending numbers on a single target. The win condition is securing a 5v4 advantage immediately.",
+      "core_Smazs": [
+        {
+          "name": "Barkplug",
+          "reason": "Essential for its team-wide 20% defense reduction ('Ion Disruption'), which is the single largest damage multiplier available."
+        },
+        {
+          "name": "Magmolin",
+          "reason": "The primary finisher with the highest single-target damage skill in the game, 'Lava Shock' (2775%)."
+        }
+      ],
+      "flex_slots": [
+        {
+          "name": "Oneirina",
+          "reason": "An alternative or secondary nuker. 'Torment' deals massive damage and applies a vulnerability debuff, which stacks with Barkplug's shred."
+        },
+        {
+          "name": "Flaries",
+          "reason": "Provides a massive +60% ATK self-buff, turning itself into a powerful nuker."
+        },
+        {
+          "name": "Meowdame",
+          "reason": "Offers a potential +20% damage buff to a random ally. High-risk, high-reward support that can push the nuke's damage even higher if it lands on Magmolin."
+        }
+      ],
+      "example_composition": {
+        "frontline_1": "Barkplug",
+        "frontline_2": "Magmolin",
+        "backline_1": "Oneirina",
+        "backline_2": "Flaries",
+        "backline_3": "A tank like Statchew to buy a few seconds of time."
+      },
+      "key_traits": {
+        "tanks": "If a tank is used, full defensive traits (Robust, Steadfast).",
+        "support": "Belligerent on Barkplug to maximize its own damage contribution.",
+        "dps": "Warlike/Belligerent (Attack), Heartless/Ruthless (Crit Damage). Sharpshooter (Accuracy) is crucial for multi-hit nukers."
+      },
+      "weaknesses": "Extremely vulnerable to crowd control (stuns, freezes) that can interrupt the combo. If the initial nuke fails to kill a key target or is absorbed by a shield (from Platyputz), the team often lacks the survivability to win a prolonged fight."
+    },
+    {
+      "name": "AOE Cleave Crew",
+      "strategy_simple": "Survive the initial engagement, then wipe the entire enemy team at once with multiple area-of-effect ultimates.",
+      "strategy_complex": "This composition is designed to maximize damage across all enemy Smazs. The strategy involves using a strong frontline, led by Statchew, to absorb damage and buy time for the backline's Rage meters to fill. Once ready, the team unleashes a coordinated barrage of AOE skills like Finnabelle's 'Waterspout' (1803% AOE), Blazeal's 'Huuuah!' (1665% Line AOE), and Mantleray's 'Electric Burst' (1406% x3 AOE) to devastate the entire enemy formation.",
+      "core_Smazs": [
+        {
+          "name": "Statchew",
+          "reason": "Absolutely essential. The team needs to survive long enough to use their ultimates, and Statchew's damage mitigation is the best way to ensure this."
+        },
+        {
+          "name": "Finnabelle",
+          "reason": "Possesses one of the largest and most powerful AOE ultimates, 'Waterspout', capable of hitting the entire enemy team."
+        }
+      ],
+      "flex_slots": [
+        {
+          "name": "Blazeal",
+          "reason": "Provides a powerful line AOE that can hit both front and back rows, complementing Finnabelle's circular AOE."
+        },
+        {
+          "name": "Mantleray",
+          "reason": "'Electric Burst' is fantastic for spreading damage or focusing down a weakened group. The high crit rate adds consistency."
+        },
+        {
+          "name": "Surveilynx",
+          "reason": "'Shadow Step' provides a wide, fan-shaped AOE that is excellent for clearing out clumped enemies."
+        }
+      ],
+      "example_composition": {
+        "frontline_1": "Statchew",
+        "frontline_2": "Baboom (for tankiness and CC)",
+        "backline_1": "Finnabelle",
+        "backline_2": "Blazeal",
+        "backline_3": "Mantleray"
+      },
+      "key_traits": {
+        "tanks": "Full defensive traits: Robust, Steadfast, Steel Skull.",
+        "support": "N/A",
+        "dps": "Belligerent (Attack) is the most important trait to boost the base damage of all AOE skills. Sharpshooter for Mantleray."
+      },
+      "weaknesses": "Highly dependent on ultimate abilities. Teams with Paralyze (Barkplug, Abuzzinian) can shut this strategy down. Also vulnerable to single-target nuke teams that can eliminate one of the key AOE damage dealers before they can act."
+    },
+    {
+      "name": "Bruiser Brigade",
+      "strategy_simple": "A balanced, flexible team that controls the frontline with tanky, high-damage fighters.",
+      "strategy_complex": "This composition aims for a dominant frontline presence by using two top-tier bruisers. Baboom brings a +30% DEF buff, high damage, and a stun. Dolphriend brings a +30% HP buff, high damage, and another stun. Together, they create a frontline that is both incredibly durable and a major offensive threat. This solid core allows for a flexible backline, typically a strong ranged DPS, to deal damage safely. This is a well-rounded strategy that can adapt to many situations.",
+      "core_Smazs": [
+        {
+          "name": "Baboom",
+          "reason": "The quintessential hybrid. 'Nature's Gift' (+30% Def) and 'Power Strike' (2220% DMG + Stun) make it a perfect anchor."
+        },
+        {
+          "name": "Dolphriend",
+          "reason": "An offensive tank with a massive HP pool ('Tidal Guard') and a devastating, stunning ultimate ('Rush Wave')."
+        }
+      ],
+      "flex_slots": [
+        {
+          "name": "Mantleray",
+          "reason": "A premier backline DPS whose damage output is protected by the strong frontline."
+        },
+        {
+          "name": "Surveilynx",
+          "reason": "Another excellent backline DPS choice for its AOE capabilities."
+        },
+        {
+          "name": "Statchew",
+          "reason": "Can be subbed in for one of the bruisers to create a more defensive, traditional frontline if needed."
+        }
+      ],
+      "example_composition": {
+        "frontline_1": "Baboom",
+        "frontline_2": "Dolphriend",
+        "backline_1": "Mantleray",
+        "backline_2": "Lucidina (as a well-rounded support DPS)",
+        "backline_3": "Fingenue (for extra defensive support)"
+      },
+      "key_traits": {
+        "tanks": "A mix of offensive and defensive traits. Belligerent, Robust, and Steadfast are all excellent choices.",
+        "support": "Standard defensive traits.",
+        "dps": "Belligerent, Fortunate, Ruthless, Sharpshooter."
+      },
+      "weaknesses": "Can be worn down by teams with superior sustain or control. While balanced, it may lack the specialized power to break through an 'Unbreakable Wall' comp or out-damage a dedicated 'Nuke Squad'."
+    },
+    {
+      "name": "The Lockdown Artists",
+      "strategy_simple": "Win by disabling the enemy team with a constant barrage of crowd control effects like stuns and freezes.",
+      "strategy_complex": "This team's goal is to prevent the enemy from playing the game. It chains multiple crowd control abilities to keep key enemy Smazs disabled. Snowkami's 'Glacial Howl' provides a long freeze. Dolphriend's 'Rush Wave' and Baboom's 'Power Strike' offer reliable stuns. Barkplug's 'Overcharge' can add a crippling Paralyze. By staggering these ultimates, you can lock down an enemy Smaz for an extended period, allowing your damage dealer to eliminate them without retaliation.",
+      "core_Smazs": [
+        {
+          "name": "Snowkami",
+          "reason": "'Glacial Howl' has a 70% chance to Freeze for 2.5s, which is one of the strongest single-target disables."
+        },
+        {
+          "name": "Dolphriend",
+          "reason": "'Rush Wave' combines high damage with a 70% chance for a long 3s stun, making it a perfect follow-up or initiator."
+        }
+      ],
+      "flex_slots": [
+        {
+          "name": "Baboom",
+          "reason": "Adds another powerful stun to the chain, making the lockdown even more reliable."
+        },
+        {
+          "name": "Barkplug",
+          "reason": "The Paralyze from 'Overcharge' is devastating, as it prevents enemies from using their own ultimates to escape the CC chain."
+        },
+        {
+          "name": "Ninjump",
+          "reason": "An excellent DPS to include, as its multi-hit 'Strike Like a Waterfall' can unleash massive damage on a target that is guaranteed to be stationary."
+        }
+      ],
+      "example_composition": {
+        "frontline_1": "Dolphriend",
+        "frontline_2": "Baboom",
+        "backline_1": "Snowkami",
+        "backline_2": "Barkplug",
+        "backline_3": "Ninjump"
+      },
+      "key_traits": {
+        "tanks": "Robust and Steadfast to ensure they survive to use their CC ultimates.",
+        "support": "N/A",
+        "dps": "Belligerent and Sharpshooter are key for the designated finisher (like Ninjump) to maximize damage during the lockdown."
+      },
+      "weaknesses": "Highly reliant on landing CC effects. Smazs with high Tenacity (from the 'Unyielding' or 'Iron Will' traits) can shorten the CC duration and disrupt the chain. If the ultimates are mistimed, the window of opportunity closes quickly."
+    }
+  ],
+  "camp_upgrades": [
+    {
+      "level": "C10",
+      "requirements": [
+        "Squad 1 Lv9",
+        "Armigo Hut Lv9"
+      ]
+    },
+    {
+      "level": "C11",
+      "requirements": [
+        "Field Lab 1 Lv10",
+        "Power Plant Lv10"
+      ]
+    },
+    {
+      "level": "C12",
+      "requirements": [
+        "Hospital 1 Lv11",
+        "Hatchery Lv11"
+      ]
+    },
+    {
+      "level": "C13",
+      "requirements": [
+        "Armigo Hut Lv12",
+        "Table Saw Lv12"
+      ]
+    },
+    {
+      "level": "C14",
+      "requirements": [
+        "Hospital 1 Lv13",
+        "Furnace Lv13"
+      ]
+    },
+    {
+      "level": "C15",
+      "requirements": [
+        "Field Lab 1 Lv14",
+        "Power Plant Lv14"
+      ]
+    },
+    {
+      "level": "C16",
+      "requirements": [
+        "Armigo Hut Lv15",
+        "Table Saw Lv15"
+      ]
+    },
+    {
+      "level": "C17",
+      "requirements": [
+        "Squad 1 Lv16",
+        "Power Plant Lv16"
+      ]
+    },
+    {
+      "level": "C18",
+      "requirements": [
+        "Hatchery Lv17",
+        "Field Lab 1 Lv17"
+      ]
+    },
+    {
+      "level": "C19",
+      "requirements": [
+        "Armigo Hut Lv18",
+        "Field Lab 1 Lv18"
+      ]
+    },
+    {
+      "level": "C20",
+      "requirements": [
+        "Hospital 1 Lv19",
+        "Field Lab 1 Lv19"
+      ]
+    },
+    {
+      "level": "C21",
+      "requirements": [
+        "Squad 1 Lv20",
+        "Field Lab 1 Lv20"
+      ]
+    },
+    {
+      "level": "C22",
+      "requirements": [
+        "Armigo Hut Lv21",
+        "Field Lab 1 Lv21"
+      ]
+    },
+    {
+      "level": "C23",
+      "requirements": [
+        "Hospital 1 Lv22",
+        "Field Lab 1 Lv22"
+      ]
+    },
+    {
+      "level": "C24",
+      "requirements": [
+        "Squad 1 Lv23",
+        "Field Lab 1 Lv23"
+      ]
+    },
+    {
+      "level": "C25",
+      "requirements": [
+        "Armigo Hut Lv24",
+        "Field Lab 1 Lv24"
+      ]
+    },
+    {
+      "level": "C26",
+      "requirements": [
+        "Hospital 1 Lv25",
+        "Field Lab 1 Lv25"
+      ]
+    },
+    {
+      "level": "C27",
+      "requirements": [
+        "Squad 1 Lv26",
+        "Field Lab 1 Lv26"
+      ]
+    },
+    {
+      "level": "C28",
+      "requirements": [
+        "Armigo Hut Lv27",
+        "Field Lab 1 Lv27"
+      ]
+    },
+    {
+      "level": "C29",
+      "requirements": [
+        "Hospital 1 Lv28",
+        "Field Lab 1 Lv28"
+      ]
+    },
+    {
+      "level": "C30",
+      "requirements": [
+        "Squad 1 Lv29",
+        "Field Lab 1 Lv29"
+      ]
+    }
+  ],
+  "tech_tree_buffs": {
+    "growth": {
+      "Smazmon_building_and_research": {
+        "job_efficiency_bonus": "20.0%",
+        "time_reduction": "-10m",
+        "upgrade_speed": "20.0%",
+        "upgrade_cost_reduction": "-2.5%"
+      },
+      "elemental_production": {
+        "description": "Water / Earth / Fire / Electric",
+        "bonus": "15.0%",
+        "output": "15.0%"
+      },
+      "resource_production": {
+        "description": "Lumber / Steel / Shop Gold",
+        "bonus": "20.0%"
+      }
+    },
+    "all_Smazmon": {
+      "damage": "5.0%",
+      "atk_def_hp": "5.0%"
+    },
+    "armigo_training": {
+      "harvest_speed": "50.0%",
+      "lumber_steel": "25.0%",
+      "gold": "20.0%",
+      "training_capacity": null,
+      "training_speed": "30.0%",
+      "training_cost_reduction": "-2.5%"
+    },
+    "hospital": {
+      "healing_capacity": "25.0%",
+      "healing_speed": "15.0%",
+      "healing_cost_reduction": "-2.5%",
+      "armigo_combat_injury_rate_reduction": "-20.0%"
+    },
+    "armigo_upgrades": {
+      "description": "Camp order unlocks and upgrades",
+      "atk_def_hp_load": "30.0%"
+    },
+    "general_buffs": {
+      "bonus_points": {
+        "description": "Attack / Def / HP / Morale",
+        "value": "5.0%"
+      },
+      "activity_speed": {
+        "all_activities": "100.0%",
+        "intel_quests": "50.0%",
+        "speedups": "50.0%",
+        "hatching": "50.0%",
+        "building_power": "50.0%",
+        "tech_power": "50.0%",
+        "training": "50.0%",
+        "kills": "50.0%"
+      },
+      "march_speed": "10.0%",
+      "armigo_capacity": "5.0%",
+      "attacking_or_defending_camp": {
+        "atk_def_hp": "5.0%"
+      },
+      "npc_combat": {
+        "damage_to_npcs": "5.0%",
+        "damage_from_npcs_reduction": "-5.0%"
+      },
+      "pvp": {
+        "enemy_death_rate": "5.0%"
+      }
+    },
+    "guild_duel": {
+      "reward_chest_unlocks": null
+    },
+    "general_armigo_base_stats": {
+      "attack": "6.0%",
+      "defense": "7.2%",
+      "hp": "12.0%"
+    },
+    "trade": {
+      "extra_lumber_steel_gold": "25.0%",
+      "trade_time_reduction": "25.0%",
+      "daily_trade_cap_increase": "1.0%"
+    },
+    "raiding": {
+      "stat_buffs": "15.0%",
+      "chance_to_loot_extra_cargo": "50.0%"
+    },
+    "defending_from_raid": {
+      "stat_buffs": "15.0%",
+      "chance_to_recover_cargo": "50.0%",
+      "chance_of_1_raid_only_airship": "30.0%",
+      "daily_cap_from_single_raider": "3.0%"
+    },
+    "Smazmon_buffs": {
+      "damage_dealt": "10.0%",
+      "damage_received_reduction": "-10.0%",
+      "morale": "10.0%"
+    },
+    "training_and_healing": {
+      "capacity": "10.0%",
+      "speed": "10.0%"
+    },
+    "other": {
+      "armigo_lvl_9_unlock": null
+    }
+  },
+  "backline_dps_tier_list": {
+    "title": "Backline DPS Tier List",
+    "description": "This list ranks Smazs who excel at dealing damage from the safety of the back row, based on the 'DPS (Backline-Ranged)' role.",
+    "tiers": [
+        {
+            "tier": "S",
+            "tier_name": "Elite Ranged Threats",
+            "entries": [
+                {
+                    "name": "Mantleray",
+                    "simple_explanation": "Highest potential ranged damage with a self-crit buff.",
+                    "complex_explanation": "Mantleray is the premier backline DPS due to the insane damage potential of 'Electric Burst' (1406% x3) and the consistency provided by its +30% Crit Rate passive. It can obliterate single targets or spread damage effectively from a safe distance.",
+                    "synergies": "Needs a strong frontline (Statchew, Dolphriend) to keep enemies at bay. Benefits from Accuracy traits to land multiple bombs.",
+                    "relevant_info": "Role defined by high-damage, long-range skills."
+                },
+                {
+                    "name": "Surveilynx",
+                    "simple_explanation": "Mobile ranged DPS with a powerful fan-shaped AOE.",
+                    "complex_explanation": "Surveilynx's 'Shadow Step' deals high damage (1387.5%) in a wide arc, making it perfect for hitting multiple backline or mid-line enemies. Its mobility allows it to reposition effectively.",
+                    "synergies": "Pairs well with crowd control that groups enemies, maximizing the value of its AOE.",
+                    "relevant_info": "Role defined by its ranged, multi-target ultimate."
+                }
+            ]
+        },
+        {
+            "tier": "A",
+            "tier_name": "Strong Ranged Options",
+            "entries": [
+                {
+                    "name": "Lucidina",
+                    "simple_explanation": "A well-rounded stat-stick that can be built as a reliable backliner.",
+                    "complex_explanation": "With the 'Promising' passive (+20% all stats), Lucidina can be built with offensive traits like Belligerent and Sharpshooter to be a consistent, if not explosive, backline damage source. Its lack of a powerful ultimate holds it back from S-tier.",
+                    "synergies": "A flexible slot that can provide consistent pressure from the back row.",
+                    "relevant_info": "A default choice for the 'DPS (Backline-Ranged)' build archetype."
+                },
+                {
+                    "name": "Fingenue",
+                    "simple_explanation": "A support-oriented backliner who can still contribute damage.",
+                    "complex_explanation": "While its primary role is providing the 'Rejuvenate' buff, Fingenue is a ranged Smaz that fits naturally in the backline. It can be built with offensive traits to provide supplemental damage while supporting the team.",
+                    "synergies": "Offers a mix of safety and damage, pairing well with aggressive frontlines that need defensive support.",
+                    "relevant_info": "Listed as an example in the 'DPS (Backline-Ranged)' build archetype, suggesting a hybrid support/DPS role."
+                }
+            ]
+        },
+        {
+            "tier": "B",
+            "tier_name": "Situational Ranged DPS",
+            "entries": [
+                {
+                    "name": "Graffitty",
+                    "simple_explanation": "A basic, no-frills ranged damage dealer.",
+                    "complex_explanation": "'Splash of Color' is a long-ranged, single-target nuke (960%). It's a solid, budget backliner that provides consistent damage without any special tricks.",
+                    "synergies": "A good entry-level backline DPS before you acquire A or S-tier options.",
+                    "relevant_info": "Its long-range skill makes it a natural backliner."
+                },
+                {
+                    "name": "Rotorlotor",
+                    "simple_explanation": "Hits two random targets with a chance to paralyze.",
+                    "complex_explanation": "'Thunderstorm' (1200% to 2 targets) is a good ranged skill for spreading pressure and disruption. The randomness makes it less reliable for focusing targets, but it's a solid B-tier option.",
+                    "synergies": "Good for causing chaos and disrupting the enemy's plans from a safe distance.",
+                    "relevant_info": "Its ultimate is a long-range, multi-target spell."
+                }
+            ]
+        },
+        {
+            "tier": "C",
+            "tier_name": "Niche Ranged DPS",
+            "entries": [
+                {
+                    "name": "Axollium",
+                    "simple_explanation": "Fires multiple shots at a single target from range.",
+                    "complex_explanation": "'Aqua Cannon' attacks a single target 3 times for 510% damage each. While the total damage is good, it's spread over three hits, and the base damage of its other skills is low, making it less bursty than its peers.",
+                    "synergies": "Can be used to wear down a single target from the backline.",
+                    "relevant_info": "Its skills are primarily single-target and ranged."
+                },
+                {
+                    "name": "Emboa",
+                    "simple_explanation": "Has a ranged fireball and a fan-shaped AOE.",
+                    "complex_explanation": "Emboa's 'Fireball' and 'Scorching Sweep' are both ranged attacks. However, its overall damage is lower than other options, and it is often better utilized for its production skills.",
+                    "synergies": "Can provide ranged fire support and a burn debuff, but is outclassed in a pure DPS role.",
+                    "relevant_info": "Has a mix of ranged abilities suitable for the backline."
+                }
+            ]
+        }
+    ]
+  },
+  "defensive_battle_trait_tier_list": {
+    "title": "Defensive Battle Trait Tier List",
+    "description": "A tier list for the best traits to equip on your tank and support Smazs.",
+    "tiers": [
+        {
+            "tier": "S",
+            "tier_name": "Best in Slot",
+            "entries": [
+                {
+                    "name": "Vigorous",
+                    "simple_explanation": "The best trait for boosting maximum HP.",
+                    "complex_explanation": "Provides a 10% bonus to HP. Health is a universally effective defensive stat, making this a top choice for any tank.",
+                    "synergies": "Excellent on Smazs with HP-scaling abilities like Platyputz ('Bubble Shield') or those with innate HP boosts like Dolphriend.",
+                    "relevant_info": "Effect: HP +10%"
+                },
+                {
+                    "name": "Unshakeable",
+                    "simple_explanation": "The best trait for boosting Defense.",
+                    "complex_explanation": "Provides a 10% bonus to Defense. This offers the most damage mitigation against non-critical hits.",
+                    "synergies": "Pairs well with Smazs that have innate Defense boosts like Baboom.",
+                    "relevant_info": "Effect: Defense +10%"
+                },
+                {
+                    "name": "Diamond Skull",
+                    "simple_explanation": "The best trait for reducing damage from critical hits.",
+                    "complex_explanation": "Provides a 15% bonus to Crit Defense. Crucial for surviving against enemy teams built around high critical damage.",
+                    "relevant_info": "Effect: Crit Defense +15%"
+                },
+                {
+                    "name": "Iron Will",
+                    "simple_explanation": "The best trait for reducing the duration of debuffs.",
+                    "complex_explanation": "Provides an 8% bonus to Tenacity. This reduces the duration of crowd control and damage-over-time effects, which can be life-saving.",
+                    "relevant_info": "Effect: Tenacity +8%"
+                }
+            ]
+        },
+        {
+            "tier": "A",
+            "tier_name": "Excellent Choices",
+            "entries": [
+                {
+                    "name": "Robust",
+                    "simple_explanation": "A very strong HP boost.",
+                    "complex_explanation": "Provides a 7% bonus to HP. The standard, top-tier HP trait for any tank or bruiser build.",
+                    "relevant_info": "Effect: HP +7%"
+                },
+                {
+                    "name": "Steadfast",
+                    "simple_explanation": "A very strong Defense boost.",
+                    "complex_explanation": "Provides a 7% bonus to Defense. The A-tier staple for damage mitigation.",
+                    "relevant_info": "Effect: Defense +7%"
+                },
+                {
+                    "name": "Steel Skull",
+                    "simple_explanation": "A great boost to critical hit defense.",
+                    "complex_explanation": "Provides an 8% bonus to Crit Defense. A core defensive trait for any tank.",
+                    "relevant_info": "Effect: Crit Defense +8%"
+                },
+                {
+                    "name": "Unyielding",
+                    "simple_explanation": "A solid boost to debuff resistance.",
+                    "complex_explanation": "Provides a 5% bonus to Tenacity. Good for ensuring your tank isn't locked down by CC.",
+                    "relevant_info": "Effect: Tenacity +5%"
+                },
+                {
+                    "name": "Elusive",
+                    "simple_explanation": "A good boost to evasion chance.",
+                    "complex_explanation": "Provides a 5% bonus to Evasion. Offers a chance to completely negate an attack, which can be very powerful, albeit RNG-dependent.",
+                    "synergies": "Stacks well with Smazs that have innate evasion like Woozard.",
+                    "relevant_info": "Effect: Evasion +5%"
+                }
+            ]
+        },
+        {
+            "tier": "B",
+            "tier_name": "Good Fillers",
+            "entries": [
+                {
+                    "name": "Energetic",
+                    "simple_explanation": "A decent HP boost.",
+                    "complex_explanation": "Provides a 4% bonus to HP.",
+                    "relevant_info": "Effect: HP +4%"
+                },
+                {
+                    "name": "Resolute",
+                    "simple_explanation": "A decent Defense boost.",
+                    "complex_explanation": "Provides a 4% bonus to Defense.",
+                    "relevant_info": "Effect: Defense +4%"
+                },
+                {
+                    "name": "Iron Skull",
+                    "simple_explanation": "A decent boost to crit defense.",
+                    "complex_explanation": "Provides a 4% bonus to Crit Defense.",
+                    "relevant_info": "Effect: Crit Defense +4%"
+                },
+                {
+                    "name": "Hardy",
+                    "simple_explanation": "A small boost to debuff resistance.",
+                    "complex_explanation": "Provides a 2.5% bonus to Tenacity.",
+                    "relevant_info": "Effect: Tenacity +2.5%"
+                }
+            ]
+        },
+        {
+            "tier": "C",
+            "tier_name": "Budget Options",
+            "entries": [
+                {
+                    "name": "Stone Skull",
+                    "simple_explanation": "A very small crit defense boost.",
+                    "relevant_info": "Effect: Crit Defense +3%"
+                },
+                {
+                    "name": "Stubborn",
+                    "simple_explanation": "A very small debuff resistance boost.",
+                    "relevant_info": "Effect: Tenacity +1.5%"
+                },
+                {
+                    "name": "Slippery",
+                    "simple_explanation": "A very small evasion boost.",
+                    "relevant_info": "Effect: Evasion +2.5%"
+                }
+            ]
+        }
+    ]
+  },
+  "frontline_hybrid_tier_list": {
+    "title": "Frontline Hybrid (Tank/DPS) Tier List",
+    "description": "This list ranks Smazs who can both take and deal significant damage on the front lines, excelling as bruisers or offensive tanks.",
+    "tiers": [
+        {
+            "tier": "S",
+            "tier_name": "Elite Bruisers",
+            "entries": [
+                {
+                    "name": "Magmolin",
+                    "simple_explanation": "A frontline nuker with the game's strongest ultimate.",
+                    "complex_explanation": "While fragile, Magmolin is listed as a frontline hybrid because its 'Lava Shock' is a melee-range skill. Its role is to get in, delete one target with its 2775% damage ultimate, and hopefully survive. The sheer offensive power defines its frontline presence.",
+                    "synergies": "A hyper-offensive frontliner that needs support from tanks like Statchew or shielders like Platyputz to survive long enough to use its skill.",
+                    "relevant_info": "Classified as a Hybrid Tank-DPS. Role is pure offense from a frontline position."
+                },
+                {
+                    "name": "Baboom",
+                    "simple_explanation": "The perfect bruiser with high defense, high damage, and a stun.",
+                    "complex_explanation": "Baboom exemplifies the hybrid role. It gets +30% Defense from a passive, has a 2220% damage ultimate, and that ultimate has a 70% chance to stun. It perfectly balances offense and defense, making it a top-tier frontline threat.",
+                    "synergies": "The cornerstone of a balanced frontline. Pairs well with a pure tank like Statchew or a more offensive partner like Dolphriend.",
+                    "relevant_info": "Classified as a Hybrid Tank-DPS with a perfect kit for the role."
+                }
+            ]
+        },
+        {
+            "tier": "A",
+            "tier_name": "Top-Tier Frontliners",
+            "entries": [
+                {
+                    "name": "Dolphriend",
+                    "simple_explanation": "An offensive tank with massive HP and a powerful stun.",
+                    "complex_explanation": "Dolphriend leans more towards tank than DPS, but its 2109% damage ultimate is undeniably high. Its massive HP pool (+30%) allows it to stay in the fight and be a constant threat, mixing durability with potent offense and CC.",
+                    "synergies": "An excellent aggressive frontliner that can initiate fights and absorb huge amounts of damage.",
+                    "relevant_info": "While not in the build list, its kit is the definition of a frontline hybrid."
+                },
+                {
+                    "name": "Ghillant",
+                    "simple_explanation": "The standard by which other hybrids are measured.",
+                    "complex_explanation": "Ghillant is listed as the primary example of a frontline hybrid in the build data. It relies on a balanced set of traits (Belligerent, Robust, Steadfast) to achieve its hybrid status, making it a very customizable and reliable, if less specialized, choice.",
+                    "synergies": "A flexible core for a frontline that can be adapted based on the traits you equip.",
+                    "relevant_info": "The quintessential 'Hybrid Tank-DPS (Frontline)' as per game data."
+                }
+            ]
+        },
+        {
+            "tier": "B",
+            "tier_name": "Solid Bruiser Options",
+            "entries": [
+                {
+                    "name": "Hoofrit",
+                    "simple_explanation": "A massive HP sponge with respectable damage.",
+                    "complex_explanation": "With a +30% HP passive, Hoofrit is incredibly durable. Its damage, while not S-tier, is still significant, especially its back-row nuke. It's a damage-soaking bruiser that can't be ignored.",
+                    "synergies": "A great, simple frontline choice that can absorb damage while applying pressure.",
+                    "relevant_info": "Its high HP and decent damage make it a natural fit for this role."
+                },
+                {
+                    "name": "Statchew",
+                    "simple_explanation": "Primarily a tank, but its frontline presence is so strong it must be included.",
+                    "complex_explanation": "Statchew's damage is very low, but it is the definitive frontline anchor. Its value comes from making the *entire* frontline (including itself and its partner) incredibly tanky. It's a hybrid in the sense that it enables offensive plays through supreme defense.",
+                    "synergies": "Makes any offensive frontliner, like Baboom or Magmolin, significantly more effective by keeping them alive.",
+                    "relevant_info": "Its role is to define the frontline, making it a hybrid enabler."
+                }
+            ]
+        },
+        {
+            "tier": "C",
+            "tier_name": "Niche Frontliners",
+            "entries": [
+                {
+                    "name": "Barkplug",
+                    "simple_explanation": "A high-damage melee Smaz that can be built to be tankier.",
+                    "complex_explanation": "Barkplug is naturally a melee-range Smaz. While it's usually built as a glass cannon, it can be equipped with defensive traits like Robust or Steadfast to function as a frontline hybrid. Its damage and debuff are elite, but it lacks innate survivability.",
+                    "synergies": "Requires defensive traits to survive on the frontline, but its contribution is immense if it does.",
+                    "relevant_info": "A 'DPS (Backline-Melee)' that can be adapted to a frontline hybrid role."
+                },
+                {
+                    "name": "Ninjump",
+                    "simple_explanation": "A melee glass cannon that can be built for more survivability.",
+                    "complex_explanation": "Like Barkplug, Ninjump is a melee DPS that must be on the front lines to be effective. Without defensive traits, it's very fragile. With them, it can act as a C-tier hybrid, trading some of its insane damage for the ability to survive more than one hit.",
+                    "synergies": "Needs a dedicated tank partner like Statchew to draw attention away from it.",
+                    "relevant_info": "A 'DPS (Backline-Melee)' that can be adapted to a frontline hybrid role."
+                }
+            ]
+        }
+    ]
+  },
+  "offensive_battle_trait_tier_list": {
+    "title": "Offensive Battle Trait Tier List",
+    "description": "A tier list for the best traits to equip on your damage-dealing Smazs.",
+    "tiers": [
+        {
+            "tier": "S",
+            "tier_name": "Best in Slot",
+            "entries": [
+                {
+                    "name": "Warlike",
+                    "simple_explanation": "The biggest flat attack boost.",
+                    "complex_explanation": "Provides a 10% bonus to the Attack stat. As the highest unconditional damage-boosting trait, it is the best choice for any damage dealer.",
+                    "synergies": "Universally good for any Smaz focused on dealing damage.",
+                    "relevant_info": "Effect: Attack +10%"
+                },
+                {
+                    "name": "Heartless",
+                    "simple_explanation": "Massively increases critical hit damage.",
+                    "complex_explanation": "Provides a 15% bonus to Critical Damage. This is a huge multiplier that is especially potent on Smazs with high innate Crit Rate or when paired with Crit Rate traits.",
+                    "synergies": "Pairs perfectly with 'Blessed' or 'Fortunate' traits, and with Smazs like Mantleray or Oneirina who have innate crit bonuses.",
+                    "relevant_info": "Effect: Crit Damage +15%"
+                },
+                {
+                    "name": "Blessed",
+                    "simple_explanation": "The best trait for increasing critical hit chance.",
+                    "complex_explanation": "Provides the highest tier of Crit Rate bonus. More critical hits mean more frequent high-damage spikes, leading to a significant overall DPS increase.",
+                    "synergies": "The other half of the perfect crit combo, paired with 'Heartless' or 'Ruthless'.",
+                    "relevant_info": "Effect: Crit Rate (value not specified, but is S-Tier)"
+                },
+                {
+                    "name": "Deadeye",
+                    "simple_explanation": "The best trait for increasing accuracy.",
+                    "complex_explanation": "Provides the highest tier of Accuracy bonus. Essential for multi-hit abilities to ensure all projectiles hit their intended target, maximizing potential damage.",
+                    "synergies": "Crucial for Smazs like Ninjump ('Strike Like a Waterfall') and Mantleray ('Electric Burst') to reach their S-Tier damage potential.",
+                    "relevant_info": "Effect: Accuracy (value not specified, but is S-Tier)"
+                }
+            ]
+        },
+        {
+            "tier": "A",
+            "tier_name": "Excellent Choices",
+            "entries": [
+                {
+                    "name": "Belligerent",
+                    "simple_explanation": "A very strong flat attack boost.",
+                    "complex_explanation": "Provides a 7% bonus to Attack. This is the most common and reliable top-tier damage trait you will build for.",
+                    "synergies": "A staple for any DPS build.",
+                    "relevant_info": "Effect: Attack +7%"
+                },
+                {
+                    "name": "Ruthless",
+                    "simple_explanation": "A great boost to critical hit damage.",
+                    "complex_explanation": "Provides an 8% bonus to Crit Damage. A core component of any critical-hit-focused build.",
+                    "synergies": "Pairs with 'Fortunate' for a standard, effective crit build.",
+                    "relevant_info": "Effect: Crit Damage +8%"
+                },
+                {
+                    "name": "Fortunate",
+                    "simple_explanation": "A solid boost to critical hit chance.",
+                    "complex_explanation": "Provides a 5% bonus to Crit Rate. The A-tier standard for increasing the frequency of your crits.",
+                    "synergies": "Pairs with 'Ruthless' for a standard, effective crit build.",
+                    "relevant_info": "Effect: Crit Rate +5%"
+                },
+                {
+                    "name": "Sharpshooter",
+                    "simple_explanation": "A good boost to accuracy.",
+                    "complex_explanation": "Provides a 5% bonus to Accuracy. Very important for multi-hit skills to ensure they don't miss.",
+                    "synergies": "Highly recommended for Ninjump and Mantleray.",
+                    "relevant_info": "Effect: Accuracy +5%"
+                }
+            ]
+        },
+        {
+            "tier": "B",
+            "tier_name": "Good Fillers",
+            "entries": [
+                {
+                    "name": "Combative",
+                    "simple_explanation": "A decent attack boost.",
+                    "complex_explanation": "Provides a 4% bonus to Attack. A good placeholder until you can get Belligerent or Warlike.",
+                    "relevant_info": "Effect: Attack +4%"
+                },
+                {
+                    "name": "Brutal",
+                    "simple_explanation": "A decent boost to crit damage.",
+                    "complex_explanation": "Provides a 4% bonus to Crit Damage. A fine filler for a crit build.",
+                    "relevant_info": "Effect: Crit Damage +4%"
+                },
+                {
+                    "name": "Favored",
+                    "simple_explanation": "A small boost to crit chance.",
+                    "complex_explanation": "Provides a 2.5% bonus to Crit Rate.",
+                    "relevant_info": "Effect: Crit Rate +2.5%"
+                },
+                {
+                    "name": "Crack Shot",
+                    "simple_explanation": "A small boost to accuracy.",
+                    "complex_explanation": "Provides a 2.5% bonus to Accuracy.",
+                    "relevant_info": "Effect: Accuracy +2.5%"
+                }
+            ]
+        }
+    ]
+  },
+  "overall_battle_tier_list": {
+    "title": "Overall Battle Smaz Tier List",
+    "description": "An overall ranking of Smaz based on their total combat effectiveness, including damage, survivability, crowd control, and support abilities.",
+    "tiers": [
+        {
+            "tier": "S",
+            "smazs": [
+                {
+                    "name": "Seraphire",
+                    "explanation": "Exceptional AoE damage, strong crowd control, and excellent mobility. A top-tier choice for nearly any battle scenario."
+                },
+                {
+                    "name": "Infernodra",
+                    "explanation": "Highest single-target damage in the game, capable of melting bosses and high-priority targets. Requires protection but offers unmatched DPS."
+                },
+                {
+                    "name": "Glaciaron",
+                    "explanation": "The premier tank with incredible survivability and powerful CC. Can lock down entire teams and absorb immense damage."
+                }
+            ]
+        },
+        {
+            "tier": "A",
+            "smazs": [
+                {
+                    "name": "Vortexia",
+                    "explanation": "Great sustained damage and utility. Flexible and effective in a variety of team compositions."
+                },
+                {
+                    "name": "Geobrowl",
+                    "explanation": "Strong defensive support and decent damage. Provides valuable shields and buffs to the team."
+                },
+                {
+                    "name": "Fulgur",
+                    "explanation": "High-speed attacker with chain lightning abilities that can disrupt enemy formations."
+                }
+            ]
+        },
+        {
+            "tier": "B",
+            "smazs": [
+                {
+                    "name": "Pyrehawk",
+                    "explanation": "Good early-to-mid game damage dealer, but falls off in late-game scenarios."
+                },
+                {
+                    "name": "Aquamane",
+                    "explanation": "Decent healer and support, but outclassed by more specialized options."
+                }
+            ]
+        },
+        {
+            "tier": "C",
+            "smazs": [
+                {
+                    "name": "Terra-pup",
+                    "explanation": "Limited combat potential, primarily used for early-game progression."
+                }
+            ]
+        }
+    ]
+  },
+  "production_pal_tier_list": {
+    "title": "Production Smaz Tier List",
+    "description": "Ranking of Smaz based on their skills for improving camp resource generation and efficiency.",
+    "tiers": [
+        {
+            "tier": "S",
+            "smazs": [
+                {
+                    "name": "Industrion",
+                    "skill": "Assembly Line Master",
+                    "effect": "Boosts overall camp production speed by 25%."
+                },
+                {
+                    "name": "Resource-o-matic",
+                    "skill": "Efficient Harvester",
+                    "effect": "Increases resource yield from all gathering points by 20%."
+                }
+            ]
+        },
+        {
+            "tier": "A",
+            "smazs": [
+                {
+                    "name": "Lumberjack-bot",
+                    "skill": "Master Carpenter",
+                    "effect": "Reduces wood consumption in construction by 30%."
+                },
+                {
+                    "name": "Steelworker-x",
+                    "skill": "Advanced Metallurgy",
+                    "effect": "Increases steel production speed by 40%."
+                }
+            ]
+        },
+        {
+            "tier": "B",
+            "smazs": [
+                {
+                    "name": "Constructo-dillo",
+                    "skill": "Quick Build",
+                    "effect": "Reduces construction time for buildings by 15%."
+                },
+                {
+                    "name": "Gold-grub",
+                    "skill": "Gold Rush",
+                    "effect": "Generates a steady stream of gold over time."
+                }
+            ]
+        },
+        {
+            "tier": "C",
+            "smazs": [
+                {
+                    "name": "Ore-sniffer",
+                    "skill": "Finds Ore",
+                    "effect": "Occasionally finds small amounts of ore."
+                }
+            ]
+        }
+    ]
+  },
+  "pure_dps_tier_list": {
+    "title": "Pure DPS (Damage Per Second) Tier List",
+    "description": "This list ranks Smazs purely on their ability to inflict maximum damage, prioritizing those with the highest skill multipliers and damage-boosting passives.",
+    "tiers": [
+        {
+            "tier": "S",
+            "tier_name": "Elite Damage",
+            "entries": [
+                {
+                    "name": "Magmolin",
+                    "simple_explanation": "Highest single target damage skill in the game.",
+                    "complex_explanation": "'Lava Shock' has a 2775% damage multiplier, the highest in the game. It is the undisputed king of single-target burst damage.",
+                    "synergies": "Benefits from DEF reduction (Barkplug) and ATK buffs (Flaries) to push its damage into true one-shot territory.",
+                    "relevant_info": "Skill: Lava Shock (2775% DMG)"
+                },
+                {
+                    "name": "Oneirina",
+                    "simple_explanation": "Huge damage ultimate that also makes the target weaker.",
+                    "complex_explanation": "'Torment' deals 2590% damage and makes the target take 10% more damage. Combined with a passive +30% Crit Rate from 'Dream Shadow', its effective damage is exceptionally high.",
+                    "synergies": "The damage vulnerability from 'Torment' amplifies all incoming damage, making it a great opener.",
+                    "relevant_info": "Skill: Torment (2590% DMG, +10% DMG Taken)"
+                },
+                {
+                    "name": "Barkplug",
+                    "simple_explanation": "Elite damage ultimate with a chance to paralyze the target.",
+                    "complex_explanation": "'Overcharge' hits for 2331% damage. While its primary role is often seen as support due to 'Ion Disruption', its raw damage output is firmly in the elite tier.",
+                    "synergies": "Its own DEF shred boosts its 'Overcharge' damage significantly, making it self-sufficient.",
+                    "relevant_info": "Skill: Overcharge (2331% DMG)"
+                },
+                {
+                    "name": "Baboom",
+                    "simple_explanation": "Devastating melee attack that also stuns.",
+                    "complex_explanation": "'Power Strike' delivers a massive 2220% damage blow. While it also has a stun, the raw damage number alone places it among the top damage dealers.",
+                    "synergies": "As a frontline DPS, it benefits from defensive support to ensure it can deliver its payload.",
+                    "relevant_info": "Skill: Power Strike (2220% DMG)"
+                }
+            ]
+        },
+        {
+            "tier": "A",
+            "tier_name": "Excellent AOE/Single-Target",
+            "entries": [
+                {
+                    "name": "Dolphriend",
+                    "simple_explanation": "Very high damage ultimate on a very tanky body.",
+                    "complex_explanation": "'Rush Wave' at 2109% damage is incredibly strong for a Smaz that also has a +30% HP passive. It's a top-tier damage threat that is hard to kill.",
+                    "synergies": "Can initiate fights with its high damage and stun, setting up for other AOE Smazs.",
+                    "relevant_info": "Skill: Rush Wave (2109% DMG)"
+                },
+                {
+                    "name": "Finnabelle",
+                    "simple_explanation": "Massive AOE water damage.",
+                    "complex_explanation": "'Waterspout' summons a huge column of water dealing 1803.75% damage to all enemies caught inside, making it one of the strongest AOE skills available.",
+                    "synergies": "Works well with Smazs that can group enemies together to maximize the AOE coverage.",
+                    "relevant_info": "Skill: Waterspout (1803.75% AOE DMG)"
+                },
+                {
+                    "name": "Blazeal",
+                    "simple_explanation": "Fires a wave of fireballs that damage everything in their path.",
+                    "complex_explanation": "'Huuuah!' is a powerful linear AOE dealing 1665% damage. It's excellent for hitting both the front and back lines simultaneously if they are aligned.",
+                    "synergies": "Best used in choke points or against comps that stack vertically.",
+                    "relevant_info": "Skill: Huuuah! (1665% AOE DMG)"
+                },
+                {
+                    "name": "Mantleray",
+                    "simple_explanation": "Launches three powerful bombs that can hit one or more targets.",
+                    "complex_explanation": "'Electric Burst' has a potential damage of 4218% (1406% x 3) if all bombs hit a single target. Even when spread out, it's fantastic AOE damage. The passive +30% Crit Rate adds to its overall DPS.",
+                    "synergies": "Benefits from Accuracy traits to improve the chance of multiple bombs hitting the desired target.",
+                    "relevant_info": "Skill: Electric Burst (1406% DMG x3)"
+                }
+            ]
+        },
+        {
+            "tier": "B",
+            "tier_name": "High Damage Output",
+            "entries": [
+                {
+                    "name": "Ninjump",
+                    "simple_explanation": "Fires three shurikens that can stack on one target for huge damage.",
+                    "complex_explanation": "'Strike Like a Waterfall' has a potential single-target damage of 3746.25% (1248.75% x 3), placing its ceiling above many A-tier Smazs. However, its reliance on landing all three hits makes it less consistent.",
+                    "synergies": "Requires Accuracy traits and a stable frontline to perform optimally.",
+                    "relevant_info": "Skill: Strike Like a Waterfall (1248.75% DMG x3)"
+                },
+                {
+                    "name": "Abuzzinian",
+                    "simple_explanation": "Hits three random enemies for high damage.",
+                    "complex_explanation": "Similar to Mantleray and Ninjump, 'Nightstorm' deals high total damage (1387.5% x 3) but spreads it across random targets. Excellent for applying pressure across the entire enemy team.",
+                    "synergies": "Good for softening up the whole enemy team for a finisher.",
+                    "relevant_info": "Skill: Nightstorm (1387.5% DMG x3)"
+                },
+                {
+                    "name": "Flaries",
+                    "simple_explanation": "Uses a massive self-buff to power up its attack.",
+                    "complex_explanation": "'Flamewing Dive' deals 1375% damage, which is solid. However, when preceded by 'Heating Up' (+60% ATK), its effective damage becomes A-tier. The setup requirement holds it back slightly.",
+                    "synergies": "Needs a tanky team to give it time to apply its self-buff.",
+                    "relevant_info": "Skill: Flamewing Dive (1375% DMG)"
+                },
+                {
+                    "name": "Snowkami",
+                    "simple_explanation": "Good damage ultimate that also freezes.",
+                    "complex_explanation": "'Glacial Howl' deals a respectable 1350% damage. While its main draw is often the freeze, the damage is high enough to be a significant threat on its own, boosted by its passive +20% ATK.",
+                    "synergies": "The freeze can guarantee a follow-up hit from another DPS.",
+                    "relevant_info": "Skill: Glacial Howl (1350% DMG)"
+                },
+                {
+                    "name": "Anubeast",
+                    "simple_explanation": "Spins to deal good AOE damage to all nearby enemies.",
+                    "complex_explanation": "'Tectonic Spin' deals 1125% damage in an AOE around itself. Solid damage for a frontline Smaz that can hit multiple targets.",
+                    "synergies": "Best used when diving into the enemy team to maximize targets hit.",
+                    "relevant_info": "Skill: Tectonic Spin (1125% AOE DMG)"
+                }
+            ]
+        },
+        {
+            "tier": "C",
+            "tier_name": "Reliable Damage",
+            "entries": [
+                {
+                    "name": "Graffitty",
+                    "simple_explanation": "A standard single-target damage attack.",
+                    "complex_explanation": "'Splash of Color' deals 960% damage. It's a no-frills, reliable ranged attack, but it's outclassed in raw numbers by higher tiers.",
+                    "synergies": "Functions as a basic backline DPS.",
+                    "relevant_info": "Skill: Splash of Color (960% DMG)"
+                },
+                {
+                    "name": "Hoofrit",
+                    "simple_explanation": "Decent damage on a very tanky body.",
+                    "complex_explanation": "While 'Blazing Volley' can do immense back-row damage (2497.5%), its more commonly used 'Fiery Charge' is only 840.64%. Its primary role is tanking, with damage as a secondary benefit.",
+                    "synergies": "Can soften up backliners for other ranged DPS to finish off.",
+                    "relevant_info": "Skill: Fiery Charge (840.64% DMG)"
+                },
+                {
+                    "name": "Statchew",
+                    "simple_explanation": "A tank whose damage is an afterthought.",
+                    "complex_explanation": "'Gnash' deals 525.4% damage. This is very low compared to other Smazs, reflecting that Statchew's value comes entirely from its defensive support abilities, not its damage.",
+                    "synergies": "Its role is to enable other DPS, not to be one.",
+                    "relevant_info": "Skill: Gnash (525.4% DMG)"
+                },
+                {
+                    "name": "Emboa",
+                    "simple_explanation": "Decent AOE with a burn effect.",
+                    "complex_explanation": "'Scorching Sweep' has a base damage of 924% and applies a burn. While the damage over time adds up, the initial burst is lower than its peers.",
+                    "synergies": "Can add supplemental damage over time to a burst-focused team.",
+                    "relevant_info": "Skill: Scorching Sweep (924% DMG + Burn)"
+                }
+            ]
+        }
+    ]
+  },
+  "rage_skill_tier_list": {
+    "title": "Rage Skill (Ultimate) Tier List",
+    "description": "This list ranks the individual ultimate abilities of Smazs based on their impact, considering damage, AOE, and secondary effects like CC or debuffs.",
+    "tiers": [
+        {
+            "tier": "S",
+            "tier_name": "Game-Winning Ultimates",
+            "entries": [
+                {
+                    "name": "Lava Shock",
+                    "Smaz": "Magmolin",
+                    "simple_explanation": "The highest damage skill in the game. Period.",
+                    "complex_explanation": "With a 2775% multiplier, this skill is designed to delete a single, high-priority target from the battlefield. Its raw power is unmatched and can single-handedly turn a 5v5 into a 5v4.",
+                    "relevant_info": "Damage: 2775% (Single-Target)"
+                },
+                {
+                    "name": "Torment",
+                    "Smaz": "Oneirina",
+                    "simple_explanation": "Massive damage plus a debuff that makes the target take more damage.",
+                    "complex_explanation": "Deals 2590% damage and applies a +10% damage taken debuff. This combination makes it incredibly effective at assassination and sets up follow-up damage from the rest of your team.",
+                    "relevant_info": "Damage: 2590% (Single-Target) | Effect: Target receives +10% DMG"
+                },
+                {
+                    "name": "Overcharge",
+                    "Smaz": "Barkplug",
+                    "simple_explanation": "Huge damage with a chance to stop the enemy from using their own ultimate.",
+                    "complex_explanation": "A 2331% damage nuke with a 20% chance to Paralyze for 10 seconds. Paralyze prevents Rage Skill usage, which can completely neutralize a key enemy threat before they can act. The combination of high damage and powerful CC is elite.",
+                    "relevant_info": "Damage: 2331% (Single-Target) | Effect: 20% chance to Paralyze for 10s"
+                }
+            ]
+        },
+        {
+            "tier": "A",
+            "tier_name": "Fight-Defining Ultimates",
+            "entries": [
+                {
+                    "name": "Rush Wave",
+                    "Smaz": "Dolphriend",
+                    "simple_explanation": "Hits like a truck and has a very high chance to stun.",
+                    "complex_explanation": "Combines very high damage (2109%) with a 70% chance to stun for a long 3-second duration. This is an incredible initiation tool that can remove a key enemy from the fight while dealing massive damage.",
+                    "relevant_info": "Damage: 2109% (Single-Target) | Effect: 70% chance to Stun for 3s"
+                },
+                {
+                    "name": "Waterspout",
+                    "Smaz": "Finnabelle",
+                    "simple_explanation": "A massive AOE that can devastate a clustered enemy team.",
+                    "complex_explanation": "Deals 1803.75% damage to all enemies in a large area. This is one of the premier AOE nukes in the game, capable of wiping out multiple squishy targets at once.",
+                    "relevant_info": "Damage: 1803.75% (AOE)"
+                },
+                {
+                    "name": "Huuuah!",
+                    "Smaz": "Blazeal",
+                    "simple_explanation": "A powerful AOE that travels in a straight line, hitting front and back rows.",
+                    "complex_explanation": "Deals 1665% damage in a wave. Its ability to hit multiple enemies in a line makes it a fantastic tool for applying pressure to the entire enemy formation simultaneously.",
+                    "relevant_info": "Damage: 1665% (Line AOE)"
+                }
+            ]
+        },
+        {
+            "tier": "B",
+            "tier_name": "Powerful & Impactful Ultimates",
+            "entries": [
+                {
+                    "name": "Glacial Howl",
+                    "Smaz": "Snowkami",
+                    "simple_explanation": "Good damage with a very high chance to freeze an enemy.",
+                    "complex_explanation": "Deals 1350% damage with a 70% chance to Freeze for 2.5s. Freezing is a hard disable, making this an excellent tool for control and setting up kills, even if the raw damage is a step below A-tier.",
+                    "relevant_info": "Damage: 1350% (Single-Target) | Effect: 70% chance to Freeze for 2.5s"
+                },
+                {
+                    "name": "Electric Burst",
+                    "Smaz": "Mantleray",
+                    "simple_explanation": "Fires 3 powerful bombs with huge potential damage.",
+                    "complex_explanation": "Each of the 3 bombs deals 1406% damage. The potential to hit a single target for over 4000% damage is immense, but the random nature of the targeting adds some inconsistency. Still a top-tier damage ultimate.",
+                    "relevant_info": "Damage: 1406% x3 (Random Targets/AOE)"
+                },
+                {
+                    "name": "Nightstorm",
+                    "Smaz": "Abuzzinian",
+                    "simple_explanation": "Hits 3 random enemies and can paralyze them.",
+                    "complex_explanation": "Deals 1387.5% damage to 3 random enemies, with a 20% chance to Paralyze each. It's a fantastic disruption tool that spreads damage and CC across the enemy team.",
+                    "relevant_info": "Damage: 1387.5% x3 (Random Targets) | Effect: 20% chance to Paralyze for 3.5s"
+                }
+            ]
+        },
+        {
+            "tier": "C",
+            "tier_name": "Solid, Reliable Ultimates",
+            "entries": [
+                {
+                    "name": "Tectonic Spin",
+                    "Smaz": "Anubeast",
+                    "simple_explanation": "A decent AOE damage spin attack.",
+                    "complex_explanation": "Deals 1125% damage to all nearby enemies. It's a reliable AOE for a frontline bruiser but lacks the sheer power or added effects of higher-tier ultimates.",
+                    "relevant_info": "Damage: 1125% (AOE)"
+                },
+                {
+                    "name": "Splash of Color",
+                    "Smaz": "Graffitty",
+                    "simple_explanation": "A straightforward single-target nuke.",
+                    "complex_explanation": "A 960% damage single-target attack. It's reliable and gets the job done, but it's a very basic ultimate with no special properties.",
+                    "relevant_info": "Damage: 960% (Single-Target)"
+                },
+                {
+                    "name": "Scorching Sweep",
+                    "Smaz": "Emboa",
+                    "simple_explanation": "Decent AOE with a burn effect.",
+                    "complex_explanation": "Deals 924% damage in a fan AOE and applies a Burn DOT. The combination of upfront damage and damage over time makes it a decent sustained damage tool.",
+                    "relevant_info": "Damage: 924% (Fan AOE) | Effect: Burn DOT (40% dmg/sec for 7s)"
+                }
+            ]
+        }
+    ]
+  },
+  "support_debuff_tier_list": {
+    "title": "Support & Debuff Tier List",
+    "description": "This list ranks Smazs on their ability to buff allies or weaken enemies. This includes healing, defensive buffs, crowd control, and offensive debuffs.",
+    "tiers": [
+        {
+            "tier": "S",
+            "tier_name": "Elite Support",
+            "entries": [
+                {
+                    "name": "Barkplug",
+                    "simple_explanation": "Reduces enemy defense, making your whole team hit harder.",
+                    "complex_explanation": "'Ion Disruption' reduces the target's DEF by 20% for 10 seconds. This is a massive damage amplifier for the entire team and is arguably the best offensive debuff in the game.",
+                    "synergies": "Makes every DPS on your team significantly more effective. A must-have for any serious damage-dealing composition.",
+                    "relevant_info": "Debuff: -20% DEF for 10s"
+                },
+                {
+                    "name": "Statchew",
+                    "simple_explanation": "Gives a huge defense buff to your entire team.",
+                    "complex_explanation": "'Toughen Up' grants a +50% DEF buff to all allies for 10 seconds. This is the strongest team-wide defensive buff and can completely shut down enemy burst damage.",
+                    "synergies": "Essential for keeping squishy damage dealers alive against AOE or assassin-heavy teams.",
+                    "relevant_info": "Buff: +50% DEF to all allies for 10s"
+                },
+                {
+                    "name": "Flaries",
+                    "simple_explanation": "Gives a massive attack buff to your entire team.",
+                    "complex_explanation": "'Heating Up' provides a +30% ATK buff to all allies for 10 seconds. This is a huge boost to your team's overall damage output.",
+                    "synergies": "Turns your entire team into a bigger threat. Stacks incredibly well with other damage multipliers.",
+                    "relevant_info": "Buff: +30% ATK to all allies for 10s"
+                }
+            ]
+        },
+        {
+            "tier": "A",
+            "tier_name": "Excellent Utility",
+            "entries": [
+                {
+                    "name": "Oneirina",
+                    "simple_explanation": "Makes a single enemy take more damage from all sources.",
+                    "complex_explanation": "The debuff from 'Torment' makes the target receive +10% damage. While not as globally impactful as Barkplug's DEF shred, it's attached to a high-damage ultimate, making it perfect for focusing down a priority target.",
+                    "synergies": "Perfect for initiating a coordinated attack on a single, tanky enemy.",
+                    "relevant_info": "Debuff: Target receives +10% DMG"
+                },
+                {
+                    "name": "Dolphriend",
+                    "simple_explanation": "Reliable, long-duration stun on a single target.",
+                    "complex_explanation": "'Rush Wave' has a 70% chance to stun for 3 seconds. A reliable, long-duration stun is one of the best forms of single-target crowd control, completely removing an enemy from the fight for a significant period.",
+                    "synergies": "Can be used to interrupt enemy ultimates or lock down a key threat.",
+                    "relevant_info": "CC: 70% chance to Stun for 3s"
+                },
+                {
+                    "name": "Snowkami",
+                    "simple_explanation": "Reliable, long-duration freeze on a single target.",
+                    "complex_explanation": "'Glacial Howl' has a 70% chance to Freeze for 2.5 seconds. Similar to Dolphriend's stun, this is a premium form of hard CC that can neutralize a key opponent.",
+                    "synergies": "Excellent for setting up skillshots or protecting your backline.",
+                    "relevant_info": "CC: 70% chance to Freeze for 2.5s"
+                }
+            ]
+        },
+        {
+            "tier": "B",
+            "tier_name": "Strong Situational Support",
+            "entries": [
+                {
+                    "name": "Baboom",
+                    "simple_explanation": "Good stun chance on a high-damage ultimate.",
+                    "complex_explanation": "'Power Strike' has a 40% chance to stun for 2.5 seconds. While less reliable than A-tier CC, it's attached to a devastatingly powerful attack, making it a great dual-threat ability.",
+                    "synergies": "Can disrupt the enemy frontline while simultaneously applying huge damage pressure.",
+                    "relevant_info": "CC: 40% chance to Stun for 2.5s"
+                },
+                {
+                    "name": "Abuzzinian",
+                    "simple_explanation": "Spreads paralysis across the enemy team.",
+                    "complex_explanation": "'Nightstorm' has a 20% chance to Paralyze up to 3 random enemies. While the chance is low, hitting multiple targets with a powerful CC that prevents ultimate usage can be game-changing if luck is on your side.",
+                    "synergies": "A great disruption tool against teams that rely on coordinated ultimate abilities.",
+                    "relevant_info": "CC: 20% chance to Paralyze 3 random enemies for 3.5s"
+                },
+                {
+                    "name": "Hoofrit",
+                    "simple_explanation": "Can taunt enemies, forcing them to attack it.",
+                    "complex_explanation": "'War Cry' forces all enemies in a large AOE to attack Hoofrit for 5 seconds. This is an incredibly powerful tanking ability that can save your entire team by redirecting damage.",
+                    "synergies": "Perfect for protecting your backline from assassins or divers.",
+                    "relevant_info": "CC: Taunts all enemies in AOE for 5s"
+                }
+            ]
+        },
+        {
+            "tier": "C",
+            "tier_name": "Niche or Minor Support",
+            "entries": [
+                {
+                    "name": "Emboa",
+                    "simple_explanation": "Applies a damage-over-time effect.",
+                    "complex_explanation": "The burn from 'Scorching Sweep' provides supplemental damage but lacks the immediate impact of direct buffs or debuffs. It's a minor offensive support effect.",
+                    "synergies": "Can help wear down tanky targets over a long fight.",
+                    "relevant_info": "Debuff: Burn DOT (40% dmg/sec for 7s)"
+                },
+                {
+                    "name": "Graffitty",
+                    "simple_explanation": "Can slightly reduce enemy accuracy.",
+                    "complex_explanation": "'Ink Splash' has a chance to apply a small Accuracy debuff. This is a very minor and unreliable form of support that is unlikely to have a major impact on the outcome of a fight.",
+                    "synergies": "Could potentially help against high-damage, low-accuracy attackers, but it's not something to rely on.",
+                    "relevant_info": "Debuff: Minor Accuracy reduction"
+                }
+            ]
+        }
+    ]
+  },
+  "tank_bruiser_tier_list": {
+    "title": "Tank & Bruiser Tier List",
+    "description": "This list ranks Smazs on their ability to absorb damage, control enemies, and survive on the front lines. This includes HP, DEF, self-sustain, and crowd control.",
+    "tiers": [
+        {
+            "tier": "S",
+            "tier_name": "Immovable Objects",
+            "entries": [
+                {
+                    "name": "Statchew",
+                    "simple_explanation": "The ultimate defensive tank, making the whole team tougher.",
+                    "complex_explanation": "With a passive +50% DEF and the 'Toughen Up' skill that gives another +50% DEF to the whole team, Statchew is the undisputed king of defense. It excels at mitigating damage for the entire team.",
+                    "synergies": "The backbone of any defensive or stall-oriented composition. Allows glass cannon DPS to survive.",
+                    "relevant_info": "Passive: +50% DEF | Skill: +50% DEF to all allies"
+                },
+                {
+                    "name": "Hoofrit",
+                    "simple_explanation": "A massive meat shield that can force enemies to attack it.",
+                    "complex_explanation": "Boasts a +50% HP passive, giving it a colossal health pool. Its 'War Cry' taunt is a game-changing ability that forces all enemies to focus it, completely protecting its allies for 5 seconds.",
+                    "synergies": "The premier anti-assassin tank. Can completely neutralize dive compositions.",
+                    "relevant_info": "Passive: +50% HP | Skill: AOE Taunt"
+                }
+            ]
+        },
+        {
+            "tier": "A",
+            "tier_name": "Elite Frontliners",
+            "entries": [
+                {
+                    "name": "Dolphriend",
+                    "simple_explanation": "A very tanky Smaz that also brings elite damage and CC.",
+                    "complex_explanation": "Has a +30% HP passive, making it naturally durable. It combines this tankiness with a high-damage ultimate ('Rush Wave', 2109%) that also has a 70% chance to stun. It's a massive threat that is difficult to remove.",
+                    "synergies": "A perfect hybrid tank that can initiate fights, lock down targets, and absorb significant damage.",
+                    "relevant_info": "Passive: +30% HP | CC: 70% Stun chance"
+                },
+                {
+                    "name": "Baboom",
+                    "simple_explanation": "A high-damage bruiser that can take a punch.",
+                    "complex_explanation": "With a +30% HP passive, Baboom has the durability to survive on the front line and deliver its devastating 'Power Strike' (2220% damage). It embodies the bruiser role of being both a damage threat and a tank.",
+                    "synergies": "Fits perfectly into aggressive teams that need a durable frontline presence.",
+                    "relevant_info": "Passive: +30% HP | Damage: 2220%"
+                },
+                {
+                    "name": "Anubeast",
+                    "simple_explanation": "A sturdy tank that can reduce incoming damage.",
+                    "complex_explanation": "Its 'Stone Skin' passive gives it a permanent +20% damage reduction, a unique and powerful defensive trait. Combined with its AOE damage, it's a very effective frontline disruptor.",
+                    "synergies": "The flat damage reduction is especially effective against teams with many small instances of damage.",
+                    "relevant_info": "Passive: +20% Damage Reduction"
+                }
+            ]
+        },
+        {
+            "tier": "B",
+            "tier_name": "Solid & Dependable",
+            "entries": [
+                {
+                    "name": "Barkplug",
+                    "simple_explanation": "More of a debuffer, but has a defensive passive.",
+                    "complex_explanation": "Its primary role is offensive support with its DEF shred, but its +20% DEF passive gives it enough durability to survive on the front line and apply its debuffs.",
+                    "synergies": "A good secondary tank in a dual-frontline setup.",
+                    "relevant_info": "Passive: +20% DEF"
+                },
+                {
+                    "name": "Snowkami",
+                    "simple_explanation": "A damage dealer with some defensive stats.",
+                    "complex_explanation": "While primarily a DPS/Control Smaz, its +20% DEF passive gives it more survivability than a typical glass cannon, allowing it to trade blows more effectively.",
+                    "synergies": "Can function in the frontline in a pinch, especially if it can freeze key targets.",
+                    "relevant_info": "Passive: +20% DEF"
+                }
+            ]
+        },
+        {
+            "tier": "C",
+            "tier_name": "Not a Primary Tank",
+            "entries": [
+                {
+                    "name": "Magmolin",
+                    "simple_explanation": "A pure glass cannon. All damage, no defense.",
+                    "complex_explanation": "Magmolin has no defensive passives or skills. Its role is to stay in the back and deal as much damage as possible before it gets targeted. It is not a tank.",
+                    "synergies": "Requires a strong frontline of S/A-tier tanks to protect it.",
+                    "relevant_info": "No defensive capabilities."
+                },
+                {
+                    "name": "Oneirina",
+                    "simple_explanation": "Another glass cannon focused on damage and debuffs.",
+                    "complex_explanation": "Like Magmolin, Oneirina is built for offense. It has no defensive stats and relies on its team to keep it safe while it applies its damage and debuffs.",
+                    "synergies": "Needs protection to be effective.",
+                    "relevant_info": "No defensive capabilities."
+                }
+            ]
+        }
+    ]
+  }
+}

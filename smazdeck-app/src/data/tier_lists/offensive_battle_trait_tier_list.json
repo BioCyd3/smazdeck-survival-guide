@@ -1,0 +1,125 @@
+{
+  "title": "Offensive Battle Trait Tier List",
+  "description": "A tier list for the best traits to equip on your damage-dealing Smazs.",
+  "tiers": [
+    {
+      "tier": "S",
+      "tier_name": "Best in Slot",
+      "entries": [
+        {
+          "name": "Warlike",
+          "simple_explanation": "The biggest flat attack boost.",
+          "complex_explanation": "Provides a 10% bonus to the Attack stat. As the highest unconditional damage-boosting trait, it is the best choice for any damage dealer.",
+          "synergies": "Universally good for any Smaz focused on dealing damage.",
+          "relevant_info": "Effect: Attack +10%"
+        },
+        {
+          "name": "Heartless",
+          "simple_explanation": "Massively increases critical hit damage.",
+          "complex_explanation": "Provides a 15% bonus to Critical Damage. This is a huge multiplier that is especially potent on Smazs with high innate Crit Rate or when paired with Crit Rate traits.",
+          "synergies": "Pairs perfectly with 'Blessed' or 'Fortunate' traits, and with Smazs like Mantleray or Oneirina who have innate crit bonuses.",
+          "relevant_info": "Effect: Crit Damage +15%"
+        },
+        {
+          "name": "Blessed",
+          "simple_explanation": "The best trait for increasing critical hit chance.",
+          "complex_explanation": "Provides the highest tier of Crit Rate bonus. More critical hits mean more frequent high-damage spikes, leading to a significant overall DPS increase.",
+          "synergies": "The other half of the perfect crit combo, paired with 'Heartless' or 'Ruthless'.",
+          "relevant_info": "Effect: Crit Rate (value not specified, but is S-Tier)"
+        },
+        {
+          "name": "Deadeye",
+          "simple_explanation": "The best trait for increasing accuracy.",
+          "complex_explanation": "Provides the highest tier of Accuracy bonus. Essential for multi-hit abilities to ensure all projectiles hit their intended target, maximizing potential damage.",
+          "synergies": "Crucial for Smazs like Ninjump ('Strike Like a Waterfall') and Mantleray ('Electric Burst') to reach their S-Tier damage potential.",
+          "relevant_info": "Effect: Accuracy (value not specified, but is S-Tier)"
+        }
+      ]
+    },
+    {
+      "tier": "A",
+      "tier_name": "Excellent Choices",
+      "entries": [
+        {
+          "name": "Belligerent",
+          "simple_explanation": "A very strong flat attack boost.",
+          "complex_explanation": "Provides a 7% bonus to Attack. This is the most common and reliable top-tier damage trait you will build for.",
+          "synergies": "A staple for any DPS build.",
+          "relevant_info": "Effect: Attack +7%"
+        },
+        {
+          "name": "Ruthless",
+          "simple_explanation": "A great boost to critical hit damage.",
+          "complex_explanation": "Provides an 8% bonus to Crit Damage. A core component of any critical-hit-focused build.",
+          "synergies": "Pairs with 'Fortunate' for a standard, effective crit build.",
+          "relevant_info": "Effect: Crit Damage +8%"
+        },
+        {
+          "name": "Fortunate",
+          "simple_explanation": "A solid boost to critical hit chance.",
+          "complex_explanation": "Provides a 5% bonus to Crit Rate. The A-tier standard for increasing the frequency of your crits.",
+          "synergies": "Pairs with 'Ruthless' for a standard, effective crit build.",
+          "relevant_info": "Effect: Crit Rate +5%"
+        },
+        {
+          "name": "Sharpshooter",
+          "simple_explanation": "A good boost to accuracy.",
+          "complex_explanation": "Provides a 5% bonus to Accuracy. Very important for multi-hit skills to ensure they don't miss.",
+          "synergies": "Highly recommended for Ninjump and Mantleray.",
+          "relevant_info": "Effect: Accuracy +5%"
+        }
+      ]
+    },
+    {
+      "tier": "B",
+      "tier_name": "Good Fillers",
+      "entries": [
+        {
+          "name": "Combative",
+          "simple_explanation": "A decent attack boost.",
+          "complex_explanation": "Provides a 4% bonus to Attack. A good placeholder until you can get Belligerent or Warlike.",
+          "relevant_info": "Effect: Attack +4%"
+        },
+        {
+          "name": "Brutal",
+          "simple_explanation": "A decent boost to crit damage.",
+          "complex_explanation": "Provides a 4% bonus to Crit Damage. A fine filler for a crit build.",
+          "relevant_info": "Effect: Crit Damage +4%"
+        },
+        {
+          "name": "Favored",
+          "simple_explanation": "A small boost to crit chance.",
+          "complex_explanation": "Provides a 2.5% bonus to Crit Rate.",
+          "relevant_info": "Effect: Crit Rate +2.5%"
+        },
+        {
+          "name": "Crack Shot",
+          "simple_explanation": "A small boost to accuracy.",
+          "complex_explanation": "Provides a 2.5% bonus to Accuracy.",
+          "relevant_info": "Effect: Accuracy +2.5%"
+        }
+      ]
+    },
+    {
+      "tier": "C",
+      "tier_name": "Budget Options",
+      "entries": [
+        {
+          "name": "Mean",
+          "simple_explanation": "A very small crit damage boost.",
+          "relevant_info": "Effect: Crit Damage +3%"
+        },
+        {
+          "name": "Lucky",
+          "simple_explanation": "A very small crit chance boost.",
+          "relevant_info": "Effect: Crit Rate +1.5%"
+        },
+        {
+          "name": "Gunner",
+          "simple_explanation": "A very small accuracy boost.",
+          "relevant_info": "Effect: Accuracy +1.5%"
+        }
+      ]
+    }
+  ]
+}

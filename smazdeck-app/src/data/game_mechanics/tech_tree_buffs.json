@@ -1,0 +1,106 @@
+{
+  "tech_tree_buffs": {
+    "growth": {
+      "Smazmon_building_and_research": {
+        "job_efficiency_bonus": "20.0%",
+        "time_reduction": "-10m",
+        "upgrade_speed": "20.0%",
+        "upgrade_cost_reduction": "-2.5%"
+      },
+      "elemental_production": {
+        "description": "Water / Earth / Fire / Electric",
+        "bonus": "15.0%",
+        "output": "15.0%"
+      },
+      "resource_production": {
+        "description": "Lumber / Steel / Shop Gold",
+        "bonus": "20.0%"
+      }
+    },
+    "all_Smazmon": {
+      "damage": "5.0%",
+      "atk_def_hp": "5.0%"
+    },
+    "armigo_training": {
+      "harvest_speed": "50.0%",
+      "lumber_steel": "25.0%",
+      "gold": "20.0%",
+      "training_capacity": null,
+      "training_speed": "30.0%",
+      "training_cost_reduction": "-2.5%"
+    },
+    "hospital": {
+      "healing_capacity": "25.0%",
+      "healing_speed": "15.0%",
+      "healing_cost_reduction": "-2.5%",
+      "armigo_combat_injury_rate_reduction": "-20.0%"
+    },
+    "armigo_upgrades": {
+      "description": "Camp order unlocks and upgrades",
+      "atk_def_hp_load": "30.0%"
+    },
+    "general_buffs": {
+      "bonus_points": {
+        "description": "Attack / Def / HP / Morale",
+        "value": "5.0%"
+      },
+      "activity_speed": {
+        "all_activities": "100.0%",
+        "intel_quests": "50.0%",
+        "speedups": "50.0%",
+        "hatching": "50.0%",
+        "building_power": "50.0%",
+        "tech_power": "50.0%",
+        "training": "50.0%",
+        "kills": "50.0%"
+      },
+      "march_speed": "10.0%",
+      "armigo_capacity": "5.0%",
+      "attacking_or_defending_camp": {
+        "atk_def_hp": "5.0%"
+      },
+      "npc_combat": {
+        "damage_to_npcs": "5.0%",
+        "damage_from_npcs_reduction": "-5.0%"
+      },
+      "pvp": {
+        "enemy_death_rate": "5.0%"
+      }
+    },
+    "guild_duel": {
+      "reward_chest_unlocks": null
+    },
+    "general_armigo_base_stats": {
+      "attack": "6.0%",
+      "defense": "7.2%",
+      "hp": "12.0%"
+    },
+    "trade": {
+      "extra_lumber_steel_gold": "25.0%",
+      "trade_time_reduction": "25.0%",
+      "daily_trade_cap_increase": "1.0%"
+    },
+    "raiding": {
+      "stat_buffs": "15.0%",
+      "chance_to_loot_extra_cargo": "50.0%"
+    },
+    "defending_from_raid": {
+      "stat_buffs": "15.0%",
+      "chance_to_recover_cargo": "50.0%",
+      "chance_of_1_raid_only_airship": "30.0%",
+      "daily_cap_from_single_raider": "3.0%"
+    },
+    "Smazmon_buffs": {
+      "damage_dealt": "10.0%",
+      "damage_received_reduction": "-10.0%",
+      "morale": "10.0%"
+    },
+    "training_and_healing": {
+      "capacity": "10.0%",
+      "speed": "10.0%"
+    },
+    "other": {
+      "armigo_lvl_9_unlock": null
+    }
+  }
+}

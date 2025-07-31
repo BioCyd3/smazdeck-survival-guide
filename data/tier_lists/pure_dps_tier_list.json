@@ -1,0 +1,149 @@
+{
+    "title": "Pure DPS (Damage Per Second) Tier List",
+    "description": "This list ranks Smazs purely on their ability to inflict maximum damage, prioritizing those with the highest skill multipliers and damage-boosting passives.",
+    "tiers": [
+        {
+            "tier": "S",
+            "tier_name": "Elite Damage",
+            "entries": [
+                {
+                    "name": "Magmolin",
+                    "simple_explanation": "Highest single target damage skill in the game.",
+                    "complex_explanation": "'Lava Shock' has a 2775% damage multiplier, the highest in the game. It is the undisputed king of single-target burst damage.",
+                    "synergies": "Benefits from DEF reduction (Barkplug) and ATK buffs (Flaries) to push its damage into true one-shot territory.",
+                    "relevant_info": "Skill: Lava Shock (2775% DMG)"
+                },
+                {
+                    "name": "Oneirina",
+                    "simple_explanation": "Huge damage ultimate that also makes the target weaker.",
+                    "complex_explanation": "'Torment' deals 2590% damage and makes the target take 10% more damage. Combined with a passive +30% Crit Rate from 'Dream Shadow', its effective damage is exceptionally high.",
+                    "synergies": "The damage vulnerability from 'Torment' amplifies all incoming damage, making it a great opener.",
+                    "relevant_info": "Skill: Torment (2590% DMG, +10% DMG Taken)"
+                },
+                {
+                    "name": "Barkplug",
+                    "simple_explanation": "Elite damage ultimate with a chance to paralyze the target.",
+                    "complex_explanation": "'Overcharge' hits for 2331% damage. While its primary role is often seen as support due to 'Ion Disruption', its raw damage output is firmly in the elite tier.",
+                    "synergies": "Its own DEF shred boosts its 'Overcharge' damage significantly, making it self-sufficient.",
+                    "relevant_info": "Skill: Overcharge (2331% DMG)"
+                },
+                {
+                    "name": "Baboom",
+                    "simple_explanation": "Devastating melee attack that also stuns.",
+                    "complex_explanation": "'Power Strike' delivers a massive 2220% damage blow. While it also has a stun, the raw damage number alone places it among the top damage dealers.",
+                    "synergies": "As a frontline DPS, it benefits from defensive support to ensure it can deliver its payload.",
+                    "relevant_info": "Skill: Power Strike (2220% DMG)"
+                }
+            ]
+        },
+        {
+            "tier": "A",
+            "tier_name": "Excellent AOE/Single-Target",
+            "entries": [
+                {
+                    "name": "Dolphriend",
+                    "simple_explanation": "Very high damage ultimate on a very tanky body.",
+                    "complex_explanation": "'Rush Wave' at 2109% damage is incredibly strong for a Smaz that also has a +30% HP passive. It's a top-tier damage threat that is hard to kill.",
+                    "synergies": "Can initiate fights with its high damage and stun, setting up for other AOE Smazs.",
+                    "relevant_info": "Skill: Rush Wave (2109% DMG)"
+                },
+                {
+                    "name": "Finnabelle",
+                    "simple_explanation": "Massive AOE water damage.",
+                    "complex_explanation": "'Waterspout' summons a huge column of water dealing 1803.75% damage to all enemies caught inside, making it one of the strongest AOE skills available.",
+                    "synergies": "Works well with Smazs that can group enemies together to maximize the AOE coverage.",
+                    "relevant_info": "Skill: Waterspout (1803.75% AOE DMG)"
+                },
+                {
+                    "name": "Blazeal",
+                    "simple_explanation": "Fires a wave of fireballs that damage everything in their path.",
+                    "complex_explanation": "'Huuuah!' is a powerful linear AOE dealing 1665% damage. It's excellent for hitting both the front and back lines simultaneously if they are aligned.",
+                    "synergies": "Best used in choke points or against comps that stack vertically.",
+                    "relevant_info": "Skill: Huuuah! (1665% AOE DMG)"
+                },
+                {
+                    "name": "Mantleray",
+                    "simple_explanation": "Launches three powerful bombs that can hit one or more targets.",
+                    "complex_explanation": "'Electric Burst' has a potential damage of 4218% (1406% x 3) if all bombs hit a single target. Even when spread out, it's fantastic AOE damage. The passive +30% Crit Rate adds to its overall DPS.",
+                    "synergies": "Benefits from Accuracy traits to improve the chance of multiple bombs hitting the desired target.",
+                    "relevant_info": "Skill: Electric Burst (1406% DMG x3)"
+                }
+            ]
+        },
+        {
+            "tier": "B",
+            "tier_name": "High Damage Output",
+            "entries": [
+                {
+                    "name": "Ninjump",
+                    "simple_explanation": "Fires three shurikens that can stack on one target for huge damage.",
+                    "complex_explanation": "'Strike Like a Waterfall' has a potential single-target damage of 3746.25% (1248.75% x 3), placing its ceiling above many A-tier Smazs. However, its reliance on landing all three hits makes it less consistent.",
+                    "synergies": "Requires Accuracy traits and a stable frontline to perform optimally.",
+                    "relevant_info": "Skill: Strike Like a Waterfall (1248.75% DMG x3)"
+                },
+                {
+                    "name": "Abuzzinian",
+                    "simple_explanation": "Hits three random enemies for high damage.",
+                    "complex_explanation": "Similar to Mantleray and Ninjump, 'Nightstorm' deals high total damage (1387.5% x 3) but spreads it across random targets. Excellent for applying pressure across the entire enemy team.",
+                    "synergies": "Good for softening up the whole enemy team for a finisher.",
+                    "relevant_info": "Skill: Nightstorm (1387.5% DMG x3)"
+                },
+                {
+                    "name": "Flaries",
+                    "simple_explanation": "Uses a massive self-buff to power up its attack.",
+                    "complex_explanation": "'Flamewing Dive' deals 1375% damage, which is solid. However, when preceded by 'Heating Up' (+60% ATK), its effective damage becomes A-tier. The setup requirement holds it back slightly.",
+                    "synergies": "Needs a tanky team to give it time to apply its self-buff.",
+                    "relevant_info": "Skill: Flamewing Dive (1375% DMG)"
+                },
+                {
+                    "name": "Snowkami",
+                    "simple_explanation": "Good damage ultimate that also freezes.",
+                    "complex_explanation": "'Glacial Howl' deals a respectable 1350% damage. While its main draw is often the freeze, the damage is high enough to be a significant threat on its own, boosted by its passive +20% ATK.",
+                    "synergies": "The freeze can guarantee a follow-up hit from another DPS.",
+                    "relevant_info": "Skill: Glacial Howl (1350% DMG)"
+                },
+                {
+                    "name": "Anubeast",
+                    "simple_explanation": "Spins to deal good AOE damage to all nearby enemies.",
+                    "complex_explanation": "'Tectonic Spin' deals 1125% damage in an AOE around itself. Solid damage for a frontline Smaz that can hit multiple targets.",
+                    "synergies": "Best used when diving into the enemy team to maximize targets hit.",
+                    "relevant_info": "Skill: Tectonic Spin (1125% AOE DMG)"
+                }
+            ]
+        },
+        {
+            "tier": "C",
+            "tier_name": "Reliable Damage",
+            "entries": [
+                {
+                    "name": "Graffitty",
+                    "simple_explanation": "A standard single-target damage attack.",
+                    "complex_explanation": "'Splash of Color' deals 960% damage. It's a no-frills, reliable ranged attack, but it's outclassed in raw numbers by higher tiers.",
+                    "synergies": "Functions as a basic backline DPS.",
+                    "relevant_info": "Skill: Splash of Color (960% DMG)"
+                },
+                {
+                    "name": "Hoofrit",
+                    "simple_explanation": "Decent damage on a very tanky body.",
+                    "complex_explanation": "While 'Blazing Volley' can do immense back-row damage (2497.5%), its more commonly used 'Fiery Charge' is only 840.64%. Its primary role is tanking, with damage as a secondary benefit.",
+                    "synergies": "Can soften up backliners for other ranged DPS to finish off.",
+                    "relevant_info": "Skill: Fiery Charge (840.64% DMG)"
+                },
+                {
+                    "name": "Statchew",
+                    "simple_explanation": "A tank whose damage is an afterthought.",
+                    "complex_explanation": "'Gnash' deals 525.4% damage. This is very low compared to other Smazs, reflecting that Statchew's value comes entirely from its defensive support abilities, not its damage.",
+                    "synergies": "Its role is to enable other DPS, not to be one.",
+                    "relevant_info": "Skill: Gnash (525.4% DMG)"
+                },
+                {
+                    "name": "Emboa",
+                    "simple_explanation": "Decent AOE with a burn effect.",
+                    "complex_explanation": "'Scorching Sweep' has a base damage of 924% and applies a burn. While the damage over time adds up, the initial burst is lower than its peers.",
+                    "synergies": "Can add supplemental damage over time to a burst-focused team.",
+                    "relevant_info": "Skill: Scorching Sweep (924% DMG + Burn)"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+{
+  "camp_upgrades": [
+    {
+      "level": "C10",
+      "requirements": ["Squad 1 Lv9", "Armigo Hut Lv9"]
+    },
+    {
+      "level": "C11",
+      "requirements": ["Field Lab 1 Lv10", "Power Plant Lv10"]
+    },
+    {
+      "level": "C12",
+      "requirements": ["Hospital 1 Lv11", "Hatchery Lv11"]
+    },
+    {
+      "level": "C13",
+      "requirements": ["Armigo Hut Lv12", "Table Saw Lv12"]
+    },
+    {
+      "level": "C14",
+      "requirements": ["Hospital 1 Lv13", "Furnace Lv13"]
+    },
+    {
+      "level": "C15",
+      "requirements": ["Field Lab 1 Lv14", "Power Plant Lv14"]
+    },
+    {
+      "level": "C16",
+      "requirements": ["Armigo Hut Lv15", "Table Saw Lv15"]
+    },
+    {
+      "level": "C17",
+      "requirements": ["Squad 1 Lv16", "Power Plant Lv16"]
+    },
+    {
+      "level": "C18",
+      "requirements": ["Hatchery Lv17", "Field Lab 1 Lv17"]
+    },
+    {
+      "level": "C19",
+      "requirements": ["Armigo Hut Lv18", "Field Lab 1 Lv18"]
+    },
+    {
+      "level": "C20",
+      "requirements": ["Hospital 1 Lv19", "Field Lab 1 Lv19"]
+    },
+    {
+      "level": "C21",
+      "requirements": ["Squad 1 Lv20", "Field Lab 1 Lv20"]
+    },
+    {
+      "level": "C22",
+      "requirements": ["Armigo Hut Lv21", "Field Lab 1 Lv21"]
+    },
+    {
+      "level": "C23",
+      "requirements": ["Hospital 1 Lv22", "Field Lab 1 Lv22"]
+    },
+    {
+      "level": "C24",
+      "requirements": ["Squad 1 Lv23", "Field Lab 1 Lv23"]
+    },
+    {
+      "level": "C25",
+      "requirements": ["Armigo Hut Lv24", "Field Lab 1 Lv24"]
+    },
+    {
+      "level": "C26",
+      "requirements": ["Hospital 1 Lv25", "Field Lab 1 Lv25"]
+    },
+    {
+      "level": "C27",
+      "requirements": ["Squad 1 Lv26", "Field Lab 1 Lv26"]
+    },
+    {
+      "level": "C28",
+      "requirements": ["Armigo Hut Lv27", "Field Lab 1 Lv27"]
+    },
+    {
+      "level": "C29",
+      "requirements": ["Hospital 1 Lv28", "Field Lab 1 Lv28"]
+    },
+    {
+      "level": "C30",
+      "requirements": ["Squad 1 Lv29", "Field Lab 1 Lv29"]
+    }
+  ]
+}

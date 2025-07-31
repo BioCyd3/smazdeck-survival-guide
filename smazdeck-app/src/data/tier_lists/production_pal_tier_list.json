@@ -1,0 +1,135 @@
+{
+  "title": "Production Smaz Tier List",
+  "description": "This list ranks Smazs based on their skills for improving camp resource generation and overall efficiency.",
+  "tiers": [
+    {
+      "tier": "S",
+      "tier_name": "Essential for Economy",
+      "entries": [
+        {
+          "name": "Baboom",
+          "simple_explanation": "Doubles the lumber output of all Table Saws in your camp.",
+          "complex_explanation": "Baboom's 'Nature's Gift' skill provides a massive 100% boost to Lumber output from ALL Table Saws in the camp. This is a global, game-changing bonus for a critical resource, making it arguably the best production Smaz.",
+          "synergies": "The cornerstone of your wood economy. The more Table Saws you have, the more powerful this skill becomes.",
+          "relevant_info": "Skill: Nature's Gift (+100% Lumber output from all Table Saws)"
+        },
+        {
+          "name": "Vulcanid",
+          "simple_explanation": "Doubles the steel output of all Furnaces in your camp.",
+          "complex_explanation": "Similar to Baboom, Vulcanid's 'Tempered Steel' skill doubles the Steel output of all Furnaces camp-wide. Given the importance of Steel, this global 100% bonus is incredibly powerful and essential for late-game progression.",
+          "synergies": "The foundation of your steel economy. This Smaz is a must-have for efficient resource production.",
+          "relevant_info": "Skill: Tempered Steel (+100% Steel output from all Furnaces)"
+        },
+        {
+          "name": "Maximito",
+          "simple_explanation": "Massively reduces construction time for buildings.",
+          "complex_explanation": "'Big Little Builder' reduces total construction time by a flat 64 minutes (up to 94 minutes with ascension). This is an enormous time-save for camp upgrades, saving countless speedups and accelerating progression significantly.",
+          "synergies": "Invaluable for any player looking to upgrade their camp quickly. Its value diminishes once all buildings are maxed out, but it's S-tier for the entire progression phase.",
+          "relevant_info": "Skill: Big Little Builder (Reduces construction time by 64+ minutes)"
+        },
+        {
+          "name": "Squeezel",
+          "simple_explanation": "Provides a large boost to Gold generation in the Shop.",
+          "complex_explanation": "Squeezel's 'Full Tilt' skill increases Gold output in a Shop by 60%. While it also has mining skills, this specialized Gold generation skill is its main draw, providing a substantial boost to your income.",
+          "synergies": "The best Smaz to station in your Shop for passive Gold income.",
+          "relevant_info": "Skill: Full Tilt (+60% Gold output in Shop)"
+        }
+      ]
+    },
+    {
+      "tier": "A",
+      "tier_name": "High-Value Specialists",
+      "entries": [
+        {
+          "name": "Terrastudo",
+          "simple_explanation": "Provides a large boost to Ore mining.",
+          "complex_explanation": "'Drill Shell' increases Ore output by 60% when working a Mining job. This is a very strong, specialized bonus for a key base material.",
+          "synergies": "The best specialist for your mining stations.",
+          "relevant_info": "Skill: Drill Shell (+60% Ore output)"
+        },
+        {
+          "name": "Keranosaur",
+          "simple_explanation": "Provides a large boost to Electricity generation.",
+          "complex_explanation": "'Ionized' increases Electricity output by 60% when working a Charging job. Essential for powering your advanced camp facilities.",
+          "synergies": "The premier choice for your Power Plant.",
+          "relevant_info": "Skill: Ionized (+60% Electricity output)"
+        },
+        {
+          "name": "Herculeaf",
+          "simple_explanation": "Provides a solid 35% boost to Lumber.",
+          "complex_explanation": "'Bear-y Strong' provides a +35% Lumber output bonus. While dwarfed by Baboom's global bonus, it's still a very strong skill and a great choice to station at a Table Saw if you don't have Baboom.",
+          "synergies": "A good secondary lumberjack or a primary one before you acquire Baboom.",
+          "relevant_info": "Skill: Bear-y Strong (+35% Lumber output)"
+        },
+        {
+          "name": "Emboa",
+          "simple_explanation": "Provides a solid 35% boost to Steel.",
+          "complex_explanation": "'Recycling' gives a +35% Steel output bonus. Like Herculeaf, it's a strong specialist bonus that is outclassed by Vulcanid's global buff but is still highly valuable.",
+          "synergies": "A good secondary smelter or a primary one before you acquire Vulcanid.",
+          "relevant_info": "Skill: Recycling (+35% Steel output)"
+        }
+      ]
+    },
+    {
+      "tier": "B",
+      "tier_name": "Useful Boosts",
+      "entries": [
+        {
+          "name": "Bruiseberry",
+          "simple_explanation": "Greatly speeds up Armigo training.",
+          "complex_explanation": "'Tireless' provides a +60% training speed boost when working in an Armigo Hut. This is excellent for quickly leveling up your troops.",
+          "synergies": "The best Smaz to have stationed in your training grounds.",
+          "relevant_info": "Skill: Tireless (+60% Training Speed)"
+        },
+        {
+          "name": "Lendanear",
+          "simple_explanation": "Speeds up Smaz healing in the Hospital.",
+          "complex_explanation": "'TenderCare' provides a +27% healing speed boost. This is very useful for reducing the downtime of your Smazs after tough battles or failed missions.",
+          "synergies": "The optimal choice for your Hospital.",
+          "relevant_info": "Skill: TenderCare (+27% Healing Speed)"
+        },
+        {
+          "name": "Surveilynx",
+          "simple_explanation": "Boosts the attack of your defending Armigo and helps with training.",
+          "complex_explanation": "'Elite Drills' allows for Quick Training Armigo and provides a passive +20% Attack bonus to all Armigo defending your Camp. This is a unique defensive production skill.",
+          "synergies": "A great passive slot for players who frequently get attacked.",
+          "relevant_info": "Skill: Elite Drills (+20% ATK for defending Armigo)"
+        },
+        {
+          "name": "Incineraptor",
+          "simple_explanation": "Helps you get more and better intel quests.",
+          "complex_explanation": "'Eagle Eye' provides extra treasure from intel quests and allows you to generate high-quality quests. This is a unique skill for meta-progression rather than direct resource generation.",
+          "synergies": "Useful for players focused on grinding quests for rewards.",
+          "relevant_info": "Skill: Eagle Eye (Generates intel quests, provides extra treasure)"
+        }
+      ]
+    },
+    {
+      "tier": "C",
+      "tier_name": "Niche Production",
+      "entries": [
+        {
+          "name": "Squeezel (Mining)",
+          "simple_explanation": "Has two separate skills that boost ore mining by 35% each.",
+          "complex_explanation": "Squeezel has both 'Deft Paws' and 'Lucky Hands,' each providing a +35% Ore output. While this seems great, it's outclassed by Terrastudo's single +60% skill, and its best role is in the Shop.",
+          "synergies": "A decent miner if Terrastudo is unavailable.",
+          "relevant_info": "Skills: Deft Paws (+35% Ore), Lucky Hands (+35% Ore)"
+        },
+        {
+          "name": "Fluff Static",
+          "simple_explanation": "Provides a 35% boost to Electricity generation.",
+          "complex_explanation": "'Static Fluff' provides a +35% Electricity output bonus. This is a solid skill but is significantly weaker than Keranosaur's +60% bonus.",
+          "synergies": "A budget option for the Power Plant.",
+          "relevant_info": "Skill: Static Fluff (+35% Electricity output)"
+        },
+        {
+          "name": "Lendanear (Planting)",
+          "simple_explanation": "Boosts crop output by 35%.",
+          "complex_explanation": "'Nature's Blessing' provides a +35% crop output. Food is generally less of a bottleneck than other resources, making this a lower-priority production skill.",
+          "synergies": "Good for food production if you find yourself running low.",
+          "relevant_info": "Skill: Nature's Blessing (+35% Crop output)"
+        }
+      ]
+    }
+  ]
+}

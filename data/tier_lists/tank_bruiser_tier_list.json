@@ -1,0 +1,114 @@
+{
+    "title": "Tank & Bruiser Tier List",
+    "description": "This list ranks Smazs on their ability to absorb damage, control enemies, and survive on the front lines through high HP/DEF, damage reduction, shields, or crowd control.",
+    "tiers": [
+        {
+            "tier": "S",
+            "tier_name": "Impenetrable Walls",
+            "entries": [
+                {
+                    "name": "Statchew",
+                    "simple_explanation": "The best pure tank. Reduces damage for the team and from enemies.",
+                    "complex_explanation": "Statchew is the king of mitigation. 'Sentinel' grants a flat 20% damage reduction to front-row allies, while 'Protective Roar' debuffs the enemy front-row's damage by 13.5%. This comprehensive defensive support is unmatched.",
+                    "synergies": "The core of any defensive strategy. Allows glass cannon DPS to operate safely. Forms an unbreakable wall with Platyputz or Dolphriend.",
+                    "relevant_info": "Skills: Sentinel (-20% DMG for allies), Protective Roar (-13.5% DMG from enemies)"
+                },
+                {
+                    "name": "Dolphriend",
+                    "simple_explanation": "A massive bag of HP that stuns enemies.",
+                    "complex_explanation": "Dolphriend's S-tier status comes from its raw stats and powerful CC. 'Tidal Guard' grants a +30% HP boost, making its health pool enormous. 'Rush Wave' provides a long 3s stun on a high-damage ultimate, making it a tank that can completely shut down a threat.",
+                    "synergies": "An offensive tank that pairs well with backline damage dealers who can capitalize on the stun.",
+                    "relevant_info": "Skills: Tidal Guard (+30% Max HP), Rush Wave (2109% DMG + 3s Stun)"
+                },
+                {
+                    "name": "Platyputz",
+                    "simple_explanation": "Personally takes less damage and can shield the weakest ally.",
+                    "complex_explanation": "Platyputz offers a unique support tanking style. 'Blunt Sense' provides a personal 20% damage reduction, making it very durable. 'Bubble Shield' is a clutch skill that can save a key ally from death, providing targeted protection where it's needed most.",
+                    "synergies": "Excellent for 'peeling' for a high-value, fragile target like Magmolin. Its shield can be a lifesaver in close fights.",
+                    "relevant_info": "Skills: Blunt Sense (-20% DMG Taken), Bubble Shield (Ally shield based on its Max HP)"
+                }
+            ]
+        },
+        {
+            "tier": "A",
+            "tier_name": "Durable Frontliners",
+            "entries": [
+                {
+                    "name": "Baboom",
+                    "simple_explanation": "Gains a huge defense boost and has a powerful stun.",
+                    "complex_explanation": "A premier bruiser. 'Nature's Gift' provides a +30% Defense boost, which scales very well with defensive traits. Its 'Power Strike' stun is reliable crowd control on a high-damage ability. It trades the raw HP of Dolphriend for higher base defense and production utility.",
+                    "synergies": "A great partner for Statchew, creating a frontline with both high defense and damage reduction.",
+                    "relevant_info": "Skills: Nature's Gift (+30% DEF), Power Strike (2220% DMG + 2s Stun)"
+                },
+                {
+                    "name": "Hoofrit",
+                    "simple_explanation": "Gets a massive HP boost, making it a great damage sponge.",
+                    "complex_explanation": "Hoofrit is a simple but effective stat-stick tank. 'Hard-Horned' grants a +30% max HP boost, similar to Dolphriend. While it lacks Dolphriend's powerful stun, its sheer bulk makes it an excellent frontline anchor.",
+                    "synergies": "A straightforward meat shield that can hold the line for any team composition.",
+                    "relevant_info": "Skill: Hard-Horned (+30% Max HP)"
+                },
+                {
+                    "name": "Ghillant",
+                    "simple_explanation": "A classic hybrid tank known for balanced stats.",
+                    "complex_explanation": "As recommended in the Hybrid Tank-DPS build, Ghillant is designed to be a balanced frontliner. It relies on a combination of traits like Belligerent, Robust, and Steadfast to achieve a mix of damage and durability without excelling at either like the S-Tiers.",
+                    "synergies": "A flexible frontline slot that can be tailored with traits to be more offensive or defensive.",
+                    "relevant_info": "Source: Classified as a Hybrid Tank-DPS in game data. Relies on traits for effectiveness."
+                }
+            ]
+        },
+        {
+            "tier": "B",
+            "tier_name": "Good Survivability",
+            "entries": [
+                {
+                    "name": "Vulcanid",
+                    "simple_explanation": "A solid tank with a passive HP boost.",
+                    "complex_explanation": "Vulcanid's 'Tempered Steel' skill gives it a +30% HP boost while in combat. This makes it a naturally tanky choice for the frontline, similar to Hoofrit but with a primary focus on production skills.",
+                    "synergies": "A good frontline choice if you also need a strong Smelting Smaz and want to use the same one for both roles.",
+                    "relevant_info": "Skill: Tempered Steel (+30% HP)"
+                },
+                {
+                    "name": "Woozard",
+                    "simple_explanation": "Hard to hit thanks to a large Evasion boost.",
+                    "complex_explanation": "Woozard offers a different kind of tankiness. 'Phantom Step' grants +30% Evasion, allowing it to avoid damage entirely. This can be inconsistent compared to flat HP or DEF, but when it works, it's very effective.",
+                    "synergies": "Benefits greatly from the 'Elusive' trait to stack evasion even higher. Can be a frustratingly hard-to-kill annoyance.",
+                    "relevant_info": "Skill: Phantom Step (+30% Evasion)"
+                },
+                {
+                    "name": "Fingenue",
+                    "simple_explanation": "Can place a damage reduction buff on an ally.",
+                    "complex_explanation": "Fingenue acts as a support tank. Its 'Rejuvenate' skill gives a 20% damage reduction buff to a random ally. While not a personal tank skill, it contributes significantly to the team's overall durability.",
+                    "synergies": "Good for protecting a primary tank or a key DPS. The random nature of the buff makes it less reliable than Statchew's.",
+                    "relevant_info": "Skill: Rejuvenate (-20% DMG taken for one ally)"
+                }
+            ]
+        },
+        {
+            "tier": "C",
+            "tier_name": "Basic Defensive Skills",
+            "entries": [
+                {
+                    "name": "Smazs with 'Sturdy'",
+                    "simple_explanation": "These Smazs get a small, generic boost to all stats.",
+                    "complex_explanation": "Smazs like Lendanear, Meowdame, Thunderclawd, and Terrastudo have the 'Sturdy' skill, granting +10% to Attack, Defense, and HP. This provides a baseline level of tankiness but is significantly weaker than specialized defensive skills.",
+                    "synergies": "A generic skill that fits into any team but doesn't define a role.",
+                    "relevant_info": "Includes: Lendanear, Meowdame, Thunderclawd, Terrastudo, Vulcanid"
+                },
+                {
+                    "name": "Smazs with 'Remarkable'",
+                    "simple_explanation": "A weaker version of 'Sturdy'.",
+                    "complex_explanation": "Smazs like Emboa, Herculeaf, and Flouffant have the 'Remarkable' skill, granting a +5% boost to all stats. This is a very minor defensive increase.",
+                    "synergies": "Negligible synergy. Primarily a filler skill.",
+                    "relevant_info": "Includes: Emboa, Herculeaf, Flouffant"
+                },
+                {
+                    "name": "Wyviemo",
+                    "simple_explanation": "A small HP boost.",
+                    "complex_explanation": "Wyviemo's 'Frost Resist' skill provides a +15% HP boost. While useful, this is half of what top-tier tanks receive, placing it in a lower category.",
+                    "synergies": "A basic frontline filler.",
+                    "relevant_info": "Skill: Frost Resist (+15% HP)"
+                }
+            ]
+        }
+    ]
+}
