@@ -72,7 +72,7 @@ try {
   process.env.REPOSITORY_NAME = 'smazdeck-survival-guide';
   
   console.log('📦 Installing dependencies...');
-  execSync('npm ci', { stdio: 'pipe' });
+  execSync('npm install --legacy-peer-deps', { stdio: 'pipe' });
   console.log('✅ Dependencies installed');
   
   console.log('🏗️ Building application...');

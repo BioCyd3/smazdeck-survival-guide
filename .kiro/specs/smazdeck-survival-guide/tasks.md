@@ -274,7 +274,9 @@
     - Implement structured data markup where appropriate
     - _Requirements: 7.2, 7.3, 7.4_
 
-- [-] 11. Configure GitHub Pages deployment
+- [x] 11. Configure GitHub Pages deployment
+
+
 
 
 
@@ -294,7 +296,8 @@
     - Test SPA routing with direct URL access
     - _Requirements: 7.1_
 
-  - [ ] 11.3 Set up GitHub Actions deployment workflow
+  - [x] 11.3 Set up GitHub Actions deployment workflow
+
 
 
     - Create .github/workflows/deploy.yml with automated deployment
