@@ -5,17 +5,13 @@ import { getSmazById } from '../lib/data-helpers';
 import SmazSkillCard from '../components/Smaz/SmazSkillCard';
 import Card from '../components/ui/Card';
 import Breadcrumb from '../components/ui/Breadcrumb';
-import { OptimizedMedia } from '../components/ui/OptimizedMedia';
-import { DataComparison, StatComparison } from '../components/ui/DataComparison';
-import { ProgressiveDisclosure, ExpandableSection } from '../components/ui/ProgressiveDisclosure';
-import { useResponsive } from '../hooks/useResponsive';
 
 const SmazProfilePage = () => {
   const { id } = useParams();
   const [smaz, setSmaz] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
-  const { isMobile, isTablet } = useResponsive();
+
 
   useEffect(() => {
     const loadSmaz = async () => {
@@ -133,31 +129,28 @@ const SmazProfilePage = () => {
         />
 
         {/* Main Content */}
-        <div className={isMobile ? 'space-y-6' : 'grid lg:grid-cols-3 gap-8'}>
+        <div className="grid lg:grid-cols-3 gap-8">
           {/* Smaz Profile Card */}
           <div className="lg:col-span-1">
-            <Card className={isMobile ? '' : 'sticky top-4'}>
+            <Card className="sticky top-4">
               <div className="text-center">
-                {/* Smaz Image with Optimized Loading */}
-                <div className="w-32 h-32 mx-auto mb-6">
-                  <OptimizedMedia
+                {/* Smaz Image */}
+                <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden bg-slate-700 flex items-center justify-center">
+                  <img
                     src={imagePath}
                     alt={`${smaz.name} portrait`}
-                    aspectRatio="square"
-                    className="rounded-full"
-                    sizes={{
-                      mobile: imagePath,
-                      tablet: imagePath,
-                      desktop: imagePath,
-                      default: imagePath
+                    className="w-full h-full object-cover"
+                    onError={(e) => {
+                      e.target.style.display = 'none';
+                      e.target.nextSibling.style.display = 'flex';
                     }}
-                    fallback={
-                      <div className="w-full h-full bg-slate-600 flex items-center justify-center text-slate-400 text-sm rounded-full">
-                        No Image
-                      </div>
-                    }
-                    priority={true}
                   />
+                  <div 
+                    className="w-full h-full bg-slate-600 items-center justify-center text-slate-400 text-sm hidden"
+                    aria-hidden="true"
+                  >
+                    No Image
+                  </div>
                 </div>
 
                 {/* Smaz Name */}
@@ -165,43 +158,17 @@ const SmazProfilePage = () => {
                   {smaz.name}
                 </h1>
 
-                {/* Stats - Progressive Disclosure on Mobile */}
-                {isMobile ? (
-                  <ProgressiveDisclosure
-                    title="Smaz Details"
-                    description={`${skillsCount} skills available`}
-                    className="mb-4"
-                    variant="ghost"
-                    size="sm"
-                    defaultExpanded={false}
-                  >
-                    <div className="space-y-2 text-sm text-slate-300">
-                      <div className="flex justify-between">
-                        <span>Skills:</span>
-                        <span className="text-amber-400 font-medium">{skillsCount}</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span>ID:</span>
-                        <span className="text-slate-400 font-mono">{smaz.id}</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span>Slug:</span>
-                        <span className="text-slate-400 font-mono">{smaz.slug}</span>
-                      </div>
-                    </div>
-                  </ProgressiveDisclosure>
-                ) : (
-                  <div className="space-y-2 text-sm text-slate-300 mb-6">
-                    <div className="flex justify-between">
-                      <span>Skills:</span>
-                      <span className="text-amber-400 font-medium">{skillsCount}</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span>ID:</span>
-                      <span className="text-slate-400 font-mono">{smaz.id}</span>
-                    </div>
+                {/* Stats */}
+                <div className="space-y-2 text-sm text-slate-300">
+                  <div className="flex justify-between">
+                    <span>Skills:</span>
+                    <span className="text-amber-400 font-medium">{skillsCount}</span>
                   </div>
-                )}
+                  <div className="flex justify-between">
+                    <span>ID:</span>
+                    <span className="text-slate-400 font-mono">{smaz.id}</span>
+                  </div>
+                </div>
 
                 {/* Action Buttons */}
                 <div className="mt-6 space-y-3">
@@ -224,7 +191,6 @@ const SmazProfilePage = () => {
 
           {/* Skills Section */}
           <div className="lg:col-span-2">
-            {/* Skills Header */}
             <div className="mb-6">
               <h2 className="text-2xl font-bold text-white mb-2 font-['Exo_2']">
                 Skills & Abilities
@@ -234,65 +200,12 @@ const SmazProfilePage = () => {
               </p>
             </div>
 
-            {/* Skills List with Progressive Enhancement */}
+            {/* Skills List */}
             {smaz.skills && smaz.skills.length > 0 ? (
               <div className="space-y-4">
-                {/* Skills Overview for Mobile */}
-                {isMobile && smaz.skills.length > 3 && (
-                  <ExpandableSection
-                    title="Skills Overview"
-                    count={smaz.skills.length}
-                    defaultExpanded={false}
-                    className="mb-4"
-                  >
-                    <div className="grid grid-cols-2 gap-3">
-                      {smaz.skills.map((skill, index) => (
-                        <div key={index} className="text-center p-3 bg-slate-800 rounded-lg">
-                          <div className="text-sm font-medium text-amber-400 mb-1">
-                            {skill.skill_name}
-                          </div>
-                          <div className="text-xs text-slate-400">
-                            {skill.ascension_effects?.length || 0} effects
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                  </ExpandableSection>
-                )}
-
-                {/* Individual Skill Cards */}
                 {smaz.skills.map((skill, index) => (
-                  <SmazSkillCard 
-                    key={index} 
-                    skill={skill} 
-                    variant={isMobile ? 'outlined' : 'default'}
-                  />
+                  <SmazSkillCard key={index} skill={skill} />
                 ))}
-
-                {/* Skills Comparison Table for Desktop */}
-                {!isMobile && smaz.skills.length > 1 && (
-                  <div className="mt-8">
-                    <h3 className="text-xl font-semibold text-white mb-4">
-                      Skills Comparison
-                    </h3>
-                    <StatComparison
-                      items={smaz.skills.map((skill, index) => ({
-                        id: index,
-                        name: skill.skill_name,
-                        effects: skill.ascension_effects?.length || 0,
-                        description_length: skill.description?.length || 0,
-                        has_ascension: skill.ascension_effects?.length > 0 ? 'Yes' : 'No'
-                      }))}
-                      stats={[
-                        { key: 'effects', label: 'Ascension Effects', higherIsBetter: true },
-                        { key: 'description_length', label: 'Description Length', higherIsBetter: false },
-                        { key: 'has_ascension', label: 'Has Ascension' }
-                      ]}
-                      title="Skill Statistics"
-                      highlightBest={true}
-                    />
-                  </div>
-                )}
               </div>
             ) : (
               <Card>
@@ -305,43 +218,15 @@ const SmazProfilePage = () => {
               </Card>
             )}
 
-            {/* Additional Information with Progressive Disclosure */}
-            <div className="mt-8">
-              <ProgressiveDisclosure
-                title="💡 Pro Tips & Strategy"
-                description="Advanced gameplay tips and strategic insights"
-                className="bg-slate-800/50 border border-slate-700"
-                variant="ghost"
-                defaultExpanded={!isMobile}
-              >
-                <div className="space-y-4">
-                  <div>
-                    <h4 className="text-sm font-medium text-amber-400 mb-2">Tier List Performance</h4>
-                    <p className="text-slate-300 text-sm">
-                      Check the tier lists to see how {smaz.name} ranks in different game modes and strategies. 
-                      Each skill's ascension effects can significantly impact performance in competitive play.
-                    </p>
-                  </div>
-                  
-                  <div>
-                    <h4 className="text-sm font-medium text-amber-400 mb-2">Skill Synergies</h4>
-                    <p className="text-slate-300 text-sm">
-                      Consider how {smaz.name}'s skills work together and with other Smazs in your team composition. 
-                      Ascension effects often provide multiplicative benefits when properly combined.
-                    </p>
-                  </div>
-
-                  {skillsCount > 1 && (
-                    <div>
-                      <h4 className="text-sm font-medium text-amber-400 mb-2">Ascension Priority</h4>
-                      <p className="text-slate-300 text-sm">
-                        With {skillsCount} skills available, prioritize ascending skills that provide the most 
-                        impact for your current game mode and team strategy.
-                      </p>
-                    </div>
-                  )}
-                </div>
-              </ProgressiveDisclosure>
+            {/* Additional Information */}
+            <div className="mt-8 p-4 bg-slate-800/50 rounded-lg border border-slate-700">
+              <h3 className="text-lg font-semibold text-white mb-2">
+                💡 Pro Tip
+              </h3>
+              <p className="text-slate-300 text-sm">
+                Check the tier lists to see how {smaz.name} ranks in different game modes and strategies. 
+                Each skill's ascension effects can significantly impact performance in competitive play.
+              </p>
             </div>
           </div>
         </div>
