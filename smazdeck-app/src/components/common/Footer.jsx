@@ -1,33 +1,43 @@
 import React from 'react';
+import { useResponsive } from '../../hooks/useResponsive';
+import { ResponsiveContainer, ResponsiveGrid } from '../ui/ResponsiveContainer';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const { isMobile, getTouchSize } = useResponsive();
 
   return (
-    <footer className="bg-slate-900 text-slate-400 mt-auto" role="contentinfo">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <footer className="bg-slate-900 text-slate-400 mt-auto border-t border-slate-800" role="contentinfo">
+      <ResponsiveContainer size="7xl" padding="responsive" className={isMobile ? 'py-6' : 'py-8'}>
         {/* Main Footer Content */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <ResponsiveGrid 
+          cols={{ sm: 1, md: 2, lg: 3 }} 
+          gap={isMobile ? 'lg' : 'xl'}
+        >
           {/* Brand Section */}
-          <div className="text-center md:text-left">
-            <h3 className="text-white font-bold text-lg mb-2">Smazdeck Survival</h3>
-            <p className="text-sm mb-4 text-amber-400 font-medium">
+          <div className={isMobile ? 'text-center' : 'text-center md:text-left'}>
+            <h3 className={`text-white font-bold ${isMobile ? 'text-base' : 'text-lg'} mb-2`}>
+              Smazdeck Survival
+            </h3>
+            <p className={`${isMobile ? 'text-xs' : 'text-sm'} mb-4 text-amber-400 font-medium`}>
               Master the Meta. Dominate the Game.
             </p>
-            <p className="text-xs text-slate-500">
+            <p className={`${isMobile ? 'text-xs' : 'text-xs'} text-slate-500 leading-relaxed`}>
               Your ultimate guide to competitive Smazdeck Survival gameplay, 
               featuring comprehensive tier lists, character guides, and strategic insights.
             </p>
           </div>
 
           {/* Quick Links */}
-          <div className="text-center md:text-left">
-            <h4 className="text-white font-semibold text-sm mb-3">Quick Links</h4>
-            <ul className="space-y-2 text-sm">
+          <div className={isMobile ? 'text-center' : 'text-center md:text-left'}>
+            <h4 className={`text-white font-semibold ${isMobile ? 'text-xs' : 'text-sm'} mb-3`}>
+              Quick Links
+            </h4>
+            <ul className={`space-y-2 ${isMobile ? 'text-xs' : 'text-sm'}`}>
               <li>
                 <a 
                   href="/smazdex" 
-                  className="hover:text-amber-400 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2 focus:ring-offset-slate-900 rounded-sm"
+                  className={`hover:text-amber-400 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2 focus:ring-offset-slate-900 rounded-sm ${getTouchSize('py-1', 'py-2')} block`}
                 >
                   Smazdex
                 </a>
@@ -60,9 +70,11 @@ const Footer = () => {
           </div>
 
           {/* Resources & Links */}
-          <div className="text-center md:text-left">
-            <h4 className="text-white font-semibold text-sm mb-3">Resources</h4>
-            <ul className="space-y-2 text-sm">
+          <div className={isMobile ? 'text-center' : 'text-center md:text-left'}>
+            <h4 className={`text-white font-semibold ${isMobile ? 'text-xs' : 'text-sm'} mb-3`}>
+              Resources
+            </h4>
+            <ul className={`space-y-2 ${isMobile ? 'text-xs' : 'text-sm'}`}>
               <li>
                 <a 
                   href="https://github.com/yourusername/smazdeck-survival-guide" 
@@ -122,24 +134,24 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </ResponsiveGrid>
 
         {/* Bottom Bar */}
-        <div className="border-t border-slate-800 mt-8 pt-6">
-          <div className="flex flex-col sm:flex-row justify-between items-center text-xs text-slate-500">
-            <div className="mb-2 sm:mb-0">
+        <div className={`border-t border-slate-800 ${isMobile ? 'mt-6 pt-4' : 'mt-8 pt-6'}`}>
+          <div className={`flex ${isMobile ? 'flex-col space-y-2' : 'flex-col sm:flex-row'} justify-between items-center ${isMobile ? 'text-xs' : 'text-xs'} text-slate-500`}>
+            <div className={isMobile ? 'mb-0' : 'mb-2 sm:mb-0'}>
               <p>
                 &copy; {currentYear} Smazdeck Survival Guide. All rights reserved.
               </p>
             </div>
-            <div className="flex items-center space-x-4">
+            <div className={`flex items-center ${isMobile ? 'space-x-2' : 'space-x-4'}`}>
               <span>Built with React & Vite</span>
               <span>•</span>
               <span>Deployed on GitHub Pages</span>
             </div>
           </div>
         </div>
-      </div>
+      </ResponsiveContainer>
     </footer>
   );
 };

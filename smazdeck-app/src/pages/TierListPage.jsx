@@ -2,12 +2,19 @@ import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { getTierLists } from '../lib/data-helpers';
 import TierRow from '../components/Smaz/TierRow';
+import EnhancedTierRow from '../components/Smaz/EnhancedTierRow';
+import TierListControls from '../components/Smaz/TierListControls';
+import TierListExport from '../components/Smaz/TierListExport';
+import TierListMobile from '../components/Smaz/TierListMobile';
 
 const TierListPage = () => {
   const [tierLists, setTierLists] = useState({});
   const [selectedTierList, setSelectedTierList] = useState('');
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [isDragMode, setIsDragMode] = useState(false);
+  const [modifiedTierList, setModifiedTierList] = useState(null);
+  const [isMobile, setIsMobile] = useState(false);
 
   // Tier list display names mapping
   const tierListDisplayNames = {
@@ -48,8 +55,66 @@ const TierListPage = () => {
     fetchTierLists();
   }, []);
 
-  const currentTierList = tierLists[selectedTierList];
+  // Check for mobile viewport
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
+  // Reset modified tier list when selection changes
+  useEffect(() => {
+    setModifiedTierList(null);
+    setIsDragMode(false);
+  }, [selectedTierList]);
+
+  const currentTierList = modifiedTierList || tierLists[selectedTierList];
   const tierListKeys = Object.keys(tierLists);
+
+  // Handle drag and drop reordering
+  const handleReorder = (draggedItem, targetTier) => {
+    if (!currentTierList) return;
+
+    const newTierList = { ...currentTierList };
+    newTierList.tiers = newTierList.tiers.map(tier => ({ ...tier, entries: [...(tier.entries || [])] }));
+
+    // Find source tier and remove item
+    const sourceTier = newTierList.tiers.find(tier => tier.tier === draggedItem.tier);
+    if (sourceTier) {
+      sourceTier.entries.splice(draggedItem.index, 1);
+    }
+
+    // Find target tier and add item
+    const targetTierObj = newTierList.tiers.find(tier => tier.tier === targetTier);
+    if (targetTierObj) {
+      targetTierObj.entries.push(draggedItem.entry);
+    }
+
+    setModifiedTierList(newTierList);
+  };
+
+  // Toggle drag mode
+  const handleToggleDragMode = () => {
+    setIsDragMode(!isDragMode);
+  };
+
+  // Reset to original order
+  const handleResetOrder = () => {
+    setModifiedTierList(null);
+    setIsDragMode(false);
+  };
+
+  // Show info modal (placeholder)
+  const handleShowInfo = () => {
+    // This could open a modal with detailed instructions
+    console.log('Show tier list info');
+  };
+
+  const hasChanges = modifiedTierList !== null;
 
   // Loading state
   if (isLoading) {
@@ -162,9 +227,14 @@ const TierListPage = () => {
         {currentTierList && (
           <div>
             {/* Tier List Header */}
-            <div className="mb-8 p-6 bg-slate-800/50 rounded-lg border border-slate-700">
+            <div className="mb-8 p-6 bg-slate-800/50 rounded-xl border border-slate-700">
               <h2 className="text-2xl font-bold text-white mb-3 font-['Exo_2']">
                 {currentTierList.title || currentDisplayName}
+                {hasChanges && (
+                  <span className="ml-3 text-sm font-normal text-amber-400">
+                    (Modified)
+                  </span>
+                )}
               </h2>
               {currentTierList.description && (
                 <p className="text-slate-300 leading-relaxed">
@@ -180,13 +250,35 @@ const TierListPage = () => {
               </div>
             </div>
 
-            {/* Tier List Content */}
+            {/* Tier List Controls */}
+            <TierListControls
+              isDragMode={isDragMode}
+              onToggleDragMode={handleToggleDragMode}
+              onResetOrder={handleResetOrder}
+              hasChanges={hasChanges}
+              onShowInfo={handleShowInfo}
+              className="mb-8"
+            />
+
+            {/* Tier List Content - Mobile vs Desktop */}
             {currentTierList.tiers && currentTierList.tiers.length > 0 ? (
-              <div className="space-y-6">
-                {currentTierList.tiers.map((tier, index) => (
-                  <TierRow key={`${tier.tier}-${index}`} tier={tier} />
-                ))}
-              </div>
+              isMobile ? (
+                <TierListMobile 
+                  tierList={currentTierList} 
+                  tierListName={currentDisplayName}
+                />
+              ) : (
+                <div className="space-y-6">
+                  {currentTierList.tiers.map((tier, index) => (
+                    <EnhancedTierRow 
+                      key={`${tier.tier}-${index}`} 
+                      tier={tier}
+                      onReorder={handleReorder}
+                      isDragMode={isDragMode}
+                    />
+                  ))}
+                </div>
+              )
             ) : (
               <div className="text-center py-12">
                 <div className="text-slate-400 text-xl mb-4">📋 No Tiers</div>
@@ -196,16 +288,24 @@ const TierListPage = () => {
               </div>
             )}
 
+            {/* Export Section */}
+            <div className="mt-12">
+              <TierListExport 
+                tierList={currentTierList}
+                tierListName={currentDisplayName}
+              />
+            </div>
+
             {/* Tier List Footer */}
-            <div className="mt-12 p-4 bg-slate-800/30 rounded-lg border border-slate-700">
+            <div className="mt-8 p-4 bg-slate-800/30 rounded-xl border border-slate-700">
               <h3 className="text-lg font-semibold text-white mb-2">
                 💡 How to Read This Tier List
               </h3>
               <div className="text-sm text-slate-300 space-y-1">
-                <p><strong className="text-red-400">S-Tier:</strong> Exceptional performance, meta-defining</p>
-                <p><strong className="text-violet-400">A-Tier:</strong> Strong performance, highly viable</p>
-                <p><strong className="text-blue-400">B-Tier:</strong> Good performance, situationally strong</p>
-                <p><strong className="text-green-400">C-Tier:</strong> Average performance, niche uses</p>
+                <p><strong className="text-tier-s-400">S-Tier:</strong> Exceptional performance, meta-defining</p>
+                <p><strong className="text-tier-a-400">A-Tier:</strong> Strong performance, highly viable</p>
+                <p><strong className="text-tier-b-400">B-Tier:</strong> Good performance, situationally strong</p>
+                <p><strong className="text-tier-c-400">C-Tier:</strong> Average performance, niche uses</p>
               </div>
             </div>
           </div>
