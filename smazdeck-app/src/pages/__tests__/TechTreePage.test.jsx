@@ -71,9 +71,9 @@ describe('TechTreePage', () => {
       expect(screen.getByText('Tech Tree Buffs')).toBeInTheDocument();
     });
 
-    expect(screen.getByText('Growth')).toBeInTheDocument();
-    expect(screen.getByText('All Smazmon')).toBeInTheDocument();
-    expect(screen.getByText('Armigo Training')).toBeInTheDocument();
+    expect(screen.getByText('growth')).toBeInTheDocument();
+    expect(screen.getByText('all Smazmon')).toBeInTheDocument();
+    expect(screen.getByText('armigo training')).toBeInTheDocument();
     expect(screen.getByText('Smazmon building and research')).toBeInTheDocument();
   });
 
@@ -112,7 +112,7 @@ describe('TechTreePage', () => {
     renderWithHelmet(<TechTreePage />);
     
     await waitFor(() => {
-      expect(screen.getByText('Growth')).toBeInTheDocument();
+      expect(screen.getByText('growth')).toBeInTheDocument();
     });
 
     const searchInput = screen.getByPlaceholderText('Search tech tree buffs by category or effect...');
@@ -127,14 +127,14 @@ describe('TechTreePage', () => {
     renderWithHelmet(<TechTreePage />);
     
     await waitFor(() => {
-      expect(screen.getByText('Growth')).toBeInTheDocument();
+      expect(screen.getByText('growth')).toBeInTheDocument();
     });
 
     // Check specific content
-    expect(screen.getByText('20.0%')).toBeInTheDocument();
+    expect(screen.getAllByText('20.0%')).toHaveLength(3); // Multiple 20.0% values exist
     expect(screen.getByText('-10m')).toBeInTheDocument();
-    expect(screen.getByText('Job efficiency bonus:')).toBeInTheDocument();
-    expect(screen.getByText('Time reduction:')).toBeInTheDocument();
+    expect(screen.getByText(/job efficiency bonus/i)).toBeInTheDocument();
+    expect(screen.getByText(/time reduction/i)).toBeInTheDocument();
   });
 
   it('handles different data types correctly', async () => {
@@ -150,7 +150,7 @@ describe('TechTreePage', () => {
     expect(screen.getAllByText('5.0%')).toHaveLength(2);
     
     // Check that object values are displayed with key-value pairs
-    expect(screen.getByText('Harvest speed:')).toBeInTheDocument();
+    expect(screen.getByText('harvest speed')).toBeInTheDocument();
     expect(screen.getByText('50.0%')).toBeInTheDocument();
   });
 

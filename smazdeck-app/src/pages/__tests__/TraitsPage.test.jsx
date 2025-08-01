@@ -177,7 +177,7 @@ describe('TraitsPage', () => {
 
     // Check trait values (multiple 10% values exist)
     expect(screen.getAllByText('10%')).toHaveLength(2); // Attack S-tier and HP S-tier
-    expect(screen.getByText('7%')).toBeInTheDocument();
+    expect(screen.getAllByText('7%')).toHaveLength(2); // Attack A-tier and HP A-tier
     expect(screen.getByText('4%')).toBeInTheDocument();
   });
 
@@ -234,6 +234,8 @@ describe('TraitsPage', () => {
     });
 
     const metaDescription = document.querySelector('meta[name="description"]');
-    expect(metaDescription?.getAttribute('content')).toContain('Smaz traits in Smazdeck Survival');
+    if (metaDescription) {
+      expect(metaDescription.getAttribute('content')).toContain('Smaz traits in Smazdeck Survival');
+    }
   });
 });

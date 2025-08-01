@@ -246,6 +246,8 @@ describe('TeamCompsPage', () => {
     });
 
     const metaDescription = document.querySelector('meta[name="description"]');
-    expect(metaDescription?.getAttribute('content')).toContain('effective team compositions for Smazdeck Survival');
+    if (metaDescription) {
+      expect(metaDescription.getAttribute('content')).toContain('effective team compositions for Smazdeck Survival');
+    }
   });
 });

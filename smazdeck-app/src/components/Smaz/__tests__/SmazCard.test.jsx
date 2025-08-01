@@ -29,7 +29,7 @@ describe('SmazCard', () => {
     
     expect(screen.getByText('Test Smaz')).toBeInTheDocument();
     expect(screen.getByAltText('Test Smaz portrait')).toBeInTheDocument();
-    expect(screen.getByRole('link')).toHaveAttribute('href', '/smazdex/smaz-1');
+    expect(screen.getByRole('link')).toHaveAttribute('href', '/smaz/smaz-1');
   });
 
   it('has proper accessibility attributes', () => {
@@ -80,7 +80,7 @@ describe('SmazCard', () => {
     renderWithRouter(<SmazCard smaz={mockSmaz} />);
     
     const link = screen.getByRole('link');
-    expect(link).toHaveAttribute('href', '/smazdex/smaz-1');
+    expect(link).toHaveAttribute('href', '/smaz/smaz-1');
   });
 
   it('applies Card component with correct styling', () => {
