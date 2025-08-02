@@ -5,6 +5,10 @@ import Badge from '../components/ui/Badge';
 import SearchBar from '../components/common/SearchBar';
 import useDebounce from '../hooks/useDebounce';
 import { loadTeamComps } from '../lib/data-helpers';
+import Heading from '../components/ui/Heading';
+import Button from '../components/ui/Button';
+import LoadingSpinner from '../components/ui/LoadingSpinner';
+import Breadcrumb from '../components/ui/Breadcrumb';
 
 const TeamCompsPage = () => {
   const [teamComps, setTeamComps] = useState([]);
@@ -49,9 +53,14 @@ const TeamCompsPage = () => {
           <title>Team Compositions - Smazdeck Survival Guide</title>
           <meta name="description" content="Loading team compositions..." />
         </Helmet>
-        <div className="text-center">
-          <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-amber-400 mx-auto"></div>
-          <p className="mt-4 text-slate-400">Loading team compositions...</p>
+        <div className="min-h-screen flex items-center justify-center">
+          <div className="text-center">
+            <LoadingSpinner size="lg" className="mb-4" />
+            <Heading level={3} variant="subheading" color="accent" className="mb-2">
+              Loading Team Compositions
+            </Heading>
+            <p className="text-slate-400">Fetching strategic team guides...</p>
+          </div>
         </div>
       </div>
     );
@@ -64,14 +73,30 @@ const TeamCompsPage = () => {
           <title>Team Compositions - Smazdeck Survival Guide</title>
           <meta name="description" content="Error loading team compositions" />
         </Helmet>
-        <div className="text-center">
-          <p className="text-red-400 text-xl">{error}</p>
-          <button
-            onClick={() => window.location.reload()}
-            className="mt-4 px-4 py-2 bg-amber-600 text-white rounded-lg hover:bg-amber-700 transition-colors"
-          >
-            Try Again
-          </button>
+        <div className="min-h-screen flex items-center justify-center">
+          <Card className="max-w-md mx-auto text-center p-8">
+            <div className="relative mb-6">
+              <div className="absolute inset-0 bg-red-500/20 rounded-full blur-xl"></div>
+              <div className="relative text-4xl p-4 bg-slate-800/50 rounded-full border border-red-500/50 inline-block">
+                ⚠️
+              </div>
+            </div>
+            
+            <Heading level={3} variant="subheading" color="primary" className="mb-4">
+              Failed to Load Team Compositions
+            </Heading>
+            
+            <p className="text-slate-300 mb-6 leading-relaxed">{error}</p>
+            
+            <Button
+              onClick={() => window.location.reload()}
+              variant="primary"
+              size="md"
+              className="hover-lift"
+            >
+              Try Again
+            </Button>
+          </Card>
         </div>
       </div>
     );
@@ -88,19 +113,65 @@ const TeamCompsPage = () => {
         <meta name="keywords" content="smazdeck, team compositions, strategy, synergy, competitive, tactics" />
       </Helmet>
 
-      <div className="mb-8">
-        <h1 className="text-4xl font-bold text-slate-100 mb-4">Team Compositions</h1>
-        <p className="text-slate-300 text-lg">
-          Explore proven team compositions and strategic combinations for competitive Smazdeck Survival.
-          Each composition includes detailed explanations of roles, synergies, and tactical approaches.
+      {/* Enhanced Breadcrumb Navigation */}
+      <Breadcrumb 
+        items={[
+          { label: 'Home', href: '/' },
+          { label: 'Team Compositions' }
+        ]}
+        className="mb-6"
+      />
+
+      {/* Enhanced Header Section */}
+      <div className="text-center mb-12">
+        <Heading level={1} variant="display" color="gradient" className="mb-4">
+          Team Compositions
+        </Heading>
+        <p className="text-xl text-slate-300 mb-4 max-w-4xl mx-auto">
+          Explore proven team compositions and strategic combinations for competitive Smazdeck Survival
         </p>
+        <p className="text-slate-400 max-w-3xl mx-auto">
+          Each composition includes detailed explanations of roles, synergies, and tactical approaches 
+          to help you dominate the battlefield
+        </p>
+        
+        {/* Team comp stats */}
+        <div className="flex justify-center gap-8 mt-8">
+          <div className="text-center">
+            <div className="text-2xl font-bold text-amber-400">{teamComps.length}</div>
+            <div className="text-sm text-slate-400">Team Guides</div>
+          </div>
+          <div className="text-center">
+            <div className="text-2xl font-bold text-blue-400">{filteredTeamComps.length}</div>
+            <div className="text-sm text-slate-400">Filtered Results</div>
+          </div>
+        </div>
       </div>
 
-      <SearchBar
-        searchTerm={searchTerm}
-        setSearchTerm={setSearchTerm}
-        placeholder="Search team compositions by name, strategy, or Smaz names..."
-      />
+      {/* Enhanced Search Section */}
+      <Card className="mb-8">
+        <div className="p-6">
+          <div className="flex items-center justify-between mb-4">
+            <Heading level={3} variant="subheading" color="primary">
+              Find Your Strategy
+            </Heading>
+            <Badge variant="secondary" className="text-xs">
+              {teamComps.length} Available
+            </Badge>
+          </div>
+          
+          <SearchBar
+            searchTerm={searchTerm}
+            setSearchTerm={setSearchTerm}
+            placeholder="Search team compositions by name, strategy, or Smaz names..."
+            className="mb-4"
+          />
+          
+          <p className="text-sm text-slate-400">
+            Search through team names, strategies, and Smaz combinations to find the perfect composition for your playstyle
+          </p>
+        </div>
+      </Card>
 
       <div className="space-y-8">
         {filteredTeamComps.length > 0 ? (
